@@ -2,8 +2,9 @@
 <cherrytree>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="AWS Cloud Practitioner" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1703519640.64" ts_lastsave="1705838741.56" unique_id="1">
 		<rich_text></rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 1" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838759.04" ts_lastsave="1706577432.32" unique_id="2">
-			<rich_text>Chapter 1 - Becoming an  AWS Certified Cloud Practitioner:
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 1" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838759.04" ts_lastsave="1707456983.8" unique_id="2">
+			<rich_text scale="h1">Chapter 1 - Becoming an  AWS Certified Cloud Practitioner:</rich_text>
+			<rich_text>
     
 
     AWS CCP Domains:
@@ -447,8 +448,8 @@
 6/10 - Fail</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 3" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838767.69" ts_lastsave="1707456228.46" unique_id="4">
-			<rich_text scale="h1">Security and Compliance:</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 3" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838767.69" ts_lastsave="1707456975.23" unique_id="4">
+			<rich_text scale="h1">Chapter 3 - Security and Compliance:</rich_text>
 			<rich_text>
 
     </rich_text>
@@ -718,52 +719,158 @@
 8/10 - Pass</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707456875.5" unique_id="5">
-			<rich_text scale="h1">Technology:</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707572435.21" unique_id="5">
+			<rich_text scale="h1">Chapter 4 - Technology:</rich_text>
 			<rich_text>
 
     </rich_text>
 			<rich_text scale="h2">Deploying and Operating in the AWS Cloud:</rich_text>
 			<rich_text>
-        AWS Management Console:
         
-        AWS CLI:
+</rich_text>
+			<rich_text scale="h3">        AWS CLI:</rich_text>
+			<rich_text>
+            </rich_text>
+			<rich_text weight="heavy">AWS Command Line Interface (CLI)</rich_text>
+			<rich_text> - provides a way to manage AWS services and perform many administrative functions without having to use the web-based Management Console.
         
-        AWS Developer Tools:
+</rich_text>
+			<rich_text scale="h3">        AWS Developer Tools:</rich_text>
+			<rich_text>
+            </rich_text>
+			<rich_text weight="heavy">CodeBuild</rich_text>
+			<rich_text> - is a fully featured code building service that will compile and test code, as well as build deployement packages that are ready for implementation.
+                Offers a variety of prebuilt environments.
+                
+            </rich_text>
+			<rich_text weight="heavy">CodeCommit</rich_text>
+			<rich_text> - is an AWS managed service for secure Git repositories.
+            
+            </rich_text>
+			<rich_text weight="heavy">CodeDeploy</rich_text>
+			<rich_text> - is a managed deployment service that can deploy code fully across AWS services or on-premises servers.
         
-        Configuration Management:
-        
+</rich_text>
+			<rich_text scale="h3">        Configuration Management:</rich_text>
+			<rich_text>
+            AWS Systems Manager - allows the consolidation of data from AWS services and automation of tasks across all of your services.
+                Within the Systems Manager there are many components that allow you to perform different administrative tasks:
+                    </rich_text>
+			<rich_text weight="heavy">OpsCenter</rich_text>
+			<rich_text> - provides a consolidated view for developers and operations staff to view and investigate any operational issues.
+                        Includes data from CloudTrail and CloudWatch.
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Explorer</rich_text>
+			<rich_text> - a customizable dashboard that provides information on the health of your entire AWS environment and can consolidate data spanning multiple accounts and regions.
+                    
+                    </rich_text>
+			<rich_text weight="heavy">AWS AppConfig</rich_text>
+			<rich_text> - provides an API and console method for applying configuration changes across AWS services from a centralized service.
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Resource groups</rich_text>
+			<rich_text> - allows for the logical grouping of resources within AWS for how they are presented within the Systems Manager.
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Insights dashboard</rich_text>
+			<rich_text> - the automatically created visual dashboard of operational data from throughout your AWS account.
+                        
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Inventory</rich_text>
+			<rich_text> - collects information from all services you have provisioned within AWS, including configuration and licensing information.
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Automation</rich_text>
+			<rich_text> - provides a setup of prefedined playbooks to do common repetitive tasks, 
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Run Command</rich_text>
+			<rich_text> -
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Systems Manager</rich_text>
+			<rich_text> -
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Patch Manager</rich_text>
+			<rich_text> -
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Maintenance Window</rich_text>
+			<rich_text> -
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Distributor</rich_text>
+			<rich_text> -
+                    
+                    </rich_text>
+			<rich_text weight="heavy">State Manager</rich_text>
+			<rich_text> - 
+                    
+                    </rich_text>
+			<rich_text weight="heavy">Parameter Store</rich_text>
+			<rich_text> -
+                    
+            AWS OpsWorks - provides managed instances of Puppet and Chef. Both are well known and widely used automation and server configuration tools used throughout the IT world.
+                    
+               
         
     </rich_text>
 			<rich_text scale="h2">AWS Global Infrastructure:</rich_text>
 			<rich_text>
-        AWS Regions:
+</rich_text>
+			<rich_text scale="h3">        AWS Regions:</rich_text>
+			<rich_text>
         
-        Availability Zones:
+</rich_text>
+			<rich_text scale="h3">        Availability Zones:</rich_text>
+			<rich_text>
         
-        Edge Locations:
+</rich_text>
+			<rich_text scale="h3">        Edge Locations:</rich_text>
+			<rich_text>
         
     </rich_text>
 			<rich_text scale="h2">Core AWS Services:</rich_text>
 			<rich_text>
-        Administrative, Monitoring, and Security Services:
+    
+</rich_text>
+			<rich_text scale="h3">        Administrative, Monitoring, and Security Services:</rich_text>
+			<rich_text>
         
-        Networking and Content Delivery:
+</rich_text>
+			<rich_text scale="h3">        Networking and Content Delivery:</rich_text>
+			<rich_text>
         
-        Storage:
+</rich_text>
+			<rich_text scale="h3">        Storage:</rich_text>
+			<rich_text>
             
-        Compute Services:
+</rich_text>
+			<rich_text scale="h3">        Compute Services:</rich_text>
+			<rich_text>
         
-        Databases:
+</rich_text>
+			<rich_text scale="h3">        Databases:</rich_text>
+			<rich_text>
         
-        Automation:
+</rich_text>
+			<rich_text scale="h3">        Automation:</rich_text>
+			<rich_text>
         
-        End-User Computing:
+</rich_text>
+			<rich_text scale="h3">        End-User Computing:</rich_text>
+			<rich_text>
         
-    Technical Support:</rich_text>
+</rich_text>
+			<rich_text scale="h2">    Technical Support:</rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 5" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838775.74" ts_lastsave="1705838775.74" unique_id="6">
-			<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 5" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838775.74" ts_lastsave="1707456949.11" unique_id="6">
+			<rich_text scale="h1">Chapter 5 - Billing and Pricing:</rich_text>
+			<rich_text>
+    </rich_text>
 		</node>
 	</node>
 </cherrytree>
