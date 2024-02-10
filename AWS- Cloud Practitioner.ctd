@@ -719,7 +719,7 @@
 8/10 - Pass</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707572477.19" unique_id="5">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707572535.85" unique_id="5">
 			<rich_text scale="h1">Chapter 4 - Technology:</rich_text>
 			<rich_text>
 
@@ -791,7 +791,7 @@
                     
                     </rich_text>
 			<rich_text weight="heavy">Systems Manager</rich_text>
-			<rich_text> -
+			<rich_text> - allows for accessing Shell and CLI for managing EC2 instances via a browser and without needing to use keys or expose ports from systems.
                     
                     </rich_text>
 			<rich_text weight="heavy">Patch Manager</rich_text>

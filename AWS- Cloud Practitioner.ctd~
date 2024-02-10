@@ -719,7 +719,7 @@
 8/10 - Pass</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707572467.84" unique_id="5">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707572477.19" unique_id="5">
 			<rich_text scale="h1">Chapter 4 - Technology:</rich_text>
 			<rich_text>
 
@@ -787,7 +787,7 @@
                     
                     </rich_text>
 			<rich_text weight="heavy">Run Command</rich_text>
-			<rich_text> -
+			<rich_text> - provides a way to run commands on servers within AWS without having to actually access them via SSH or PowerShell.
                     
                     </rich_text>
 			<rich_text weight="heavy">Systems Manager</rich_text>

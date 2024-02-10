@@ -719,7 +719,7 @@
 8/10 - Pass</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707572435.21" unique_id="5">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707572467.84" unique_id="5">
 			<rich_text scale="h1">Chapter 4 - Technology:</rich_text>
 			<rich_text>
 
@@ -783,7 +783,7 @@
                     
                     </rich_text>
 			<rich_text weight="heavy">Automation</rich_text>
-			<rich_text> - provides a setup of prefedined playbooks to do common repetitive tasks, 
+			<rich_text> - provides a setup of prefedined playbooks to do common repetitive tasks, and allows for users to create their own playbooks.
                     
                     </rich_text>
 			<rich_text weight="heavy">Run Command</rich_text>
