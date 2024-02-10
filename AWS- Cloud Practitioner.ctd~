@@ -719,7 +719,7 @@
 8/10 - Pass</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707572477.19" unique_id="5">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707598981.93" unique_id="5">
 			<rich_text scale="h1">Chapter 4 - Technology:</rich_text>
 			<rich_text>
 
@@ -753,7 +753,9 @@
 </rich_text>
 			<rich_text scale="h3">        Configuration Management:</rich_text>
 			<rich_text>
-            AWS Systems Manager - allows the consolidation of data from AWS services and automation of tasks across all of your services.
+            </rich_text>
+			<rich_text weight="heavy">AWS Systems Manager</rich_text>
+			<rich_text> - allows the consolidation of data from AWS services and automation of tasks across all of your services.
                 Within the Systems Manager there are many components that allow you to perform different administrative tasks:
                     </rich_text>
 			<rich_text weight="heavy">OpsCenter</rich_text>
@@ -791,81 +793,164 @@
                     
                     </rich_text>
 			<rich_text weight="heavy">Systems Manager</rich_text>
-			<rich_text> -
+			<rich_text> - allows for accessing Shell and CLI for managing EC2 instances via a browser and without needing to use keys or expose ports from systems.
                     
                     </rich_text>
 			<rich_text weight="heavy">Patch Manager</rich_text>
-			<rich_text> -
+			<rich_text> - allows for automatically handling patching of systems across EC2 or on-premises systems through the use of baselines.
                     
                     </rich_text>
 			<rich_text weight="heavy">Maintenance Window</rich_text>
-			<rich_text> -
+			<rich_text> - enables the execution of administrative and maintenance tasks during specific time windows.
                     
                     </rich_text>
 			<rich_text weight="heavy">Distributor</rich_text>
-			<rich_text> -
+			<rich_text> - Allows for the central storage, distribution, and installation of software packages to instances withing AWS, including software agents.
                     
                     </rich_text>
 			<rich_text weight="heavy">State Manager</rich_text>
-			<rich_text> - 
+			<rich_text> - handles configuration management tasks across EC2 or on-premises systems.
                     
                     </rich_text>
 			<rich_text weight="heavy">Parameter Store</rich_text>
-			<rich_text> -
+			<rich_text> - provides a way to store configuration data for your applications. Allows for having different configurations using the same code.
                     
-            AWS OpsWorks - provides managed instances of Puppet and Chef. Both are well known and widely used automation and server configuration tools used throughout the IT world.
+            </rich_text>
+			<rich_text weight="heavy">AWS OpsWorks</rich_text>
+			<rich_text> - provides managed instances of Puppet and Chef. Both are well known and widely used automation and server configuration tools used throughout the IT world.
                     
                
         
     </rich_text>
 			<rich_text scale="h2">AWS Global Infrastructure:</rich_text>
 			<rich_text>
-</rich_text>
-			<rich_text scale="h3">        AWS Regions:</rich_text>
+
+        </rich_text>
+			<rich_text scale="h3">AWS Regions:</rich_text>
 			<rich_text>
+            Each region is a group of logical data centers, called Availability Zones.
+            IAM and CloudFront are global.
+            
+            Construction of AWS service endpoints = AWS service designation + AWS region + amazonaws.com
+
         
-</rich_text>
-			<rich_text scale="h3">        Availability Zones:</rich_text>
+        </rich_text>
+			<rich_text scale="h3">Edge Locations:</rich_text>
 			<rich_text>
-        
-</rich_text>
-			<rich_text scale="h3">        Edge Locations:</rich_text>
-			<rich_text>
+            
+            </rich_text>
+			<rich_text weight="heavy">Amazon CloudFront</rich_text>
+			<rich_text> - a content delivery network (CDN) that allows cached copies of data and content to be distributed on Edge servers closest to customers.
+                Data transfers from AWS Services to CloudFront are free and do not count towards any bandwidth metering or caps.
+            
+            </rich_text>
+			<rich_text weight="heavy">Amazon Route 53</rich_text>
+			<rich_text> - the AWS DNS service that provides very fast, robust, and redundant lookup services.
+            
+            </rich_text>
+			<rich_text weight="heavy">AWS Shield</rich_text>
+			<rich_text> - the AWS Distributed Denial of Service (DDoS) protection service that constantly monitors and reacts to any DDoS attacks.
+            
+            </rich_text>
+			<rich_text weight="heavy">AWS WAF</rich_text>
+			<rich_text> - the AWS Web Application Firewall (WAF) that monitors and protects agaisnt web exploits and attacks based on rules that inspect traffic and requests.
+            
+            </rich_text>
+			<rich_text weight="heavy">Lambda@Edge</rich_text>
+			<rich_text> - provide a runtime environment for application code to be run on a CDN without having to provision systems or manage them. Customers pay only for the compute time they use.
         
     </rich_text>
 			<rich_text scale="h2">Core AWS Services:</rich_text>
 			<rich_text>
     
-</rich_text>
-			<rich_text scale="h3">        Administrative, Monitoring, and Security Services:</rich_text>
+        </rich_text>
+			<rich_text scale="h3">Administrative, Monitoring, and Security Services:</rich_text>
+			<rich_text>
+
+            CloudWatch - 
+            
+            CloudTrail -
+            
+            AWS Shield -
+            
+            AWS WAF -
+            
+            
+
+        </rich_text>
+			<rich_text scale="h3">Networking and Content Delivery:</rich_text>
 			<rich_text>
         
-</rich_text>
-			<rich_text scale="h3">        Networking and Content Delivery:</rich_text>
-			<rich_text>
-        
-</rich_text>
-			<rich_text scale="h3">        Storage:</rich_text>
+            Amazon Virtual Private Cloud -
+            
+            Elastic Load Balancing - 
+            
+            Route 53 -
+            
+            CloudFront -
+
+        </rich_text>
+			<rich_text scale="h3">Storage:</rich_text>
 			<rich_text>
             
-</rich_text>
-			<rich_text scale="h3">        Compute Services:</rich_text>
+            Elastic Block Store -
+            
+            S3 -
+            
+            AWS Backup -
+            
+            AWS Snow -
+            
+        </rich_text>
+			<rich_text scale="h3">Compute Services:</rich_text>
 			<rich_text>
         
-</rich_text>
-			<rich_text scale="h3">        Databases:</rich_text>
+            EC2 -
+            
+            Amazon Machine Images - 
+            
+            Lightsail - 
+            
+            Elastic Beanstalk -
+            
+            Lambda -
+            
+            Containers - 
+
+        </rich_text>
+			<rich_text scale="h3">Databases:</rich_text>
 			<rich_text>
         
-</rich_text>
-			<rich_text scale="h3">        Automation:</rich_text>
+            AWS Database Migration Service -
+            
+            Amazon Relational Database Service -
+            
+            DynamoDB -
+            
+            Amazon Redshift -
+
+        </rich_text>
+			<rich_text scale="h3">Automation:</rich_text>
 			<rich_text>
         
-</rich_text>
-			<rich_text scale="h3">        End-User Computing:</rich_text>
+            CloudFormation -
+            
+            
+
+        </rich_text>
+			<rich_text scale="h3">End-User Computing:</rich_text>
 			<rich_text>
         
-</rich_text>
-			<rich_text scale="h2">    Technical Support:</rich_text>
+            WorkSpaces -
+            
+            AppStream -
+            
+            WorkLink -
+            
+            
+        
+    </rich_text>
+			<rich_text scale="h2">Technical Support:</rich_text>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 5" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838775.74" ts_lastsave="1707456949.11" unique_id="6">
 			<rich_text scale="h1">Chapter 5 - Billing and Pricing:</rich_text>
