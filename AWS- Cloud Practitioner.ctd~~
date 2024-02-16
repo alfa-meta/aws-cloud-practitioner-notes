@@ -448,7 +448,7 @@
 6/10 - Fail</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 3" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838767.69" ts_lastsave="1707456975.23" unique_id="4">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 3" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838767.69" ts_lastsave="1707801608.94" unique_id="4">
 			<rich_text scale="h1">Chapter 3 - Security and Compliance:</rich_text>
 			<rich_text>
 
@@ -719,7 +719,7 @@
 8/10 - Pass</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707598974.16" unique_id="5">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707975404.21" unique_id="5">
 			<rich_text scale="h1">Chapter 4 - Technology:</rich_text>
 			<rich_text>
 
@@ -867,69 +867,170 @@
 			<rich_text scale="h3">Administrative, Monitoring, and Security Services:</rich_text>
 			<rich_text>
 
-            CloudWatch - 
+            </rich_text>
+			<rich_text weight="heavy">CloudWatch</rich_text>
+			<rich_text> - is the AWS service for monitoring and measuring services running within the AWS environment.
+                Allows for custome metrics.
+                CloudWatch keeps data for up to 15 months.
+                
+                Alarms - based on predefined thresholds or through the use of machine learning algorithms triggering automated processes.
             
-            CloudTrail -
+            </rich_text>
+			<rich_text weight="heavy">CloudTrail</rich_text>
+			<rich_text> - service for performing auditing and compliance within your AWS account.
+                Stores all account activity.
             
-            AWS Shield -
+            </rich_text>
+			<rich_text weight="heavy">AWS Shield</rich_text>
+			<rich_text> - provides protection from and mitigation of DDoS attacks on AWS services.
+                Always active and always monitoring.
+                    Layer 3 and 4 Protection.
+                
+                    Standard Shield - no additional charge, designed to protect against common DDoS attacks. Especially for accounts utilizing CloudFront and Route 53.
+                    Advanced Shield - comes with additional charge, wide range of mitigation capabilities and a 24-hour access to AWS DDoS Response Team.
             
-            AWS WAF -
-            
+            </rich_text>
+			<rich_text weight="heavy">AWS WAF</rich_text>
+			<rich_text> - web application firewall that protects web applications against many common attacks.
+                Includes an API that can be used to automate rule creation and deployment on allocated resources.
+                
+                Works on Layer 7 - Application Layer.
+                No cost for AWS Shield Advanced.
+                Or Seperate charge from AWS WAF.
+                
             
 
         </rich_text>
 			<rich_text scale="h3">Networking and Content Delivery:</rich_text>
 			<rich_text>
         
-            Amazon Virtual Private Cloud -
+            </rich_text>
+			<rich_text weight="heavy">Amazon Virtual Private Cloud</rich_text>
+			<rich_text> - you can create a logically defined space within AWS to create an isolated virtual network.
+                You regain full control over how the network is defined and allocated.
+                Full use of IPv4 and IPv6
+                Fully control the IP space, subnets, routing tables, and network gateway.
+                
+                Allows for extension of corporate network to the cloud.
+                All current security mechanisms, such as firewalls are retained.
+                
+                Access Control Lists (ACLs) - security layers on the VPC that control traffic at the subnet level.
+                
+                Default VPC is created with a CIDR of 172.31.0.0/16
+                You can define your own CIDR block from /16 to /28
+                
             
-            Elastic Load Balancing - 
+            </rich_text>
+			<rich_text weight="heavy">Elastic Load Balancing</rich_text>
+			<rich_text> - used to distribute traffic across the AWS infrastructure.
             
-            Route 53 -
+                Application Load Balancer - HTTP + HTTPS, analyzes the actual contents of the traffic and makes determinations for routing and balancing based on rules. Layer 7.
+                
+                Network Load Balancer - best where performance is key and there are potentially very high levels of traffic. Works on Layer 4 and is purely network based. Allows for million requests a second.
+                
+                Classic Load Balancer - only used between EC2 instances. 
             
-            CloudFront -
+            </rich_text>
+			<rich_text weight="heavy">Route 53</rich_text>
+			<rich_text> -
+            
+            </rich_text>
+			<rich_text weight="heavy">CloudFront</rich_text>
+			<rich_text> -
 
         </rich_text>
 			<rich_text scale="h3">Storage:</rich_text>
 			<rich_text>
             
-            Elastic Block Store -
+            </rich_text>
+			<rich_text weight="heavy">Elastic Block Store</rich_text>
+			<rich_text> -
             
-            S3 -
+            </rich_text>
+			<rich_text weight="heavy">S3</rich_text>
+			<rich_text> -
             
-            AWS Backup -
+            </rich_text>
+			<rich_text weight="heavy">AWS Backup</rich_text>
+			<rich_text> -
             
-            AWS Snow -
+            </rich_text>
+			<rich_text weight="heavy">AWS Snow</rich_text>
+			<rich_text> -
             
         </rich_text>
 			<rich_text scale="h3">Compute Services:</rich_text>
 			<rich_text>
         
-            EC2 -
+            </rich_text>
+			<rich_text weight="heavy">EC2</rich_text>
+			<rich_text> -
             
-            Amazon Machine Images - 
+            </rich_text>
+			<rich_text weight="heavy">Amazon Machine Images</rich_text>
+			<rich_text> - 
             
-            Lightsail - 
+            </rich_text>
+			<rich_text weight="heavy">Lightsail</rich_text>
+			<rich_text> - 
             
-            Elastic Beanstalk -
+            </rich_text>
+			<rich_text weight="heavy">Elastic Beanstalk</rich_text>
+			<rich_text> -
             
-            Lambda -
+            </rich_text>
+			<rich_text weight="heavy">Lambda</rich_text>
+			<rich_text> -
             
-            Containers - 
+            </rich_text>
+			<rich_text weight="heavy">Containers</rich_text>
+			<rich_text> - 
 
         </rich_text>
 			<rich_text scale="h3">Databases:</rich_text>
 			<rich_text>
         
+            </rich_text>
+			<rich_text weight="heavy">AWS Database Migration Service</rich_text>
+			<rich_text> -
             
+            </rich_text>
+			<rich_text weight="heavy">Amazon Relational Database Service</rich_text>
+			<rich_text> -
+            
+            </rich_text>
+			<rich_text weight="heavy">DynamoDB</rich_text>
+			<rich_text> -
+            
+            </rich_text>
+			<rich_text weight="heavy">Amazon Redshift</rich_text>
+			<rich_text> -
 
         </rich_text>
 			<rich_text scale="h3">Automation:</rich_text>
 			<rich_text>
+        
+            </rich_text>
+			<rich_text weight="heavy">CloudFormation</rich_text>
+			<rich_text> -
 
         </rich_text>
 			<rich_text scale="h3">End-User Computing:</rich_text>
 			<rich_text>
+        
+            </rich_text>
+			<rich_text weight="heavy">WorkSpaces</rich_text>
+			<rich_text> -
+            
+            </rich_text>
+			<rich_text weight="heavy">AppStream</rich_text>
+			<rich_text> -
+            
+            </rich_text>
+			<rich_text weight="heavy">WorkLink</rich_text>
+			<rich_text> -
+            
+            
         
     </rich_text>
 			<rich_text scale="h2">Technical Support:</rich_text>
