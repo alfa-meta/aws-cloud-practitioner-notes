@@ -719,7 +719,7 @@
 8/10 - Pass</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1707975432.74" unique_id="5">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1708061455.67" unique_id="5">
 			<rich_text scale="h1">Chapter 4 - Technology:</rich_text>
 			<rich_text>
 
@@ -933,10 +933,14 @@
             </rich_text>
 			<rich_text weight="heavy">Route 53</rich_text>
 			<rich_text> - robust, scalable and highly available DNS service.
+                Can configure health checks routes.
+                Returns different routes based on geography, current latency or pure round robin.
+                
             
             </rich_text>
 			<rich_text weight="heavy">CloudFront</rich_text>
-			<rich_text> -
+			<rich_text> - is a CDN that allows for delivery of data and media to users with lowest levels of latency and the highest levels of transfer speeds.
+                Allows developers and administrators full access to configuration options through the standard array of AWS tools, including APIs and the Management Console.
 
         </rich_text>
 			<rich_text scale="h3">Storage:</rich_text>
@@ -944,12 +948,40 @@
             
             </rich_text>
 			<rich_text weight="heavy">Elastic Block Store</rich_text>
-			<rich_text> -
+			<rich_text> - high performance block storage that is used in conjunction with EC2 where high-throughput data operations are required.
             
             </rich_text>
+			<rich_text weight="heavy">Simple Storage Service</rich_text>
+			<rich_text> (</rich_text>
 			<rich_text weight="heavy">S3</rich_text>
-			<rich_text> -
-            
+			<rich_text>) - offers object storage at incredibly high availability levels.
+                S3 is an object file system that is flat in nature and stores files within a bucket.
+                All objects are on the same level.
+                Use alpha-numeric key value for an object name, which can be up to 1,024 bytes long.
+                Each bucket can only exist within one region.
+                Bucket names must be globally unique.
+                
+                S3 Storage Classes:
+                    S3 Standard - used for commonly accessed data and is optimized for high throughput and low-latency service.
+                        Used widely for cloud applications, websites, content distribution, and data analytics.
+                    
+                    S3 Intelligent-Tiering - best used for data where usage patterns are unknonw or may change over time.
+                        Spans two tiers:
+                            Frequent and Lesser Access.
+                            If an object is not accessed for 30 days it is moved to Lesser Access.
+                            When an object has been accessed it is moved to frequent access for 30 days.
+                            Two tier access requires an additional fee.
+                            
+                    S3 Standard-Infrequent Access - ideally used where access will be infrequent for an object, but when access is requested, a quick response is necessary.
+                    
+                    S3 One Zone-Infrequent Access - ideal for data that is infrequently used, requires quick access when it is accessed, but does not require the robust fault tolerance and replication of other S3 classes.
+                    
+                    
+                S3 Permissions:
+                    AWS S3 offers three different layers of permissions and security controls on S3 objects: bucket, user, and object access control lists.
+                    
+                S3 Encryption:
+                
             </rich_text>
 			<rich_text weight="heavy">AWS Backup</rich_text>
 			<rich_text> -
