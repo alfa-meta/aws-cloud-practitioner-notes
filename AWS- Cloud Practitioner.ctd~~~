@@ -1,10 +1,10 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="AWS Cloud Practitioner" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1703519640.64" ts_lastsave="1705838741.56" unique_id="1">
-		<rich_text></rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 1" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838759.04" ts_lastsave="1707456983.8" unique_id="2">
-			<rich_text scale="h1">Chapter 1 - Becoming an  AWS Certified Cloud Practitioner:</rich_text>
-			<rich_text>
+  <bookmarks list=""/>
+  <node name="AWS Cloud Practitioner" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1703519640" ts_lastsave="1705838741">
+    <node name="Chapter 1" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838759" ts_lastsave="1707456983">
+      <rich_text scale="h1">Chapter 1 - Becoming an  AWS Certified Cloud Practitioner:</rich_text>
+      <rich_text>
     
 
     AWS CCP Domains:
@@ -24,14 +24,14 @@
         
     Domain 4:
         Covers the many different pricing models that AWS offers across all of their services.</rich_text>
-		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 2" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838763.47" ts_lastsave="1707108562.06" unique_id="3">
-			<rich_text scale="h1">Chapter 2 - Cloud Concepts:</rich_text>
-			<rich_text>
+    </node>
+    <node name="Chapter 2" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838763" ts_lastsave="1707108562">
+      <rich_text scale="h1">Chapter 2 - Cloud Concepts:</rich_text>
+      <rich_text>
 
     </rich_text>
-			<rich_text weight="heavy">National Institute of Standards and Technology (NIST) Definition of Cloud Computing:</rich_text>
-			<rich_text>
+      <rich_text weight="heavy">National Institute of Standards and Technology (NIST) Definition of Cloud Computing:</rich_text>
+      <rich_text>
         Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computer resources that can be rapidly provisioned and released with minimal management effort or service provider interaction.
         On-Demand
         Convenient
@@ -43,101 +43,101 @@
     ISO/IEC 17788 “Cloud Computing--Overview and Vocabulary”
     
 </rich_text>
-			<rich_text scale="h2">    Cloud Computing Definitions as of ISO 17788:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">    Cloud Computing Definitions as of ISO 17788:</rich_text>
+      <rich_text>
     
         </rich_text>
-			<rich_text weight="heavy">Cloud Application</rich_text>
-			<rich_text> - an application that does not reside or run on a user's device, but rather via the network.
+      <rich_text weight="heavy">Cloud Application</rich_text>
+      <rich_text> - an application that does not reside or run on a user's device, but rather via the network.
         
         </rich_text>
-			<rich_text weight="heavy">Cloud Application Portability</rich_text>
-			<rich_text> - the ability to migrate a cloud application from one cloud provider to another.
+      <rich_text weight="heavy">Cloud Application Portability</rich_text>
+      <rich_text> - the ability to migrate a cloud application from one cloud provider to another.
         
         </rich_text>
-			<rich_text weight="heavy">Cloud Computing </rich_text>
-			<rich_text>- a network accessible platform that delivers services from a large and scalable pool of systems, rather than dedicated hardware.
+      <rich_text weight="heavy">Cloud Computing </rich_text>
+      <rich_text>- a network accessible platform that delivers services from a large and scalable pool of systems, rather than dedicated hardware.
         
         </rich_text>
-			<rich_text weight="heavy">Cloud Data Portability</rich_text>
-			<rich_text> - the ability to move data between cloud providers.
+      <rich_text weight="heavy">Cloud Data Portability</rich_text>
+      <rich_text> - the ability to move data between cloud providers.
         
         </rich_text>
-			<rich_text weight="heavy">Cloud Deployement Model</rich_text>
-			<rich_text> - how cloud computing is delivered through a set of particular configurations and features of virtual resources. Deployement models are: public, private, hybrid and community.
+      <rich_text weight="heavy">Cloud Deployement Model</rich_text>
+      <rich_text> - how cloud computing is delivered through a set of particular configurations and features of virtual resources. Deployement models are: public, private, hybrid and community.
         
         </rich_text>
-			<rich_text weight="heavy">Data Portability</rich_text>
-			<rich_text> - the ability to move data from one system to another without having to re-enter it.
+      <rich_text weight="heavy">Data Portability</rich_text>
+      <rich_text> - the ability to move data from one system to another without having to re-enter it.
         
         </rich_text>
-			<rich_text weight="heavy">Infrastructure as a Service (IaaS)</rich_text>
-			<rich_text> - a cloud service category where infrastructure-level services are provided by a cloud service provider.
+      <rich_text weight="heavy">Infrastructure as a Service (IaaS)</rich_text>
+      <rich_text> - a cloud service category where infrastructure-level services are provided by a cloud service provider.
         
         </rich_text>
-			<rich_text weight="heavy">Measured Service</rich_text>
-			<rich_text> - cloud services are delivered and billed for in a metered way.
+      <rich_text weight="heavy">Measured Service</rich_text>
+      <rich_text> - cloud services are delivered and billed for in a metered way.
         
         </rich_text>
-			<rich_text weight="heavy">Multitenancy</rich_text>
-			<rich_text> - mutliple customers and applications running within the same environment that is isolated from each other, yet share the same resources.
+      <rich_text weight="heavy">Multitenancy</rich_text>
+      <rich_text> - mutliple customers and applications running within the same environment that is isolated from each other, yet share the same resources.
         
         </rich_text>
-			<rich_text weight="heavy">On-demand self-service</rich_text>
-			<rich_text> - a cloud customer can provision services when needed with minimal involvement from the cloud provider.
+      <rich_text weight="heavy">On-demand self-service</rich_text>
+      <rich_text> - a cloud customer can provision services when needed with minimal involvement from the cloud provider.
         
         </rich_text>
-			<rich_text weight="heavy">Platform as a Service (PaaS)</rich_text>
-			<rich_text> - a cloud service category where platform services are provided to the cloud customer, and the cloud provider is responsible for the system up to the level of the actual application.
+      <rich_text weight="heavy">Platform as a Service (PaaS)</rich_text>
+      <rich_text> - a cloud service category where platform services are provided to the cloud customer, and the cloud provider is responsible for the system up to the level of the actual application.
         
         </rich_text>
-			<rich_text weight="heavy">Resource pooling</rich_text>
-			<rich_text> - the aggregation of resources allocated to cloud customers by the cloud provider.
+      <rich_text weight="heavy">Resource pooling</rich_text>
+      <rich_text> - the aggregation of resources allocated to cloud customers by the cloud provider.
         
         </rich_text>
-			<rich_text weight="heavy">Reversibility</rich_text>
-			<rich_text> - the ability of a cloud customer to remove all data and applications from a cloud provider and completeley remove all data from their environment.
+      <rich_text weight="heavy">Reversibility</rich_text>
+      <rich_text> - the ability of a cloud customer to remove all data and applications from a cloud provider and completeley remove all data from their environment.
         
         </rich_text>
-			<rich_text weight="heavy">Software as a Service (SaaS)</rich_text>
-			<rich_text> - cloud service category in which a full application is provided to the cloud customer, and the cloud provider. Maintains responsibility for the entire infrastructure, platform, and application.
+      <rich_text weight="heavy">Software as a Service (SaaS)</rich_text>
+      <rich_text> - cloud service category in which a full application is provided to the cloud customer, and the cloud provider. Maintains responsibility for the entire infrastructure, platform, and application.
         
         </rich_text>
-			<rich_text weight="heavy">Tenant</rich_text>
-			<rich_text> - one or more cloud customers sharing access to a pool of resources
+      <rich_text weight="heavy">Tenant</rich_text>
+      <rich_text> - one or more cloud customers sharing access to a pool of resources
         
 </rich_text>
-			<rich_text scale="h2">    Cloud Computing Roles:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">    Cloud Computing Roles:</rich_text>
+      <rich_text>
     
         </rich_text>
-			<rich_text weight="heavy">Cloud Auditor </rich_text>
-			<rich_text>- an auditor that is specifically responsible for conducting audits of cloud systems and applications.
+      <rich_text weight="heavy">Cloud Auditor </rich_text>
+      <rich_text>- an auditor that is specifically responsible for conducting audits of cloud systems and applications.
         
         </rich_text>
-			<rich_text weight="heavy">Cloud Service Broker</rich_text>
-			<rich_text> - a partner that serves as an intermediary between a cloud service customer and cloud service provider.
+      <rich_text weight="heavy">Cloud Service Broker</rich_text>
+      <rich_text> - a partner that serves as an intermediary between a cloud service customer and cloud service provider.
         
         </rich_text>
-			<rich_text weight="heavy">Cloud Service Customer</rich_text>
-			<rich_text> - one that holds a business relationship for services with a cloud service provider.
+      <rich_text weight="heavy">Cloud Service Customer</rich_text>
+      <rich_text> - one that holds a business relationship for services with a cloud service provider.
         
         </rich_text>
-			<rich_text weight="heavy">Cloud Service Partner</rich_text>
-			<rich_text> - one that holds a relationship with either a cloud service provider or a cloud service customer to assist with cloud services and their delivery.
+      <rich_text weight="heavy">Cloud Service Partner</rich_text>
+      <rich_text> - one that holds a relationship with either a cloud service provider or a cloud service customer to assist with cloud services and their delivery.
         
         </rich_text>
-			<rich_text weight="heavy">Cloud Service Provider</rich_text>
-			<rich_text> - one that offers cloud services to cloud service customers.
+      <rich_text weight="heavy">Cloud Service Provider</rich_text>
+      <rich_text> - one that offers cloud services to cloud service customers.
         
         </rich_text>
-			<rich_text weight="heavy">Cloud Service User</rich_text>
-			<rich_text> - one that interacts with and consumes services offered by a cloud services customer.
+      <rich_text weight="heavy">Cloud Service User</rich_text>
+      <rich_text> - one that interacts with and consumes services offered by a cloud services customer.
         
         
     </rich_text>
-			<rich_text scale="h2">Key Cloud Computing Characteristics:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">Key Cloud Computing Characteristics:</rich_text>
+      <rich_text>
     
         The following six characteristics are essential for an implementation to be considered a cloud in a true sense:
             On-demand self-service
@@ -148,53 +148,53 @@
             Multitenancy
             
         </rich_text>
-			<rich_text scale="h3" weight="heavy">On-demand self-service:</rich_text>
-			<rich_text>
+      <rich_text scale="h3" weight="heavy">On-demand self-service:</rich_text>
+      <rich_text>
             Pay-as-you-go
             Automated requests, provisoning and use
             Typically provided by a web portal or API
             Billing is expanded or contracted based on use
             
         </rich_text>
-			<rich_text scale="h3" weight="heavy">Broad Network Access:</rich_text>
-			<rich_text>
+      <rich_text scale="h3" weight="heavy">Broad Network Access:</rich_text>
+      <rich_text>
             All cloud services and components are accessible over the network.
             Agnostic to the users access method.
             Removes the need for users to store data on their devices.
             
         </rich_text>
-			<rich_text scale="h3" weight="heavy">Resource Pooling:</rich_text>
-			<rich_text>
+      <rich_text scale="h3" weight="heavy">Resource Pooling:</rich_text>
+      <rich_text>
             Resource Pooling == Multitenancy
             Meaning there will always be a mix of applications and systems that coexist within the same set of physical and virtual resources.
             The only concern for the location of the data is with the locality of the server.
             
         </rich_text>
-			<rich_text weight="heavy">Rapid Elasticity:</rich_text>
-			<rich_text>
+      <rich_text weight="heavy">Rapid Elasticity:</rich_text>
+      <rich_text>
             Services can be rapidly expanded or contracted as needed.
         
         </rich_text>
-			<rich_text weight="heavy">Metered Service:</rich_text>
-			<rich_text>
+      <rich_text weight="heavy">Metered Service:</rich_text>
+      <rich_text>
             Depending on the type of service and cloud implementation, resources are metered and logged for billing and utilization reporting.
             
         </rich_text>
-			<rich_text weight="heavy">Multitenancy:</rich_text>
-			<rich_text>
+      <rich_text weight="heavy">Multitenancy:</rich_text>
+      <rich_text>
             Multiple customers using the same hardware that is isolated using software.
             
         </rich_text>
-			<rich_text weight="heavy">Virtualization:</rich_text>
-			<rich_text>
+      <rich_text weight="heavy">Virtualization:</rich_text>
+      <rich_text>
             Noone needs to add computing resources when the demand increases.
             All resources are virtually allocated.
         
         
 </rich_text>
-			<rich_text scale="h2">    Cloud Service Categories:
+      <rich_text scale="h2">    Cloud Service Categories:
         Infastracture as a Service (IaaS):</rich_text>
-			<rich_text>
+      <rich_text>
             Most basic.
             Most customization and control available for the customer.
             
@@ -209,90 +209,90 @@
             Key Features and Benefits of IaaS:
             
                 </rich_text>
-			<rich_text weight="heavy">Scalability</rich_text>
-			<rich_text> - system can be rapidly provisioned and expanded as needed, either for predictable events or in response to unexpected demand.
+      <rich_text weight="heavy">Scalability</rich_text>
+      <rich_text> - system can be rapidly provisioned and expanded as needed, either for predictable events or in response to unexpected demand.
                 
                 </rich_text>
-			<rich_text weight="heavy">Cost of ownership of physical hardware</rich_text>
-			<rich_text> - the customer does not need to procure any hardware
+      <rich_text weight="heavy">Cost of ownership of physical hardware</rich_text>
+      <rich_text> - the customer does not need to procure any hardware
                 
                 </rich_text>
-			<rich_text weight="heavy">High availability</rich_text>
-			<rich_text> - low downtime, high redundancy.
+      <rich_text weight="heavy">High availability</rich_text>
+      <rich_text> - low downtime, high redundancy.
                 
                </rich_text>
-			<rich_text weight="heavy"> Physical and logical security</rich_text>
-			<rich_text> - cloud provider assumes the cost and oversight of the physical security of its data centers.
+      <rich_text weight="heavy"> Physical and logical security</rich_text>
+      <rich_text> - cloud provider assumes the cost and oversight of the physical security of its data centers.
                 
                 </rich_text>
-			<rich_text weight="heavy">Location and access independence</rich_text>
-			<rich_text> - no dependence on the physical location of the customer or its users.
+      <rich_text weight="heavy">Location and access independence</rich_text>
+      <rich_text> - no dependence on the physical location of the customer or its users.
                 
                 </rich_text>
-			<rich_text weight="heavy">Metered usage</rich_text>
-			<rich_text> - the customer only pays for the resources they are using for the duration of use.
+      <rich_text weight="heavy">Metered usage</rich_text>
+      <rich_text> - the customer only pays for the resources they are using for the duration of use.
                 
                 </rich_text>
-			<rich_text weight="heavy">Potential for “green” data centers</rich_text>
-			<rich_text> - more energy efficient with economies of scale.
+      <rich_text weight="heavy">Potential for “green” data centers</rich_text>
+      <rich_text> - more energy efficient with economies of scale.
                 
                 </rich_text>
-			<rich_text weight="heavy">Choice of Hardware</rich_text>
-			<rich_text> - AWS offers traditional Intel-based processors, but also offers AMD, GPU, and ARM processor options.
+      <rich_text weight="heavy">Choice of Hardware</rich_text>
+      <rich_text> - AWS offers traditional Intel-based processors, but also offers AMD, GPU, and ARM processor options.
             
             
 </rich_text>
-			<rich_text scale="h2">        Platform as a Service (PaaS):
+      <rich_text scale="h2">        Platform as a Service (PaaS):
 </rich_text>
-			<rich_text>            PaaS allows the customer to fully focus on their core business functions from the software and application levels, either in development or production environments, without having to worry about the resources at the typical data center operations level.
+      <rich_text>            PaaS allows the customer to fully focus on their core business functions from the software and application levels, either in development or production environments, without having to worry about the resources at the typical data center operations level.
             
             AWS Elastic Beanstalk
             
             </rich_text>
-			<rich_text weight="heavy">PaaS Definition from NIST SP 800-145:</rich_text>
-			<rich_text>
+      <rich_text weight="heavy">PaaS Definition from NIST SP 800-145:</rich_text>
+      <rich_text>
                 Customer has control over consumer-created or acquired applications created using programming languages, libraries, services and tools.
                 The customer does not manage cloud infrastructure: networks, servers, operating systems, storage.
                 
             </rich_text>
-			<rich_text scale="h2">Key Features of (PaaS):</rich_text>
-			<rich_text>
+      <rich_text scale="h2">Key Features of (PaaS):</rich_text>
+      <rich_text>
             
                 </rich_text>
-			<rich_text weight="heavy">Auto-scaling</rich_text>
-			<rich_text> - the system can automatically adjust the sizing of the environment to meet demand without interaction from the customer.
+      <rich_text weight="heavy">Auto-scaling</rich_text>
+      <rich_text> - the system can automatically adjust the sizing of the environment to meet demand without interaction from the customer.
                 
                 </rich_text>
-			<rich_text weight="heavy">Multiple host environments</rich_text>
-			<rich_text> - the customer has a wide choice of operating systems and environments. Allows to easily test or migrate their systems between environments.
+      <rich_text weight="heavy">Multiple host environments</rich_text>
+      <rich_text> - the customer has a wide choice of operating systems and environments. Allows to easily test or migrate their systems between environments.
                 
                 </rich_text>
-			<rich_text weight="heavy">Choice of environments</rich_text>
-			<rich_text> - provides a high variety of operating systems and their flavours.
+      <rich_text weight="heavy">Choice of environments</rich_text>
+      <rich_text> - provides a high variety of operating systems and their flavours.
                 
                 </rich_text>
-			<rich_text weight="heavy">Flexibility</rich_text>
-			<rich_text> - easily moved between cloud providers since all the vendor locking is abstracted away.
+      <rich_text weight="heavy">Flexibility</rich_text>
+      <rich_text> - easily moved between cloud providers since all the vendor locking is abstracted away.
                  
                 </rich_text>
-			<rich_text weight="heavy">Ease of upgrades</rich_text>
-			<rich_text> - no need to do physical upgrades on servers.
+      <rich_text weight="heavy">Ease of upgrades</rich_text>
+      <rich_text> - no need to do physical upgrades on servers.
                 
                 </rich_text>
-			<rich_text weight="heavy">Cost-effective</rich_text>
-			<rich_text> - only systems that are actively and currently used incur costs.
+      <rich_text weight="heavy">Cost-effective</rich_text>
+      <rich_text> - only systems that are actively and currently used incur costs.
                 
                 </rich_text>
-			<rich_text weight="heavy">Ease of access</rich_text>
-			<rich_text> - clients can access services across national and internation boundaries.
+      <rich_text weight="heavy">Ease of access</rich_text>
+      <rich_text> - clients can access services across national and internation boundaries.
                 
                 </rich_text>
-			<rich_text weight="heavy">Licensing</rich_text>
-			<rich_text> - the cloud provider is responsible for handling proper licensing of operating systems and platforms.
+      <rich_text weight="heavy">Licensing</rich_text>
+      <rich_text> - the cloud provider is responsible for handling proper licensing of operating systems and platforms.
         
             </rich_text>
-			<rich_text scale="h2">Software as a Service (SaaS):</rich_text>
-			<rich_text>
+      <rich_text scale="h2">Software as a Service (SaaS):</rich_text>
+      <rich_text>
                 SaaS is a fully functioning software application for a customer to use in a turnkey operation.
                 NIST SP 800-145 definition of SaaS:
                     The capability provided to the customer is to use the provider's applications running on a cloud infrastructure.
@@ -301,89 +301,89 @@
                 
                 
 </rich_text>
-			<rich_text scale="h2">        Key Features and Benefits of SaaS:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">        Key Features and Benefits of SaaS:</rich_text>
+      <rich_text>
                 </rich_text>
-			<rich_text weight="heavy">Support costs and efforts</rich_text>
-			<rich_text> - no need to pay for any of the infrastructure costs only the demand.
+      <rich_text weight="heavy">Support costs and efforts</rich_text>
+      <rich_text> - no need to pay for any of the infrastructure costs only the demand.
                 
                 </rich_text>
-			<rich_text weight="heavy">Reduced overall costs</rich_text>
-			<rich_text> - no need to pay for anything other than licensing costs.
+      <rich_text weight="heavy">Reduced overall costs</rich_text>
+      <rich_text> - no need to pay for anything other than licensing costs.
                 
                 </rich_text>
-			<rich_text weight="heavy">Licensing</rich_text>
-			<rich_text> - customer leases licenses as they consume.
+      <rich_text weight="heavy">Licensing</rich_text>
+      <rich_text> - customer leases licenses as they consume.
                 
                 </rich_text>
-			<rich_text weight="heavy">Ease of use and administration</rich_text>
-			<rich_text> - the customer only bears responsibility for configuring user access and access controls within the system.
+      <rich_text weight="heavy">Ease of use and administration</rich_text>
+      <rich_text> - the customer only bears responsibility for configuring user access and access controls within the system.
                 
                 </rich_text>
-			<rich_text weight="heavy">Standardization</rich_text>
-			<rich_text> - all users use the same version of their software.
+      <rich_text weight="heavy">Standardization</rich_text>
+      <rich_text> - all users use the same version of their software.
                 
         
 </rich_text>
-			<rich_text scale="h2">    Cloud Deployement Models:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">    Cloud Deployement Models:</rich_text>
+      <rich_text>
         </rich_text>
-			<rich_text weight="heavy">Public Cloud </rich_text>
-			<rich_text>- a model that provides cloud services to the general public or any company/organisation at large.
+      <rich_text weight="heavy">Public Cloud </rich_text>
+      <rich_text>- a model that provides cloud services to the general public or any company/organisation at large.
         
             Key benefits and features of the Public Cloud Model:
                 Setup - is very easy and inexpensive.
                 Scalability - high scalability
                 Right-sizing resources - customers only pay for what they use and need at any given point in time.          
                         </rich_text>
-			<rich_text weight="heavy">
+      <rich_text weight="heavy">
         Private Cloud </rich_text>
-			<rich_text>- run by and restricted to the discretion of the organisation that owns it.
+      <rich_text>- run by and restricted to the discretion of the organisation that owns it.
         
         </rich_text>
-			<rich_text scale="h2">Key benefits and features of the Public Cloud Model:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">Key benefits and features of the Public Cloud Model:</rich_text>
+      <rich_text>
                 </rich_text>
-			<rich_text weight="heavy">Ownership retention</rich_text>
-			<rich_text> - easier to reach compliance and auditing when you have absolute control over the system.
+      <rich_text weight="heavy">Ownership retention</rich_text>
+      <rich_text> - easier to reach compliance and auditing when you have absolute control over the system.
                 
                 </rich_text>
-			<rich_text weight="heavy">Control over systems</rich_text>
-			<rich_text> - private cloud allows to determine what versions and timelines are offered without the need for contractual negotiations or potentially increased costs.
+      <rich_text weight="heavy">Control over systems</rich_text>
+      <rich_text> - private cloud allows to determine what versions and timelines are offered without the need for contractual negotiations or potentially increased costs.
                 
                 </rich_text>
-			<rich_text weight="heavy">Proprietary data and software control</rich_text>
-			<rich_text> - no other hosted environments can somehow gain access or insight into another hosted environment.
+      <rich_text weight="heavy">Proprietary data and software control</rich_text>
+      <rich_text> - no other hosted environments can somehow gain access or insight into another hosted environment.
                 
         </rich_text>
-			<rich_text weight="heavy">
+      <rich_text weight="heavy">
         Community Cloud </rich_text>
-			<rich_text>- is a collaboration between similar organisations that combine resources to offer a private cloud. Biggest difference between private cloud is multiple ownership.
+      <rich_text>- is a collaboration between similar organisations that combine resources to offer a private cloud. Biggest difference between private cloud is multiple ownership.
         </rich_text>
-			<rich_text weight="heavy">
+      <rich_text weight="heavy">
         Hybrid Cloud</rich_text>
-			<rich_text> - combines public cloud and private cloud to fully meed an organization's needs.
+      <rich_text> - combines public cloud and private cloud to fully meed an organization's needs.
             
             Key benefits and Features of the Hybrid Cloud Model:
                 </rich_text>
-			<rich_text weight="heavy">Split systems for optimization</rich_text>
-			<rich_text> - can use public cloud for expensive systems and use private cloud for important systems.
+      <rich_text weight="heavy">Split systems for optimization</rich_text>
+      <rich_text> - can use public cloud for expensive systems and use private cloud for important systems.
                 
                 </rich_text>
-			<rich_text weight="heavy">Flexibility in data processing</rich_text>
-			<rich_text> - large volumes of data can be processed locally, before uploading to the cloud.
+      <rich_text weight="heavy">Flexibility in data processing</rich_text>
+      <rich_text> - large volumes of data can be processed locally, before uploading to the cloud.
                 
                 </rich_text>
-			<rich_text weight="heavy">Retain critical systems internally</rich_text>
-			<rich_text> - critical systems with private data controls and be accessed internally.
+      <rich_text weight="heavy">Retain critical systems internally</rich_text>
+      <rich_text> - critical systems with private data controls and be accessed internally.
                 
                 </rich_text>
-			<rich_text weight="heavy">Disaster recovery</rich_text>
-			<rich_text> - hybrid cloud can be used as a way to mitigate disaster recovery.
+      <rich_text weight="heavy">Disaster recovery</rich_text>
+      <rich_text> - hybrid cloud can be used as a way to mitigate disaster recovery.
                 
                 </rich_text>
-			<rich_text weight="heavy">Scalability</rich_text>
-			<rich_text> - customer can have a contract with a public cloud in a scenario of burst traffic.
+      <rich_text weight="heavy">Scalability</rich_text>
+      <rich_text> - customer can have a contract with a public cloud in a scenario of burst traffic.
                 
                 
                 
@@ -391,49 +391,49 @@
         
         
         </rich_text>
-			<rich_text scale="h2">Universal Cloud Concepts:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">Universal Cloud Concepts:</rich_text>
+      <rich_text>
             </rich_text>
-			<rich_text weight="heavy">Interoperability</rich_text>
-			<rich_text> - is the ease in which one can move or reuse components of an application or service.
+      <rich_text weight="heavy">Interoperability</rich_text>
+      <rich_text> - is the ease in which one can move or reuse components of an application or service.
             
             </rich_text>
-			<rich_text weight="heavy">Elasticity and Scalability</rich_text>
-			<rich_text> - 
+      <rich_text weight="heavy">Elasticity and Scalability</rich_text>
+      <rich_text> - 
                 Elasticity - adds the ability for the dynamic modification of resources to meet demands as they evolve.
                 Scalability - allocated resources are changed statistically to meet anticipated demands or new deployements in services.
                 Elasticity = resources can be added seamlessly without downtime
                 Scalability = additional resources can be added with downtimes/restarts.            
             
             </rich_text>
-			<rich_text weight="heavy">Performance, Availability, and Resiliency</rich_text>
-			<rich_text> -            
+      <rich_text weight="heavy">Performance, Availability, and Resiliency</rich_text>
+      <rich_text> -            
                 Availability - what is the uptime of a system?
                 Resilience - what is the affect on the system by an outage?
                 
             </rich_text>
-			<rich_text weight="heavy">Portability</rich_text>
-			<rich_text> - allows systems to easily and seamlessly move between different cloud providers.
+      <rich_text weight="heavy">Portability</rich_text>
+      <rich_text> - allows systems to easily and seamlessly move between different cloud providers.
                 This also allows systems to span multiple cloud hostings arrangements. 
             
             </rich_text>
-			<rich_text weight="heavy">Service Level Agreements</rich_text>
-			<rich_text> - SLA spells out in clear terms the minimum requirements for uptime, availability, processes, customer service and support, security controls and requirements.
+      <rich_text weight="heavy">Service Level Agreements</rich_text>
+      <rich_text> - SLA spells out in clear terms the minimum requirements for uptime, availability, processes, customer service and support, security controls and requirements.
                 Failure to meet the SLA requirements will give the customer either financial benefits or credits or form the basis for contract termination.
             
             </rich_text>
-			<rich_text weight="heavy">Security</rich_text>
-			<rich_text> - the cloud service provider implements baselines and minimum standards, while offering a suite of add-ons or extensions to security that typically come with an additional cost.
+      <rich_text weight="heavy">Security</rich_text>
+      <rich_text> - the cloud service provider implements baselines and minimum standards, while offering a suite of add-ons or extensions to security that typically come with an additional cost.
             
             </rich_text>
-			<rich_text weight="heavy">Governance</rich_text>
-			<rich_text> - at its core involves assigning jobs, tasks, roles and responsibilities and ensuring they are satisfactorily performed.
+      <rich_text weight="heavy">Governance</rich_text>
+      <rich_text> - at its core involves assigning jobs, tasks, roles and responsibilities and ensuring they are satisfactorily performed.
             
             </rich_text>
-			<rich_text weight="heavy">Reversibility</rich_text>
-			<rich_text> - the ability of a cloud customer to take all their systems and data out of a cloud provider.</rich_text>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Questions" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1706976592.78" ts_lastsave="1707456457.98" unique_id="7">
-				<rich_text>1. C
+      <rich_text weight="heavy">Reversibility</rich_text>
+      <rich_text> - the ability of a cloud customer to take all their systems and data out of a cloud provider.</rich_text>
+      <node name="Questions" unique_id="7" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1706976592" ts_lastsave="1707456457">
+        <rich_text>1. C
 2. B
 3. BXD - Metered service allows a company to only pay for resources during the time they are actually allocated and in use.
 4. AXC - With PaaS, the cloud provider provisions fully built systems that ahave all necessary libraries and software platforms that a customer can quickly deploy their code and data on to begin utilization.
@@ -446,20 +446,20 @@
 
 
 6/10 - Fail</rich_text>
-			</node>
-		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 3" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838767.69" ts_lastsave="1707801608.94" unique_id="4">
-			<rich_text scale="h1">Chapter 3 - Security and Compliance:</rich_text>
-			<rich_text>
+      </node>
+    </node>
+    <node name="Chapter 3" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838767" ts_lastsave="1707801608">
+      <rich_text scale="h1">Chapter 3 - Security and Compliance:</rich_text>
+      <rich_text>
 
     </rich_text>
-			<rich_text scale="h2">The AWS Shared Responsibility Model:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">The AWS Shared Responsibility Model:</rich_text>
+      <rich_text>
         Cloud Service Provider always deals with Virtualization, Networking, Storage and Hardware.
         
         </rich_text>
-			<rich_text weight="heavy">IaaS:</rich_text>
-			<rich_text>
+      <rich_text weight="heavy">IaaS:</rich_text>
+      <rich_text>
             Always deals with:
                 Application Code
                 Database 
@@ -467,8 +467,8 @@
                 
         
         </rich_text>
-			<rich_text weight="heavy">PaaS:</rich_text>
-			<rich_text>
+      <rich_text weight="heavy">PaaS:</rich_text>
+      <rich_text>
             Always deals with:
                 Data
                 Application Code
@@ -476,8 +476,8 @@
             Heavily used in DevOps
             
         </rich_text>
-			<rich_text weight="heavy">SaaS:</rich_text>
-			<rich_text>
+      <rich_text weight="heavy">SaaS:</rich_text>
+      <rich_text>
             Always deals with:
                 Data
                     
@@ -494,12 +494,12 @@
             Which can be accessed directly from the AWS Management Console.
         
     </rich_text>
-			<rich_text scale="h2">Data Security:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">Data Security:</rich_text>
+      <rich_text>
         
         </rich_text>
-			<rich_text weight="heavy">Encryption</rich_text>
-			<rich_text>:
+      <rich_text weight="heavy">Encryption</rich_text>
+      <rich_text>:
             Whilst the use of encryption of the system is crucial during the design phase, the proper management of keys, protocols, and testing/auditing is crucial once a system has been implemented and deployed.
             
             Data in Transit - is the state of data when it is actually being used by an application and is traversing systems internaly or going between the client and the actual application.
@@ -509,8 +509,8 @@
             2 layers of encryption are used in database storage.
         
         </rich_text>
-			<rich_text weight="heavy">Key management </rich_text>
-			<rich_text>- is the safeguarding of encryption keys and the access to them.
+      <rich_text weight="heavy">Key management </rich_text>
+      <rich_text>- is the safeguarding of encryption keys and the access to them.
             Types of Key Storage:
                 Internal - where keys are stored and accessed within the same virtual machine as the encryption service or engine.
                     Good for database or storage backup.
@@ -520,12 +520,12 @@
                 External and Independant - service or system used to host key storage.
                     
         </rich_text>
-			<rich_text weight="heavy">Tokenization</rich_text>
-			<rich_text> - is the practice of utilizing a random and opaque “token” value in data to replace what otherwise would be a sensitive or protected data object. Whilst holding the reference back for future use.
+      <rich_text weight="heavy">Tokenization</rich_text>
+      <rich_text> - is the practice of utilizing a random and opaque “token” value in data to replace what otherwise would be a sensitive or protected data object. Whilst holding the reference back for future use.
         
         </rich_text>
-			<rich_text weight="heavy">Data Loss Prevention</rich_text>
-			<rich_text> - is a set of controls and practices put in place to ensure that data is only accessible and exposed to those users and systems authorized to have it.
+      <rich_text weight="heavy">Data Loss Prevention</rich_text>
+      <rich_text> - is a set of controls and practices put in place to ensure that data is only accessible and exposed to those users and systems authorized to have it.
             The goal of DLP to manage and minimize risk.
             
         DLP Components:
@@ -545,156 +545,156 @@
         A variety of automatically taken measures  depending on policies set forth by management.
         
         </rich_text>
-			<rich_text weight="heavy">Data De-identification</rich_text>
-			<rich_text> - involves using masking, obfuscation, or anonymization.
+      <rich_text weight="heavy">Data De-identification</rich_text>
+      <rich_text> - involves using masking, obfuscation, or anonymization.
             Masking is achieved either by entirely replacing the value with a new one or adding characters to a data field.
             
             </rich_text>
-			<rich_text weight="heavy">Static Masking</rich_text>
-			<rich_text> - a seperate distinct copy of the data set is created with masking in place.
+      <rich_text weight="heavy">Static Masking</rich_text>
+      <rich_text> - a seperate distinct copy of the data set is created with masking in place.
                 Best for non production environments.
                 
             </rich_text>
-			<rich_text weight="heavy">Dynamic Masking </rich_text>
-			<rich_text>- production environments are protected by the masking process being implemented between the application and data layers of application.
+      <rich_text weight="heavy">Dynamic Masking </rich_text>
+      <rich_text>- production environments are protected by the masking process being implemented between the application and data layers of application.
                 Allows for a masking translation to take place live in the system and during normal application processing of data.
                 Used when system needs to have full and unmasked data but certain users only need partial data.
                 
         </rich_text>
-			<rich_text weight="heavy">Anonymization</rich_text>
-			<rich_text> - data is manipulated in a way to prevent the identification of an individual through various data objects.
+      <rich_text weight="heavy">Anonymization</rich_text>
+      <rich_text> - data is manipulated in a way to prevent the identification of an individual through various data objects.
         
         
     </rich_text>
-			<rich_text scale="h2">AWS Identity and Access Management:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">AWS Identity and Access Management:</rich_text>
+      <rich_text>
         </rich_text>
-			<rich_text weight="heavy">AWS Root Account</rich_text>
-			<rich_text> - has full access to everything under your account.
+      <rich_text weight="heavy">AWS Root Account</rich_text>
+      <rich_text> - has full access to everything under your account.
             Can create users, provision resources, incur financial obligations.
             
         </rich_text>
-			<rich_text weight="heavy">Something the user knows</rich_text>
-			<rich_text> - almost exclusively a password.
+      <rich_text weight="heavy">Something the user knows</rich_text>
+      <rich_text> - almost exclusively a password.
         
         Something the user possesses - USB thumb drive, RFID chip card, access car with magnetic stripe, RSA token with a changing access code.
         
         </rich_text>
-			<rich_text weight="heavy">Something the user is</rich_text>
-			<rich_text> - biometrics, such as retina scans, palm prints, fingerprints.
+      <rich_text weight="heavy">Something the user is</rich_text>
+      <rich_text> - biometrics, such as retina scans, palm prints, fingerprints.
         
         </rich_text>
-			<rich_text weight="heavy">Federated access</rich_text>
-			<rich_text> - allows third party technologies to create and manage accounts such as SAML and Microsoft Active Directory.
+      <rich_text weight="heavy">Federated access</rich_text>
+      <rich_text> - allows third party technologies to create and manage accounts such as SAML and Microsoft Active Directory.
             Federated access allows for users to be granted and revoked access to resources for not only their organisation but AWS in one convenient place.
             
         </rich_text>
-			<rich_text weight="heavy">SAML</rich_text>
-			<rich_text> - xml based authentication and authorization standard.           
+      <rich_text weight="heavy">SAML</rich_text>
+      <rich_text> - xml based authentication and authorization standard.           
         
         Reports are offered in CSV. 
 
     </rich_text>
-			<rich_text scale="h2">AWS Support:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">AWS Support:</rich_text>
+      <rich_text>
         </rich_text>
-			<rich_text weight="heavy">Developer</rich_text>
-			<rich_text> - ideal for testing and early stages of development in AWS and needing support during business hours.
+      <rich_text weight="heavy">Developer</rich_text>
+      <rich_text> - ideal for testing and early stages of development in AWS and needing support during business hours.
         
         </rich_text>
-			<rich_text weight="heavy">Business</rich_text>
-			<rich_text> - used for those with production workloads in AWS and desiring 24/7 support access.
+      <rich_text weight="heavy">Business</rich_text>
+      <rich_text> - used for those with production workloads in AWS and desiring 24/7 support access.
         
         </rich_text>
-			<rich_text weight="heavy">Enterprise</rich_text>
-			<rich_text> - highest level of support and geared towards full optimization of your AWS experience and success.
+      <rich_text weight="heavy">Enterprise</rich_text>
+      <rich_text> - highest level of support and geared towards full optimization of your AWS experience and success.
         
         
 </rich_text>
-			<rich_text scale="h3">        Developer Support Plan:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">        Developer Support Plan:</rich_text>
+      <rich_text>
             </rich_text>
-			<rich_text weight="heavy">AWS Trusted Advisor</rich_text>
-			<rich_text> - provides acces to the seven core Advisor checks. This will give guidance on best practices of reducing costs, how to get the most out of performance, how to implemetn and improve fault tolerance.
+      <rich_text weight="heavy">AWS Trusted Advisor</rich_text>
+      <rich_text> - provides acces to the seven core Advisor checks. This will give guidance on best practices of reducing costs, how to get the most out of performance, how to implemetn and improve fault tolerance.
             
             </rich_text>
-			<rich_text weight="heavy">AWS Personal Health Dashboard</rich_text>
-			<rich_text> - provides a view of overall AWS services and their current health status.
+      <rich_text weight="heavy">AWS Personal Health Dashboard</rich_text>
+      <rich_text> - provides a view of overall AWS services and their current health status.
             
             </rich_text>
-			<rich_text weight="heavy">Technical Support</rich_text>
-			<rich_text> - only offered during business hours. Support cases can only be opened by one account.
+      <rich_text weight="heavy">Technical Support</rich_text>
+      <rich_text> - only offered during business hours. Support cases can only be opened by one account.
             
             </rich_text>
-			<rich_text weight="heavy">Architecture Support</rich_text>
-			<rich_text> - provides general guidance on AWS services and how they can be optimized for various use cases.
+      <rich_text weight="heavy">Architecture Support</rich_text>
+      <rich_text> - provides general guidance on AWS services and how they can be optimized for various use cases.
             
         Business Support Plan:
             Adds on to the Developer plan.
             
             </rich_text>
-			<rich_text weight="heavy">AWS Trusted Advisor</rich_text>
-			<rich_text> - Goves access to 115 AWS checks covering cost optimization, security, fault tolerance, performance, and service limits.
+      <rich_text weight="heavy">AWS Trusted Advisor</rich_text>
+      <rich_text> - Goves access to 115 AWS checks covering cost optimization, security, fault tolerance, performance, and service limits.
             
             </rich_text>
-			<rich_text weight="heavy">AWS Personal Health Dashboard</rich_text>
-			<rich_text> - offers a personalized view of AWS services that you are using, along with alerts about any potential impacts.
+      <rich_text weight="heavy">AWS Personal Health Dashboard</rich_text>
+      <rich_text> - offers a personalized view of AWS services that you are using, along with alerts about any potential impacts.
             
             </rich_text>
-			<rich_text weight="heavy">Technical Support</rich_text>
-			<rich_text> - offers 24/7 access to support engineers via phone, chat, or e-mail.
+      <rich_text weight="heavy">Technical Support</rich_text>
+      <rich_text> - offers 24/7 access to support engineers via phone, chat, or e-mail.
                 Unlimited number of accounts can open support tickets.
 
             </rich_text>
-			<rich_text weight="heavy">Architecture Support</rich_text>
-			<rich_text> -  specific guidance geared towards AWS services and how they fit your particular needs, workloads, or application configurations.
+      <rich_text weight="heavy">Architecture Support</rich_text>
+      <rich_text> -  specific guidance geared towards AWS services and how they fit your particular needs, workloads, or application configurations.
             
             </rich_text>
-			<rich_text weight="heavy">AWS Support API</rich_text>
-			<rich_text> - customers have access to programmatic APIs for the AWS support center, enabling them to open, update, or close support tickets.
+      <rich_text weight="heavy">AWS Support API</rich_text>
+      <rich_text> - customers have access to programmatic APIs for the AWS support center, enabling them to open, update, or close support tickets.
             
            </rich_text>
-			<rich_text weight="heavy"> Third-Party Software Support</rich_text>
-			<rich_text> - guidance and configuration assitance with AWS interoperability with commonly used applications, operations systems, and platforms.
+      <rich_text weight="heavy"> Third-Party Software Support</rich_text>
+      <rich_text> - guidance and configuration assitance with AWS interoperability with commonly used applications, operations systems, and platforms.
             
             </rich_text>
-			<rich_text weight="heavy">Access to Proactive Support Programs</rich_text>
-			<rich_text> - for an additional fee you can get guidance to architecture and scaling in real time.
+      <rich_text weight="heavy">Access to Proactive Support Programs</rich_text>
+      <rich_text> - for an additional fee you can get guidance to architecture and scaling in real time.
             
             
 </rich_text>
-			<rich_text scale="h3">        Enterprise Support Plan:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">        Enterprise Support Plan:</rich_text>
+      <rich_text>
             Adds on the Business plan.
             
             </rich_text>
-			<rich_text weight="heavy">Technical Support</rich_text>
-			<rich_text> - 24/7 access to support engineers via phone, chat, or e-mail.
+      <rich_text weight="heavy">Technical Support</rich_text>
+      <rich_text> - 24/7 access to support engineers via phone, chat, or e-mail.
           
             </rich_text>
-			<rich_text weight="heavy">Proactive Support Programs</rich_text>
-			<rich_text> - specific reviews of your services and implementations in the areas of architecture, operations, and infrastructure management.
+      <rich_text weight="heavy">Proactive Support Programs</rich_text>
+      <rich_text> - specific reviews of your services and implementations in the areas of architecture, operations, and infrastructure management.
             
             </rich_text>
-			<rich_text weight="heavy">Support Concierge</rich_text>
-			<rich_text> - experts at customer support for any account related issues.
+      <rich_text weight="heavy">Support Concierge</rich_text>
+      <rich_text> - experts at customer support for any account related issues.
             
             </rich_text>
-			<rich_text weight="heavy">Account Onboarding</rich_text>
-			<rich_text> -  you are provided an AWS Technical Account Mnager (TAM) to work with you on all issues and outages, as well as your access to AWS resources.
+      <rich_text weight="heavy">Account Onboarding</rich_text>
+      <rich_text> -  you are provided an AWS Technical Account Mnager (TAM) to work with you on all issues and outages, as well as your access to AWS resources.
             TAM will participate in disaster recovery planning and drills, as well as provide a personal and direct contact for any support or account issues.
             
         </rich_text>
-			<rich_text weight="heavy">AWS Professional Services</rich_text>
-			<rich_text> - a series of Offerings which are a set of activities, documentations, and best practices that form a methodology for customers moving to the cloud.
+      <rich_text weight="heavy">AWS Professional Services</rich_text>
+      <rich_text> - a series of Offerings which are a set of activities, documentations, and best practices that form a methodology for customers moving to the cloud.
         
         </rich_text>
-			<rich_text weight="heavy">AWS Knowledge Center</rich_text>
-			<rich_text> - is a typical FAQ page with an enormous number of pages that are framed in question-and-answer format.
+      <rich_text weight="heavy">AWS Knowledge Center</rich_text>
+      <rich_text> - is a typical FAQ page with an enormous number of pages that are framed in question-and-answer format.
             
         </rich_text>
-			<rich_text weight="heavy">Trusted Advisor</rich_text>
-			<rich_text>:
+      <rich_text weight="heavy">Trusted Advisor</rich_text>
+      <rich_text>:
             Provides a dashboard to check whether your account configurations comply with established best practices.
             Areas of focus include:
                 Cost Optimization
@@ -704,8 +704,8 @@
                 Service Limits
                 
         </rich_text>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Questions" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1707456228.46" ts_lastsave="1707456447.45" unique_id="8">
-				<rich_text>1. B
+      <node name="Questions" unique_id="8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1707456228" ts_lastsave="1707456447">
+        <rich_text>1. B
 2. A
 3. AXC Developer Support plan is ideal for those starting their early testing of AWS or development within AWS and want access to general guidance and technical support.
 4. D
@@ -717,117 +717,117 @@
 10. D
 
 8/10 - Pass</rich_text>
-			</node>
-		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 4" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838771.7" ts_lastsave="1708061256.37" unique_id="5">
-			<rich_text scale="h1">Chapter 4 - Technology:</rich_text>
-			<rich_text>
+      </node>
+    </node>
+    <node name="Chapter 4" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838771" ts_lastsave="1708321734">
+      <rich_text scale="h1">Chapter 4 - Technology:</rich_text>
+      <rich_text>
 
     </rich_text>
-			<rich_text scale="h2">Deploying and Operating in the AWS Cloud:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">Deploying and Operating in the AWS Cloud:</rich_text>
+      <rich_text>
         
 </rich_text>
-			<rich_text scale="h3">        AWS CLI:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">        AWS CLI:</rich_text>
+      <rich_text>
             </rich_text>
-			<rich_text weight="heavy">AWS Command Line Interface (CLI)</rich_text>
-			<rich_text> - provides a way to manage AWS services and perform many administrative functions without having to use the web-based Management Console.
+      <rich_text weight="heavy">AWS Command Line Interface (CLI)</rich_text>
+      <rich_text> - provides a way to manage AWS services and perform many administrative functions without having to use the web-based Management Console.
         
 </rich_text>
-			<rich_text scale="h3">        AWS Developer Tools:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">        AWS Developer Tools:</rich_text>
+      <rich_text>
             </rich_text>
-			<rich_text weight="heavy">CodeBuild</rich_text>
-			<rich_text> - is a fully featured code building service that will compile and test code, as well as build deployement packages that are ready for implementation.
+      <rich_text weight="heavy">CodeBuild</rich_text>
+      <rich_text> - is a fully featured code building service that will compile and test code, as well as build deployement packages that are ready for implementation.
                 Offers a variety of prebuilt environments.
                 
             </rich_text>
-			<rich_text weight="heavy">CodeCommit</rich_text>
-			<rich_text> - is an AWS managed service for secure Git repositories.
+      <rich_text weight="heavy">CodeCommit</rich_text>
+      <rich_text> - is an AWS managed service for secure Git repositories.
             
             </rich_text>
-			<rich_text weight="heavy">CodeDeploy</rich_text>
-			<rich_text> - is a managed deployment service that can deploy code fully across AWS services or on-premises servers.
+      <rich_text weight="heavy">CodeDeploy</rich_text>
+      <rich_text> - is a managed deployment service that can deploy code fully across AWS services or on-premises servers.
         
 </rich_text>
-			<rich_text scale="h3">        Configuration Management:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">        Configuration Management:</rich_text>
+      <rich_text>
             </rich_text>
-			<rich_text weight="heavy">AWS Systems Manager</rich_text>
-			<rich_text> - allows the consolidation of data from AWS services and automation of tasks across all of your services.
+      <rich_text weight="heavy">AWS Systems Manager</rich_text>
+      <rich_text> - allows the consolidation of data from AWS services and automation of tasks across all of your services.
                 Within the Systems Manager there are many components that allow you to perform different administrative tasks:
                     </rich_text>
-			<rich_text weight="heavy">OpsCenter</rich_text>
-			<rich_text> - provides a consolidated view for developers and operations staff to view and investigate any operational issues.
+      <rich_text weight="heavy">OpsCenter</rich_text>
+      <rich_text> - provides a consolidated view for developers and operations staff to view and investigate any operational issues.
                         Includes data from CloudTrail and CloudWatch.
                     
                     </rich_text>
-			<rich_text weight="heavy">Explorer</rich_text>
-			<rich_text> - a customizable dashboard that provides information on the health of your entire AWS environment and can consolidate data spanning multiple accounts and regions.
+      <rich_text weight="heavy">Explorer</rich_text>
+      <rich_text> - a customizable dashboard that provides information on the health of your entire AWS environment and can consolidate data spanning multiple accounts and regions.
                     
                     </rich_text>
-			<rich_text weight="heavy">AWS AppConfig</rich_text>
-			<rich_text> - provides an API and console method for applying configuration changes across AWS services from a centralized service.
+      <rich_text weight="heavy">AWS AppConfig</rich_text>
+      <rich_text> - provides an API and console method for applying configuration changes across AWS services from a centralized service.
                     
                     </rich_text>
-			<rich_text weight="heavy">Resource groups</rich_text>
-			<rich_text> - allows for the logical grouping of resources within AWS for how they are presented within the Systems Manager.
+      <rich_text weight="heavy">Resource groups</rich_text>
+      <rich_text> - allows for the logical grouping of resources within AWS for how they are presented within the Systems Manager.
                     
                     </rich_text>
-			<rich_text weight="heavy">Insights dashboard</rich_text>
-			<rich_text> - the automatically created visual dashboard of operational data from throughout your AWS account.
+      <rich_text weight="heavy">Insights dashboard</rich_text>
+      <rich_text> - the automatically created visual dashboard of operational data from throughout your AWS account.
                         
                     
                     </rich_text>
-			<rich_text weight="heavy">Inventory</rich_text>
-			<rich_text> - collects information from all services you have provisioned within AWS, including configuration and licensing information.
+      <rich_text weight="heavy">Inventory</rich_text>
+      <rich_text> - collects information from all services you have provisioned within AWS, including configuration and licensing information.
                     
                     </rich_text>
-			<rich_text weight="heavy">Automation</rich_text>
-			<rich_text> - provides a setup of prefedined playbooks to do common repetitive tasks, and allows for users to create their own playbooks.
+      <rich_text weight="heavy">Automation</rich_text>
+      <rich_text> - provides a setup of prefedined playbooks to do common repetitive tasks, and allows for users to create their own playbooks.
                     
                     </rich_text>
-			<rich_text weight="heavy">Run Command</rich_text>
-			<rich_text> - provides a way to run commands on servers within AWS without having to actually access them via SSH or PowerShell.
+      <rich_text weight="heavy">Run Command</rich_text>
+      <rich_text> - provides a way to run commands on servers within AWS without having to actually access them via SSH or PowerShell.
                     
                     </rich_text>
-			<rich_text weight="heavy">Systems Manager</rich_text>
-			<rich_text> - allows for accessing Shell and CLI for managing EC2 instances via a browser and without needing to use keys or expose ports from systems.
+      <rich_text weight="heavy">Systems Manager</rich_text>
+      <rich_text> - allows for accessing Shell and CLI for managing EC2 instances via a browser and without needing to use keys or expose ports from systems.
                     
                     </rich_text>
-			<rich_text weight="heavy">Patch Manager</rich_text>
-			<rich_text> - allows for automatically handling patching of systems across EC2 or on-premises systems through the use of baselines.
+      <rich_text weight="heavy">Patch Manager</rich_text>
+      <rich_text> - allows for automatically handling patching of systems across EC2 or on-premises systems through the use of baselines.
                     
                     </rich_text>
-			<rich_text weight="heavy">Maintenance Window</rich_text>
-			<rich_text> - enables the execution of administrative and maintenance tasks during specific time windows.
+      <rich_text weight="heavy">Maintenance Window</rich_text>
+      <rich_text> - enables the execution of administrative and maintenance tasks during specific time windows.
                     
                     </rich_text>
-			<rich_text weight="heavy">Distributor</rich_text>
-			<rich_text> - Allows for the central storage, distribution, and installation of software packages to instances withing AWS, including software agents.
+      <rich_text weight="heavy">Distributor</rich_text>
+      <rich_text> - Allows for the central storage, distribution, and installation of software packages to instances withing AWS, including software agents.
                     
                     </rich_text>
-			<rich_text weight="heavy">State Manager</rich_text>
-			<rich_text> - handles configuration management tasks across EC2 or on-premises systems.
+      <rich_text weight="heavy">State Manager</rich_text>
+      <rich_text> - handles configuration management tasks across EC2 or on-premises systems.
                     
                     </rich_text>
-			<rich_text weight="heavy">Parameter Store</rich_text>
-			<rich_text> - provides a way to store configuration data for your applications. Allows for having different configurations using the same code.
+      <rich_text weight="heavy">Parameter Store</rich_text>
+      <rich_text> - provides a way to store configuration data for your applications. Allows for having different configurations using the same code.
                     
             </rich_text>
-			<rich_text weight="heavy">AWS OpsWorks</rich_text>
-			<rich_text> - provides managed instances of Puppet and Chef. Both are well known and widely used automation and server configuration tools used throughout the IT world.
+      <rich_text weight="heavy">AWS OpsWorks</rich_text>
+      <rich_text> - provides managed instances of Puppet and Chef. Both are well known and widely used automation and server configuration tools used throughout the IT world.
                     
                
         
     </rich_text>
-			<rich_text scale="h2">AWS Global Infrastructure:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">AWS Global Infrastructure:</rich_text>
+      <rich_text>
 
         </rich_text>
-			<rich_text scale="h3">AWS Regions:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">AWS Regions:</rich_text>
+      <rich_text>
             Each region is a group of logical data centers, called Availability Zones.
             IAM and CloudFront are global.
             
@@ -835,54 +835,54 @@
 
         
         </rich_text>
-			<rich_text scale="h3">Edge Locations:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">Edge Locations:</rich_text>
+      <rich_text>
             
             </rich_text>
-			<rich_text weight="heavy">Amazon CloudFront</rich_text>
-			<rich_text> - a content delivery network (CDN) that allows cached copies of data and content to be distributed on Edge servers closest to customers.
+      <rich_text weight="heavy">Amazon CloudFront</rich_text>
+      <rich_text> - a content delivery network (CDN) that allows cached copies of data and content to be distributed on Edge servers closest to customers.
                 Data transfers from AWS Services to CloudFront are free and do not count towards any bandwidth metering or caps.
             
             </rich_text>
-			<rich_text weight="heavy">Amazon Route 53</rich_text>
-			<rich_text> - the AWS DNS service that provides very fast, robust, and redundant lookup services.
+      <rich_text weight="heavy">Amazon Route 53</rich_text>
+      <rich_text> - the AWS DNS service that provides very fast, robust, and redundant lookup services.
             
             </rich_text>
-			<rich_text weight="heavy">AWS Shield</rich_text>
-			<rich_text> - the AWS Distributed Denial of Service (DDoS) protection service that constantly monitors and reacts to any DDoS attacks.
+      <rich_text weight="heavy">AWS Shield</rich_text>
+      <rich_text> - the AWS Distributed Denial of Service (DDoS) protection service that constantly monitors and reacts to any DDoS attacks.
             
             </rich_text>
-			<rich_text weight="heavy">AWS WAF</rich_text>
-			<rich_text> - the AWS Web Application Firewall (WAF) that monitors and protects agaisnt web exploits and attacks based on rules that inspect traffic and requests.
+      <rich_text weight="heavy">AWS WAF</rich_text>
+      <rich_text> - the AWS Web Application Firewall (WAF) that monitors and protects agaisnt web exploits and attacks based on rules that inspect traffic and requests.
             
             </rich_text>
-			<rich_text weight="heavy">Lambda@Edge</rich_text>
-			<rich_text> - provide a runtime environment for application code to be run on a CDN without having to provision systems or manage them. Customers pay only for the compute time they use.
+      <rich_text weight="heavy">Lambda@Edge</rich_text>
+      <rich_text> - provide a runtime environment for application code to be run on a CDN without having to provision systems or manage them. Customers pay only for the compute time they use.
         
     </rich_text>
-			<rich_text scale="h2">Core AWS Services:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">Core AWS Services:</rich_text>
+      <rich_text>
     
         </rich_text>
-			<rich_text scale="h3">Administrative, Monitoring, and Security Services:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">Administrative, Monitoring, and Security Services:</rich_text>
+      <rich_text>
 
             </rich_text>
-			<rich_text weight="heavy">CloudWatch</rich_text>
-			<rich_text> - is the AWS service for monitoring and measuring services running within the AWS environment.
+      <rich_text weight="heavy">CloudWatch</rich_text>
+      <rich_text> - is the AWS service for monitoring and measuring services running within the AWS environment.
                 Allows for custome metrics.
                 CloudWatch keeps data for up to 15 months.
                 
                 Alarms - based on predefined thresholds or through the use of machine learning algorithms triggering automated processes.
             
             </rich_text>
-			<rich_text weight="heavy">CloudTrail</rich_text>
-			<rich_text> - service for performing auditing and compliance within your AWS account.
+      <rich_text weight="heavy">CloudTrail</rich_text>
+      <rich_text> - service for performing auditing and compliance within your AWS account.
                 Stores all account activity.
             
             </rich_text>
-			<rich_text weight="heavy">AWS Shield</rich_text>
-			<rich_text> - provides protection from and mitigation of DDoS attacks on AWS services.
+      <rich_text weight="heavy">AWS Shield</rich_text>
+      <rich_text> - provides protection from and mitigation of DDoS attacks on AWS services.
                 Always active and always monitoring.
                     Layer 3 and 4 Protection.
                 
@@ -890,8 +890,8 @@
                     Advanced Shield - comes with additional charge, wide range of mitigation capabilities and a 24-hour access to AWS DDoS Response Team.
             
             </rich_text>
-			<rich_text weight="heavy">AWS WAF</rich_text>
-			<rich_text> - web application firewall that protects web applications against many common attacks.
+      <rich_text weight="heavy">AWS WAF</rich_text>
+      <rich_text> - web application firewall that protects web applications against many common attacks.
                 Includes an API that can be used to automate rule creation and deployment on allocated resources.
                 
                 Works on Layer 7 - Application Layer.
@@ -901,12 +901,12 @@
             
 
         </rich_text>
-			<rich_text scale="h3">Networking and Content Delivery:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">Networking and Content Delivery:</rich_text>
+      <rich_text>
         
             </rich_text>
-			<rich_text weight="heavy">Amazon Virtual Private Cloud</rich_text>
-			<rich_text> - you can create a logically defined space within AWS to create an isolated virtual network.
+      <rich_text weight="heavy">Amazon Virtual Private Cloud</rich_text>
+      <rich_text> - you can create a logically defined space within AWS to create an isolated virtual network.
                 You regain full control over how the network is defined and allocated.
                 Full use of IPv4 and IPv6
                 Fully control the IP space, subnets, routing tables, and network gateway.
@@ -921,8 +921,8 @@
                 
             
             </rich_text>
-			<rich_text weight="heavy">Elastic Load Balancing</rich_text>
-			<rich_text> - used to distribute traffic across the AWS infrastructure.
+      <rich_text weight="heavy">Elastic Load Balancing</rich_text>
+      <rich_text> - used to distribute traffic across the AWS infrastructure.
             
                 Application Load Balancer - HTTP + HTTPS, analyzes the actual contents of the traffic and makes determinations for routing and balancing based on rules. Layer 7.
                 
@@ -931,30 +931,30 @@
                 Classic Load Balancer - only used between EC2 instances. 
             
             </rich_text>
-			<rich_text weight="heavy">Route 53</rich_text>
-			<rich_text> - robust, scalable and highly available DNS service.
+      <rich_text weight="heavy">Route 53</rich_text>
+      <rich_text> - robust, scalable and highly available DNS service.
                 Can configure health checks routes.
                 Returns different routes based on geography, current latency or pure round robin.
                 
             
             </rich_text>
-			<rich_text weight="heavy">CloudFront</rich_text>
-			<rich_text> - is a CDN that allows for delivery of data and media to users with lowest levels of latency and the highest levels of transfer speeds.
+      <rich_text weight="heavy">CloudFront</rich_text>
+      <rich_text> - is a CDN that allows for delivery of data and media to users with lowest levels of latency and the highest levels of transfer speeds.
                 Allows developers and administrators full access to configuration options through the standard array of AWS tools, including APIs and the Management Console.
 
         </rich_text>
-			<rich_text scale="h3">Storage:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">Storage:</rich_text>
+      <rich_text>
             
             </rich_text>
-			<rich_text weight="heavy">Elastic Block Store</rich_text>
-			<rich_text> - high performance block storage that is used in conjunction with EC2 where high-throughput data operations are required.
+      <rich_text weight="heavy">Elastic Block Store</rich_text>
+      <rich_text> - high performance block storage that is used in conjunction with EC2 where high-throughput data operations are required.
             
             </rich_text>
-			<rich_text weight="heavy">Simple Storage Service</rich_text>
-			<rich_text> (</rich_text>
-			<rich_text weight="heavy">S3</rich_text>
-			<rich_text>) - offers object storage at incredibly high availability levels.
+      <rich_text weight="heavy">Simple Storage Service</rich_text>
+      <rich_text> (</rich_text>
+      <rich_text weight="heavy">S3</rich_text>
+      <rich_text>) - offers object storage at incredibly high availability levels.
                 S3 is an object file system that is flat in nature and stores files within a bucket.
                 All objects are on the same level.
                 Use alpha-numeric key value for an object name, which can be up to 1,024 bytes long.
@@ -975,95 +975,174 @@
                     S3 Standard-Infrequent Access - ideally used where access will be infrequent for an object, but when access is requested, a quick response is necessary.
                     
                     S3 One Zone-Infrequent Access - ideal for data that is infrequently used, requires quick access when it is accessed, but does not require the robust fault tolerance and replication of other S3 classes.
+                    
+                    
+                S3 Permissions:
+                    AWS S3 offers three different layers of permissions and security controls on S3 objects: bucket, user, and object access control lists.
+                    Can be granted at a user level via IAM.
+                    ACLs for buckets have been superseeded by S3 bucket and user policies.
+                    
+                S3 Encryption:
+                	When you upload any objects to S3, the data within the objeect is static and written to storage within the AWS infrastructure.
+                	S3 automatically encrypts data objects that you upload before they are stored and will decrypt them when accessed and pass the data back to you.
+                	S3 allows you to use your own key for encryption.
+                
+				S3 Versioning:
+					By default, when you update an object in S3, it overwrites and replaces what you previously had uploaded.
+					By enabling S3 Versioning all deleted and uploaded files remain to be saved just in a different instance. Adds additional costs.
+                
+                S3 Object Life Cycle:
+                	To help manage versioning in AWS S3, the service provides automation tools, called actions to handle how versions are stored and when they are removed from the system.
+                		Transition - action will move S3 objects to a different storage class after it reaches a certain age. Allows you to use cheaper storage.
+                		Expiration - action will automatically expire and remove objects once they reach a certain date.
+                
+                S3 Glacier and S3 Glacier Deep:
+                	S3 Glacier is a special type of S3 storage that is intended to be a secure solution for long-term data archiving and backups. 
+                	S3 Glacier comes with three retrieval options:
+                		Expedited - offers retrieval options that will typically return within one to five minutes. 
+               			
+               			Standard - offers retrieval options that will typically return in three to five hours.
+               
+               			Bulk - Offers retrieval times of 5 to 12 hours and is the best option for very large retrievals.
+                
+                	With S3 Glacier Deep the retrieval types are between 12 and 48 hours.
+                
+					S3 Glacier is fully integrated with CloudTrail for full logging and auditing.
+			
+			</rich_text>
+      <rich_text weight="heavy">AWS Storage Gateway </rich_text>
+      <rich_text>- provides storage hybrid cloud services that gives access to your on-premises reources to othe full array of storage services in AWS.
+				Common uses including backing up their file shares or images from their on-premises environment.
+				Storage Gateway is designed to interact with the most commonly used storage protocols, such as iSCSI, NFS and SMB.
+				The Storage Gatewa offers three types of gateways that each serve different purposes:
+					File - used for either backups or storing of actual application data files to AWS.
+						It works by providing local cache storage that is then synced to AWS S3 storage via SMB or NFS file stores.
+						SMB or NFS.
+					
+					Tape - provides a meethod for customers to utilize AWS storage systems in lieu of tape-based systems for backups.
+					
+					Volume - facilitates the usage of AWS -based iSCSI block storage volumes for on-premises applications.
+			
             </rich_text>
-			<rich_text weight="heavy">AWS Backup</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">AWS Backup</rich_text>
+      <rich_text> - provides a single resource to configure backup policies and monitor their usage and success across any servies that you have allocated.
+            	Can be used with AWS Storage Gateway to provide backups in hybrid cloud implementations.
             
             </rich_text>
-			<rich_text weight="heavy">AWS Snow</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">AWS Snow</rich_text>
+      <rich_text> - is designed for offering compute and storage capabilities to those organizations or places that are outside the areas where AWS regions and resources operate.
+            	Particularly useful in situations where high-speed or reliable networking is not possible.
+            	Comes in three different tiers all using 256-bit encryption.
+            	
+            	AWS Snowcone - small hardware device that is easily portable.
+            		Weight: 4.5 pounds
+            		Measurements: 9in x 6in x 3in
+            		Storage: 8TB
+            		Compute: 2vCPUs
+            		Memory: 4GB
+            		Network: two 1/10 Gbit network interfaces.
+            		Has Wifi and Battery.
+            
+            	AWS Snowball - larger device that comes in two flavours, one focues on storage and one focused on compute.
+            		Weight: 49.7 pounds
+            		Measurements: 28.3in x 10.6in x 15.5in
+            		Storage: S 80TB/ C 42TB
+            		Compute: S 40vCPUs/ C 42vCPUS
+            		Memory: S 80GB / C208GB
+            		Network: two 10 Gbit network interfaces, a 25 Gbit interface, and a 100Gbit interface.
+            		No Wifi
+            
+            	AWS Snowmobile - 45-foot ruggedized shipping container that is outfitted with 100 petabytes of storage capacity. Driven to the site of the customer, and data is transferred into the Amazon S3 service.
             
         </rich_text>
-			<rich_text scale="h3">Compute Services:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">Compute Services:</rich_text>
+      <rich_text>
         
             </rich_text>
-			<rich_text weight="heavy">EC2</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">Amazon Elastic Compute Cloud</rich_text>
+      <rich_text> (</rich_text>
+      <rich_text weight="heavy">EC2</rich_text>
+      <rich_text>) - is the main offering for virtual servers in the cloud. It allows users to create and deploy compute instances that they will retain full control over and offers a variety of configuration options for resoruces.
             
             </rich_text>
-			<rich_text weight="heavy">Amazon Machine Images</rich_text>
-			<rich_text> - 
+      <rich_text weight="heavy">Amazon Machine Images</rich_text>
+      <rich_text> (</rich_text>
+      <rich_text weight="heavy">AMIs</rich_text>
+      <rich_text>) - are the basis of virtual compute instances in AWS. An image is basically a data object that is a bootable virtual machine and can be deployed throught the AWS infrastructure.
+            	AWS Quick Start offers virtual machines from many popular vendor flavours.
+            	2 types of costs:
+            		Licensing costs, charge from the vendor for the use of the image itself.
+           			EC2 costs of hosting  the image and the resources it requires from the AWS services perspective.
             
             </rich_text>
-			<rich_text weight="heavy">Lightsail</rich_text>
-			<rich_text> - 
+      <rich_text weight="heavy">Lightsail</rich_text>
+      <rich_text> - 
             
             </rich_text>
-			<rich_text weight="heavy">Elastic Beanstalk</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">Elastic Beanstalk</rich_text>
+      <rich_text> -
             
             </rich_text>
-			<rich_text weight="heavy">Lambda</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">Lambda</rich_text>
+      <rich_text> -
             
             </rich_text>
-			<rich_text weight="heavy">Containers</rich_text>
-			<rich_text> - 
+      <rich_text weight="heavy">Containers</rich_text>
+      <rich_text> - 
 
         </rich_text>
-			<rich_text scale="h3">Databases:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">Databases:</rich_text>
+      <rich_text>
         
             </rich_text>
-			<rich_text weight="heavy">AWS Database Migration Service</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">AWS Database Migration Service</rich_text>
+      <rich_text> -
             
             </rich_text>
-			<rich_text weight="heavy">Amazon Relational Database Service</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">Amazon Relational Database Service</rich_text>
+      <rich_text> -
             
             </rich_text>
-			<rich_text weight="heavy">DynamoDB</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">DynamoDB</rich_text>
+      <rich_text> -
             
             </rich_text>
-			<rich_text weight="heavy">Amazon Redshift</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">Amazon Redshift</rich_text>
+      <rich_text> -
 
         </rich_text>
-			<rich_text scale="h3">Automation:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">Automation:</rich_text>
+      <rich_text>
         
             </rich_text>
-			<rich_text weight="heavy">CloudFormation</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">CloudFormation</rich_text>
+      <rich_text> -
 
         </rich_text>
-			<rich_text scale="h3">End-User Computing:</rich_text>
-			<rich_text>
+      <rich_text scale="h3">End-User Computing:</rich_text>
+      <rich_text>
         
             </rich_text>
-			<rich_text weight="heavy">WorkSpaces</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">WorkSpaces</rich_text>
+      <rich_text> -
             
             </rich_text>
-			<rich_text weight="heavy">AppStream</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">AppStream</rich_text>
+      <rich_text> -
             
             </rich_text>
-			<rich_text weight="heavy">WorkLink</rich_text>
-			<rich_text> -
+      <rich_text weight="heavy">WorkLink</rich_text>
+      <rich_text> -
             
             
         
     </rich_text>
-			<rich_text scale="h2">Technical Support:</rich_text>
-		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Chapter 5" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1705838775.74" ts_lastsave="1707456949.11" unique_id="6">
-			<rich_text scale="h1">Chapter 5 - Billing and Pricing:</rich_text>
-			<rich_text>
+      <rich_text scale="h2">Technical Support:</rich_text>
+    </node>
+    <node name="Chapter 5" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838775" ts_lastsave="1707456949">
+      <rich_text scale="h1">Chapter 5 - Billing and Pricing:</rich_text>
+      <rich_text>
     </rich_text>
-		</node>
-	</node>
+    </node>
+  </node>
 </cherrytree>
