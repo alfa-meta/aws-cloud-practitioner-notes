@@ -719,7 +719,7 @@
 8/10 - Pass</rich_text>
       </node>
     </node>
-    <node name="Chapter 4" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838771" ts_lastsave="1708321928">
+    <node name="Chapter 4" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838771" ts_lastsave="1708408628">
       <rich_text scale="h1">Chapter 4 - Technology:</rich_text>
       <rich_text>
 
@@ -1074,51 +1074,87 @@
             		Licensing costs, charge from the vendor for the use of the image itself.
            			EC2 costs of hosting  the image and the resources it requires from the AWS services perspective.
            
-           		EC2 Instance Types -
+           		</rich_text>
+      <rich_text weight="heavy">EC2 Instance Types</rich_text>
+      <rich_text> - are where the underlying hardware resources are married with the type of image you are using. The instance type will dictate the type of CPU used, how many virtual CPUs (vCPUs) it has, how much memory, the type of storage used, network bandwidth, and the underlying EBS bandwidth.
+            		General Purpose
+            		Compute Optimized
+            		Memory Optimized
+            		Accelerated Computing
+            		Storage Optimized
             
+            		
             </rich_text>
       <rich_text weight="heavy">Lightsail</rich_text>
-      <rich_text> - 
+      <rich_text> - offers blueprints that will configure fully ready systems and application stacks for you to immediately begin using and deploying your code or data into.
+            	Low cost, one-click deployment at low cost.
+            	
             
             </rich_text>
       <rich_text weight="heavy">Elastic Beanstalk</rich_text>
-      <rich_text> -
+      <rich_text> - you choose the application platform that your code is written in, such as Java, Node,js, PHP, or .NET.
+            	Once code is provisioned you deploy.
+            	Designed to be even easier and quicker to get your applications up and running than Lightsail.
             
             </rich_text>
       <rich_text weight="heavy">Lambda</rich_text>
-      <rich_text> -
+      <rich_text> - is a service for running code for virtually any application or back-end service.
             
             </rich_text>
       <rich_text weight="heavy">Containers</rich_text>
-      <rich_text> - 
+      <rich_text> - single system instance to host multiple virtual environments within it while leveraging the underlying infrastructure.
+            	Amazon Elastic Container Service (ECS) - allows for container hosting.
+            	
+            	Amazon Elastic Kubernetes Service (EKS) - AWS-specific implementation of the popular open-source Kubernetes system.
 
         </rich_text>
       <rich_text scale="h3">Databases:</rich_text>
       <rich_text>
+        	Relational Databases - utilize a primary key to track a unique record. Data is paired with a primary key and is restricted to a specific data type.
+        	
+        	Nonrelational Databases - are referred to as unstructutred data. Data is paired with a primary key but is not restricted to the type of data.
         
             </rich_text>
       <rich_text weight="heavy">AWS Database Migration Service</rich_text>
-      <rich_text> -
+      <rich_text> - is a tool for migrating data into AWS databases from existing databases with minimal downtime or other interruptions.
+            	Allows for migrations where source and destination databases are the same.
+            	
             
             </rich_text>
       <rich_text weight="heavy">Amazon Relational Database Service</rich_text>
-      <rich_text> -
+      <rich_text> - is an umbrella service that incorporates several different kinds of database systems.
+            	The current offerings from AWS RDS are:
+            		Microsoft SQL Server
+            		Oracle
+            		MariaDB
+            		MySQL
+            		PostgreSQL
+            		Amazon Aurora
+            
+            RDS runs through VPC
+            
+            </rich_text>
+      <rich_text weight="heavy">Amazon Aurora</rich_text>
+      <rich_text> - subset of RDS that is compatible with both MySQL and PostgreSQL databases. It combines the features and simplicity of open-source databases with the robust management and security of AWS services.
+            	Can handle databases up to 64TB in size per instance.
             
             </rich_text>
       <rich_text weight="heavy">DynamoDB</rich_text>
-      <rich_text> -
+      <rich_text> - is the AWS key-value and document database solution for those applications that do not need an SQL or relational database but do need extremely high performance and scalable access to their data. 
+            	DynamoDB replicates tables automatically across multiple AWS regions to optimize performance and serve data from the closest location possible to the requests.
             
             </rich_text>
       <rich_text weight="heavy">Amazon Redshift</rich_text>
-      <rich_text> -
-
+      <rich_text> - is a cloud-based data warehouse solution offered by AWS. Unlike traditional on-premises data warehouses, Redshift leverages AWS storage to any capacity that is needed by a company, either now or into the future.
+				Costs scale with the needs of Storage and Compute units.
+				
         </rich_text>
       <rich_text scale="h3">Automation:</rich_text>
       <rich_text>
         
             </rich_text>
       <rich_text weight="heavy">CloudFormation</rich_text>
-      <rich_text> -
+      <rich_text> - CloudFormation implements an automated way to model infrastructure and resources within AWS
 
         </rich_text>
       <rich_text scale="h3">End-User Computing:</rich_text>
