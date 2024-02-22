@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
   <bookmarks list=""/>
-  <node name="AWS Cloud Practitioner" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1703519640" ts_lastsave="1705838741">
+  <node name="AWS Cloud Practitioner" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1703519640" ts_lastsave="1708493059">
+    <rich_text>Quick Links:
+	AWS CLI - https://aws.amazon.com/cli
+	IAM - https://console.aws.amazon.com/iam/home</rich_text>
     <node name="Chapter 1" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838759" ts_lastsave="1707456983">
       <rich_text scale="h1">Chapter 1 - Becoming an  AWS Certified Cloud Practitioner:</rich_text>
       <rich_text>
@@ -719,7 +722,7 @@
 8/10 - Pass</rich_text>
       </node>
     </node>
-    <node name="Chapter 4" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838771" ts_lastsave="1708408708">
+    <node name="Chapter 4" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838771" ts_lastsave="1708493170">
       <rich_text scale="h1">Chapter 4 - Technology:</rich_text>
       <rich_text>
 
@@ -1160,28 +1163,186 @@
         </rich_text>
       <rich_text scale="h3">End-User Computing:</rich_text>
       <rich_text>
+        	AWS offers powerful tools to organizatiosn to provide end-user computing such as virtual desktops and access to applications or internally protected websites.
         
             </rich_text>
       <rich_text weight="heavy">WorkSpaces</rich_text>
-      <rich_text> -
+      <rich_text> - is a Desktop as a Service (DaaS) implementation that is built, maintained, configured, and secured through AWS as a managed service.
             
             </rich_text>
       <rich_text weight="heavy">AppStream</rich_text>
-      <rich_text> -
+      <rich_text> - is a service for providing managed and streaming applications via AWS. By streaming applications, the need to download and install applications is removed, as they will be run through a web browser.
             
             </rich_text>
       <rich_text weight="heavy">WorkLink</rich_text>
-      <rich_text> -
-            
-            
-        
-    </rich_text>
-      <rich_text scale="h2">Technical Support:</rich_text>
+      <rich_text> - offers users the ability to access internal applications through the use of mobile devices.
+            	Eliminated the need of VPN or MDM solutions for Mobile devices.
+            	Users will access a web browser that can be used on any mobile device and obtain easy access to their internal systems.
+            </rich_text>
+      <node name="Questions" unique_id="9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708493170" ts_lastsave="1708493496">
+        <rich_text>1. C X D
+2. C
+3. C X A - When a new bucket is created, versioning is not turned on automatically unless it is chosen as an option during creation.
+4. B
+5. C
+6. B X A - CloudTrail centralizes the collection of event and security logs into a system that allows auditing and compliance of all user activities within your AWS account.
+7. D
+8. C
+9. A
+10. B
+
+7/10 - Pass</rich_text>
+      </node>
     </node>
-    <node name="Chapter 5" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838775" ts_lastsave="1707456949">
+    <node name="Chapter 5" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838775" ts_lastsave="1708581066">
       <rich_text scale="h1">Chapter 5 - Billing and Pricing:</rich_text>
       <rich_text>
-    </rich_text>
+    
+	</rich_text>
+      <rich_text scale="h2">AWS Free Tier:</rich_text>
+      <rich_text>
+		</rich_text>
+      <rich_text scale="h3">Always Free:</rich_text>
+      <rich_text>
+    
+    		DynamoDB - Provides 25GB of storage. 200 million requests per month.
+    
+    		Lambda - Up to 1,000,000 free requests per month, including 3.2 million seconds of compute time per month.
+    
+    		CloudWatch - Ten custom metrics and ten alarms, as well as 1,000,000 API requests, 5GB of log ingestion and 5GB of log storage.
+    		Three dashboards and up to 50 metrics for each one per month.
+    		
+    		Glacier - up to 10GB of Amazon Glacier retrievals per month for standard retrievals using the Glacier API.
+    
+    		Storage Gateway - First 100GB of usage.
+    
+    		Server Migration service - Migration of an unlimited number of servers into AWS from on-premises or Microsoft Azure.
+    
+    	</rich_text>
+      <rich_text scale="h3">12 Months Free:</rich_text>
+      <rich_text>
+    		
+    		EC2 - provides 750 hours per month of compute power.
+    			Linux, RHEL, or SLES t2.micro or t3.micro instances or Windows t2.micro or t3.micro.
+    
+    		S3 - Provides 5GB of standard storage, including up to 20,000 GET requests and 2,000 PUT requests.
+    	
+    		RDS - 750 hours per month of db.t2.micro database usage.
+    			This also includes up to 20GB of SSD database storage and 20GB of storage for database backups and snapshots.
+    
+    		API Gateway - One million API calls received per month.
+    
+    		CloudFront - provides 50GB of data transfer out, allowing for up to 2,000,000 HTTP or HTTPS requests.
+    
+    		Cloud Directory - provides 1GB of storage per month, allowing for 10,000 API calls per month.
+    
+		</rich_text>
+      <rich_text scale="h2">1-month Trial:</rich_text>
+      <rich_text>
+		
+			Lightsail - provides 750 hours of a one-month free trial.
+			
+			GuardDuty - thirty days free trial of the Amazon GuardDuty service for intelligent threat detection and monitoring of accoutns and workloads.
+			 
+			AppStream 2.0 - allows for 40 hours use of the stream.standard.large instance type.
+			
+			Inspector - ninety-day trial for the security assessment service, covering 90 days or 250 assessments, whichever occurs first.
+    
+	</rich_text>
+      <rich_text scale="h2">AWS Pricing Calculator:</rich_text>
+      <rich_text>
+		Pricing Calculator - one-stop shop for generating estimates for all AWS services.
+		
+    	Quick Estimate - shows the estimated monthly costs of a service used with specific specifications.
+    
+    	Groups - method that AWS provides for organizing estiamtes. Groups can be used in many different ways to divide up resources based on your needs.
+    		Groups need to be made for each region.
+    
+</rich_text>
+      <rich_text scale="h2">  	AWS Service Quotas:</rich_text>
+      <rich_text>
+		AWS Service Quotas - are a soft limitation of resources that can be deployed. For example EC2 is by default only able to run 20 instances at any given time.
+			By submitting a manual request this quota can be overwritten.
+			All quotas are linked ot the region. 
+			Each region has different quotas.
+			
+		    
+	</rich_text>
+      <rich_text scale="h2">Reserved Instances:</rich_text>
+      <rich_text>
+		AWS allows users to pre-purchase resources and capacity for AWS EC2 services.
+		These are based upon a one- or three-year commitment and can offer up to a 72 percent discount.
+		
+		Standard Reserve Instances - offer up to 72 percent savings compared to on-demand pricing.
+		Convertible Reserve Instances - offer up to 54 percent savings compared to on-demand pricing, offer the ability to change attributes later, as long as the attributes are equal or greater than the original reserve.    
+    
+    
+	</rich_text>
+      <rich_text scale="h2">Saving Plans:</rich_text>
+      <rich_text>
+		Savings plans similar to Reserved Instances offer up to 72 percent discount on on-demand pricing.
+		Applies to AWS Fargate and AWS Lambda.
+		
+		Two types of savings plans:
+			Compute Savings Plans - offer up to a 66 percent discount on on-demand pricing to be used across the compute services of EC2, Lambda, and Fargate.
+			
+			EC2 Instance Savings Plans - offer up to a 72 percent discount on on-demand pricing but apply to specific instance types in specific regions.
+    
+	</rich_text>
+      <rich_text scale="h2">AWS Billing Dashboard:</rich_text>
+      <rich_text>
+		
+		Cost Explorer - allows you to view and analyze both your costs and usage of AWS services.
+			Displays data for 12 months of usage, as well as provide forecasts for what you may use in the next 12 motnsh based on your past usage.
+			Free to AWS users.
+			
+		AWS Budgets - used to plan the consumption of services, cots of services, and the use of instance reservations.
+			Can be used to track how close you are to using a budgeted amount of money, as well as the use of the Free Tier.
+			Updated every 8 to 12 hours.
+			Each account can create 20,000 budgets.
+			
+			Types of budgets:
+				Cost - allow for planning what is your ceiling for spending on a particular service.
+				Usage - allow you to plan how much actual usage of a particular service you want to use.
+				Reserved instances - track your usage of reserved instances to determine if they are unused or if you have purchased too much.
+				Reserved instances coverage - Track how much of your resource allocations and service usage is covered by your reserved instances
+				Saving plans utilization - Track usage of saving plans based on utilization and trigger alerts when falling under the thresholds.
+				Saving plans coverage - Track and alert when your usage of savings plans fails under a threshold.
+				
+			AWS Budgets is a reporting and alerting service. It will not stop or contain your services.
+			
+			AWS Budgets, can create reports to be generated on a daily, weekly or monthly frequency.
+			Each budget report can be e-mailed to up to 50 e-mail addresses, and each report will cost $0.01.
+			
+		Detecting Unusual Spending - anomaly detection system using machine learning always looking to find anomalous spending.
+		
+	AWS IQ - offers AWS certified freelancers and consulting firms.</rich_text>
+      <node name="Questions" unique_id="10" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708581038" ts_lastsave="1708581318">
+        <rich_text>1. B
+2. B
+3. C
+4. B, A X A,C - Cost Allocation tags are either AWS generated or user generated. Each must be activated separately before used in Cost Explorer.
+5. D
+6. B
+7. A X D Support costs are applied at the individual account level. While they will appear with an aggregate total on consolidated bills, they are shared between accounts, and each account must purchase them separately.
+8. A
+9. B
+10. C
+
+8/10 - Pass</rich_text>
+      </node>
+    </node>
+    <node name="Practise Exam" unique_id="12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708581066" ts_lastsave="1708581716">
+      <rich_text>1. D
+2. B, C
+3. B
+4. C
+5. C, E
+6. D
+7. B
+8. C
+9. D, E
+10. C</rich_text>
     </node>
   </node>
 </cherrytree>
