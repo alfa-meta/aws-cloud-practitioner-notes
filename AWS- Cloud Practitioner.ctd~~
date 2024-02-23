@@ -1332,15 +1332,72 @@
 8/10 - Pass</rich_text>
       </node>
     </node>
-    <node name="Practise Exam" unique_id="12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708581066" ts_lastsave="1708581595">
+    <node name="Practise Exam" unique_id="12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708581066" ts_lastsave="1708633718">
       <rich_text>1. D
-2. B, C
-3. B
-4. C
+2. B, C X A,B
+3. B X A
+4. C 
 5. C, E
 6. D
 7. B
-8. </rich_text>
+8. C X A
+9. D, E
+10. C
+11. C X A
+12. B
+13. C
+14. D X D
+15. A, E X A, D
+16. B
+17. A,E X A, C 
+18. A X C
+19. B X A
+20. C X B
+21. A X B
+22. C X B, E
+23. C
+24. A X D
+25. A
+26. D
+27. A, D
+28. B
+29. A, E X B, C
+30. C, E 
+31. A
+32. A
+33. B
+34. B X C
+35. D
+36. B
+37. C
+38. B
+39. B,D
+40. A
+41. C
+42. B
+43. B
+44. A
+45. D
+46. A X B
+47. A, B X B, E
+48. A, B 
+49. C
+50. D
+51. C X A
+52. C
+53. C X B 
+54. D X B
+55. B
+56. A
+57. D
+58. D
+59. B
+60. A
+61. D
+62. A
+63. C
+64. C
+65. A</rich_text>
     </node>
   </node>
 </cherrytree>
