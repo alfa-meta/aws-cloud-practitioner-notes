@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
   <bookmarks list=""/>
-  <node name="AWS Cloud Practitioner" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1703519640" ts_lastsave="1708493059">
-    <rich_text>Quick Links:
+  <node name="McGraw Hill 2019 - AWS Cloud Practitioner" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1703519640" ts_lastsave="1708753665">
+    <rich_text scale="h2">All-in-One AWS Certified Cloud Practitioner CLF-C01 Exam Guide</rich_text>
+    <rich_text>
+
+
+Quick Links:
 	AWS CLI - https://aws.amazon.com/cli
 	IAM - https://console.aws.amazon.com/iam/home</rich_text>
     <node name="Chapter 1" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1705838759" ts_lastsave="1707456983">
@@ -1332,7 +1336,7 @@
 8/10 - Pass</rich_text>
       </node>
     </node>
-    <node name="Practise Exam" unique_id="12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708581066" ts_lastsave="1708633718">
+    <node name="Practise Exam" unique_id="12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708581066" ts_lastsave="1708633856">
       <rich_text>1. D
 2. B, C X A,B
 3. B X A
@@ -1387,17 +1391,54 @@
 52. C
 53. C X B 
 54. D X B
-55. B
-56. A
+55. B X C
+56. A 
 57. D
 58. D
 59. B
 60. A
-61. D
-62. A
+61. D X C
+62. A X B
 63. C
 64. C
-65. A</rich_text>
+65. A
+
+
+44/65 - FAIL</rich_text>
     </node>
   </node>
+  <node name="Sybex 2023 - AWS Certified Cloud Practitioner CLF-C02 Study Guide" unique_id="18" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708753552" ts_lastsave="1708754640">
+    <rich_text scale="h1">AWS Certified Cloud Practitioner Study Guide Foundational (CLF-C02) Exam</rich_text>
+    <node name="Assessment Test" unique_id="20" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708754640" ts_lastsave="1708755632">
+      <rich_text>1. A
+2. C
+3. B
+4. D
+5. A X B - “Production system down” support within one hour is available only to subscribers to the Business or Enterprise support plans.
+6. C X D - All support plans come with full access to Trusted Advisor except for the free tier.
+7. B - According to the Shared Responsibility Model, AWS is responsible for the underlying integrity and security of AWS physical resources, but not the integrity of the data and configurations added by customers.
+8. A
+9. C
+10. B X A - End-to-end encryption that protects data at every step of its life cycle is called client-side encryption.
+11. A X D - AWS CLI requests are authenticated through access keys.
+12. B
+13. B X C - The AMI you select while configuring your new instance defines teh base OS.
+14. A X C - You can administer EC2 instances using techniques that are similar to the way you'd work with physical servers.
+15. A
+16. A X D - You can transfer large data stoes to the AWS cloud to S3 buckets by having Amazon send you a Snowball device to which you copy your data and which you then ship back to Amazon.
+17. A
+18. A X C - Multi-AZ will automatically replicate your database in a second availability zone for greater reliability. It will, of course, also double your costs.
+19. B
+20. D
+21. A
+22. D
+23. A
+24. B
+25. B X A
+
+16/25 - FAIL</rich_text>
+    </node>
+    <node name="Chapter 1" unique_id="19" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708753691" ts_lastsave="1708753691"/>
+  </node>
+  <node name="AWS CCP Practice Tests 2019" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
 </cherrytree>
