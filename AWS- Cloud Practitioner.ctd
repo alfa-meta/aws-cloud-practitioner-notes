@@ -1407,7 +1407,7 @@ Quick Links:
 44/65 - FAIL</rich_text>
     </node>
   </node>
-  <node name="Sybex 2023 - AWS Certified Cloud Practitioner CLF-C02 Study Guide" unique_id="18" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708753552" ts_lastsave="1708754640">
+  <node name="Sybex 2023 - AWS Certified Cloud Practitioner CLF-C02 Study Guide" unique_id="18" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708753552" ts_lastsave="1708924417">
     <rich_text scale="h1">AWS Certified Cloud Practitioner Study Guide Foundational (CLF-C02) Exam</rich_text>
     <node name="Assessment Test" unique_id="20" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708754640" ts_lastsave="1708755699">
       <rich_text>1. A
@@ -1438,8 +1438,75 @@ Quick Links:
 
 16/25 - FAIL</rich_text>
     </node>
-    <node name="Additional Services" unique_id="21" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708755699" ts_lastsave="1708755715">
+    <node name="Additional Services" unique_id="21" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708755699" ts_lastsave="1708926390">
       <rich_text scale="h1">Appendix B - Additional Services</rich_text>
+      <rich_text>:
+
+</rich_text>
+      <rich_text scale="h2">29 Important Services that are likely to come up on the exam:</rich_text>
+      <rich_text>
+
+	AWS Activate - designed to support startups and early-stage companies by providing training and support along with discounted access to resources like cloud infrastructure, technical training, business development opportunities, and funding.
+	
+	Amazon EventBridge - is a service that takes a predefined action based either on specific events or on a schedule. For example, a running EC2 instance entering the stopped state would be an event.
+	
+	AppStream 2.0 - is a fully managed service that allows users to stream high-performance applications to any device, anywhere.
+	
+	Athena - is a serverless service that allows you to use SQL queries to find data stored in S3. if you have data stored in CSV, JSON, ORC, Avro, or Parquet format, simply upload it to S3 and use Athena to query it.
+	
+	AWS Amplify - allows developers to build and host full-stack applications on AWS without building AWS Infrastructure.
+	
+	AWS AppSync - is a GraphQL service designed to enable applications to pull data from a variety of sources, without having to know the details of the data's source or its format.
+		GraphQL is a data transformation language that defines how to take data in one format and convert it to another.
+	
+	AWS Batch - Batch Computing jobs are used for performing complex analysis on large datasets. Allows you to run thousands of batch computing jobs on AWS without having to build any infrastructure. Requires Docker.
+	
+	AWS CloudShell - is a browser-based Amazon Linux 2 shell that you use to quickly administer you AWS environment. CloudSHell comes preinstallled with the AWS CLI, Elastic Container Service CLI, and AWS Serverless Application Model (SAM) CLI.
+	
+	AWS Device Farm - offers a cornucopia of virtual devices that you can rapidly and simultaneously test your applications against.
+	
+	AWS Step Functions - is a low-code platform that lets you desing and deploy distributed applications and process automations through a visual workflow interface.
+	
+	AWS Backup - lets you centrally configure backup policies and monitor backup activity for all of your data stored on AWS. It supports EBS volumes, RDS databases, DynamoDB tables, EFS filesystems, and Storage Gateway volumes. 
+	
+	Cognito - lets you add user access control to your application. Cognito integrates with many identity providers, including Amazon, Google, Microsoft Azure Active Directory, and Facebook.
+	
+	Connect -
+	
+	Database Migration Service -
+	
+	Elastic File System -
+	
+	Elastic MapReduce -
+	
+	Glue -
+	
+	Inspector -
+	
+	IoT Core -
+	
+	IoT Greengrass -
+	
+	AWS IQ -
+	
+	Kinesis -
+	
+	Amazon Macie -
+	
+	AWS Managed Services (AMS) -
+	
+	Amazon Nepture -
+	
+	Simple Queue Service (SQS) -
+	
+	Amazon WorkDocs -
+	
+	Amazon WorkSpaces -
+	
+	AWS X-Ray -
+	
+	
+	</rich_text>
     </node>
     <node name="Chapter 1" unique_id="19" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708753691" ts_lastsave="1708753691"/>
   </node>
