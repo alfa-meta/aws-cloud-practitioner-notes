@@ -1516,7 +1516,21 @@ Quick Links:
 	
 	</rich_text>
     </node>
-    <node name="Chapter 1" unique_id="19" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708753691" ts_lastsave="1708753691"/>
+    <node name="Chapter 1" unique_id="19" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708753691" ts_lastsave="1709010582">
+      <rich_text scale="h1">Chapter 1 - The Cloud:</rich_text>
+      <rich_text>
+
+Highly Available and Scalable Resources:
+	Design Multiple layers of redundancy so that whenever one component fails, its workload is automatically and instantly moved to a healthy replacement. This is known as “failover”.
+	
+	Connect resources in geographically remote locations so that the failure of one complete region could trigger a predefined relocation of resources. This relocation can be supported by a similarly automated rerouting of network requests.
+	
+	Provide customers with access to as much compute power as they could possibly need and deliver it on-demand.
+	
+	Low price for scale.
+	
+	</rich_text>
+    </node>
   </node>
   <node name="AWS CCP Practice Tests 2019" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
 </cherrytree>

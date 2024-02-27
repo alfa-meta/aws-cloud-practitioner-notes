@@ -1438,7 +1438,7 @@ Quick Links:
 
 16/25 - FAIL</rich_text>
     </node>
-    <node name="Additional Services" unique_id="21" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708755699" ts_lastsave="1709010074">
+    <node name="Additional Services" unique_id="21" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708755699" ts_lastsave="1709010154">
       <rich_text scale="h1">Appendix B - Additional Services</rich_text>
       <rich_text>:
 
@@ -1497,10 +1497,10 @@ Quick Links:
 	
 	Kinesis - can ingest and process large amounts of data in real time. It's useful for analyzing large amounts of streaming data including access logs, video, audio, and telemetry.
 	
-	Amazon Macie -
+	Amazon Macie - automatically finds and classifies sensitive data stored in AWS. It uses ML to recognise sensitive data such as personally identifiable information or trade secrets and shows you how that data is being used in AWS.
 	
 	AWS Managed Services (AMS) - is a suite of fully managed services that enable organizations to migrate, manage, and operate their IT infrastructure and applications on the AWS cloud.
-		AMS provices a comprehensive 
+		AMS provices a comprehensive set of tools and services to help businesses automate, optimize, and secure their cloud environments, free up internal resources to focus on core business acitivities.
 	
 	Amazon Nepture - is a graph database that you can use to store and query highly connected datasets.
 	
@@ -1516,7 +1516,13 @@ Quick Links:
 	
 	</rich_text>
     </node>
-    <node name="Chapter 1" unique_id="19" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708753691" ts_lastsave="1708753691"/>
+    <node name="Chapter 1" unique_id="19" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1708753691" ts_lastsave="1709010488">
+      <rich_text scale="h1">Chapter 1 - The Cloud:</rich_text>
+      <rich_text>
+
+Highly Available and Scalable Resources:
+	Design Multiple layers of redundancy so that whenever one component fails, its workload is automatically and instantly moved to a healthy replacement. </rich_text>
+    </node>
   </node>
   <node name="AWS CCP Practice Tests 2019" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
 </cherrytree>
