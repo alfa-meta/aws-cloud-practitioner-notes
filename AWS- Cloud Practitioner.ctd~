@@ -1588,7 +1588,7 @@ Scalability and Elasticity:
 9/12 - 75% PASS</rich_text>
       </node>
     </node>
-    <node name="Chapter 2" unique_id="23" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709324770" ts_lastsave="1709385475">
+    <node name="Chapter 2" unique_id="23" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709324770" ts_lastsave="1709411942">
       <rich_text>Understanding Your AWS Account:
 
 The Free Tier:
@@ -1627,7 +1627,7 @@ Billing and Cost Management:
 		Cost Allocation Tags - are only meant to interact with billing tools and won't show up in the context of any other AWS resource or process.
 		
 	AWS Organisations allows you to centralise the administration of multiple AWS accounts owner or controlled by a single company.</rich_text>
-      <node name="Questions" unique_id="24" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709385475" ts_lastsave="1709385871">
+      <node name="Questions" unique_id="24" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709385475" ts_lastsave="1709385914">
         <rich_text>1.  D
 2. AC X BC
 3. A,D COULD BE C X BD
@@ -1642,8 +1642,85 @@ Billing and Cost Management:
 12. D
 13. A?B?
 14. C
-15. D, C
-16. B</rich_text>
+15. D, C X A C
+16. B
+
+11.5/16 - FAIL</rich_text>
+      </node>
+    </node>
+    <node name="Chapter 3" unique_id="25" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709411942" ts_lastsave="1709414896">
+      <rich_text>Getting Support on AWS:
+
+	Basic Support Plan:
+		You are not paying anything beyond the regular costs of consuming AWS resources.
+		Given access to only publicly available documentation, white papers, tutorials and support forums.
+		Able to contact customer service at any time of the day or night for account-related issues.
+		Limited access to the Trusted Advisor tool.
+		Alerts concerning interruptions to any AWS services you're currently using throug the Heatlh Dashboard.		
+			
+	Developer Support Plan:
+		Recommended for organizations running nonproduction workloads.
+		Only available to contact AWS associates during business hours and to asking their advice on genral information about AWS use cases.
+	
+	Business Support Plan:
+		Guarantees a response from a cloud support engineer via email, chat, or phone within one hour. Less severe issues can take longer--up to 24 hours for what AWS calls general guidance.
+		Includes trouble shooting interoperability between AWS resources and third-party software and operating systems.
+	
+	Enterprise Support Plan:
+		Starting from $15,000 a month.
+		Appropriate only for large operations whose scope is global and for whom downtime is simply unthinkable.
+		Technical Account Manager (TAM) - assigned as a dedicated “guide and advocate” for your account.
+			TAM works closely with your deployment, guiding your team through planning, launches, and proactive reviews.
+	
+	AWS Professional Services:
+		AWS Partner Network (APN) - third party consultants
+			
+	Documentation and Online Help:
+			
+		Documentation:
+			</rich_text>
+      <rich_text link="webs https://docs.aws.amazon.com">https://docs.aws.amazon.com</rich_text>
+      <rich_text>
+			
+		Knowledge Center:
+			AWS Knowledge Center is an FAQ page.
+			
+			Use re:Post to report suspected abuse of AWS resources.
+		
+	Trusted Advisor:
+	
+		Trusted Advisor organizes its compliance alerts across five categories:
+			Cost Optimization - Identifies any resources that are running an costing you money but are either underutilized or inactive
+			
+			Performance - Identifies confiugration settings that might be blockign performance improvements.
+			
+			Security - Identifies any failures to use security best-practice configurations.
+			
+			Fault Tolerance - Identifies any running resources that, through poor configuration, are unnecessarily vulnerable to service disruptions.
+			
+			Service Limits - Identifies resource usage that's approaching AWS Region or service Limits.</rich_text>
+      <node name="Questions" unique_id="26" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709414896" ts_lastsave="1709415403">
+        <rich_text>1. C
+2. B
+3. D
+4. C
+5. B
+6. D X B The TAM is available only for Enterprise Support customers. The primary function is one of guidance and advocacy.
+7. A
+8. D
+9. C
+10. C
+11. C, A X CD
+12. D
+13. B
+14. A
+15. C
+16. A
+17. B
+18. B X A
+19. B, C X BD
+
+1/19</rich_text>
       </node>
     </node>
   </node>
