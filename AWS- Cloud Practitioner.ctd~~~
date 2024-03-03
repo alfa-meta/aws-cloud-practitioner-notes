@@ -1588,8 +1588,9 @@ Scalability and Elasticity:
 9/12 - 75% PASS</rich_text>
       </node>
     </node>
-    <node name="Chapter 2" unique_id="23" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709324770" ts_lastsave="1709411942">
-      <rich_text>Understanding Your AWS Account:
+    <node name="Chapter 2" unique_id="23" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709324770" ts_lastsave="1709465474">
+      <rich_text scale="h1">Chapter 2 - Understanding Your AWS Account:</rich_text>
+      <rich_text>
 
 The Free Tier:
 	
@@ -1648,8 +1649,9 @@ Billing and Cost Management:
 11.5/16 - FAIL</rich_text>
       </node>
     </node>
-    <node name="Chapter 3" unique_id="25" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709411942" ts_lastsave="1709414896">
-      <rich_text>Getting Support on AWS:
+    <node name="Chapter 3" unique_id="25" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709411942" ts_lastsave="1709465476">
+      <rich_text scale="h1">Chapter 3 - Getting Support on AWS:</rich_text>
+      <rich_text>
 
 	Basic Support Plan:
 		You are not paying anything beyond the regular costs of consuming AWS resources.
@@ -1699,27 +1701,67 @@ Billing and Cost Management:
 			Fault Tolerance - Identifies any running resources that, through poor configuration, are unnecessarily vulnerable to service disruptions.
 			
 			Service Limits - Identifies resource usage that's approaching AWS Region or service Limits.</rich_text>
-      <node name="Questions" unique_id="26" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709414896" ts_lastsave="1709415364">
+      <node name="Questions" unique_id="26" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709414896" ts_lastsave="1709415431">
         <rich_text>1. C
 2. B
 3. D
 4. C
 5. B
-6. D X B
+6. D X B The TAM is available only for Enterprise Support customers. The primary function is one of guidance and advocacy.
 7. A
 8. D
 9. C
 10. C
-11. C, A
+11. C, A X CD
 12. D
 13. B
 14. A
 15. C
 16. A
 17. B
-18. B
-19. B, C</rich_text>
+18. B X A
+19. B, C X BD
+
+16/19 - PASS</rich_text>
       </node>
+    </node>
+    <node name="Chapter 4" unique_id="27" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709465444" ts_lastsave="1709465914">
+      <rich_text scale="h1">Chapter 4 - Understanding the AWS Environment:</rich_text>
+      <rich_text>
+
+	AWS Global Infrastructure:
+		
+		Regionally Based Services:
+			Any individual instance is only hosted on one region at any given time.
+			
+		
+		Globally Based Services:
+		
+		
+		Service Endpoints:
+		
+		
+	Availability Zones:
+		
+		Availability Zone Designations:
+		
+		Availability Zone Networking:
+		
+		High Availability:
+		
+	
+	Edge Locations:
+	
+	Extending the Cloud:
+		
+		AWS Outposts:
+		
+		AWS Local Zones:
+		
+		AWS Wavelength:
+		
+	The AWS Shared Responsibility Model:
+	</rich_text>
     </node>
   </node>
   <node name="AWS CCP Practice Tests 2019" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>

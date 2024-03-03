@@ -1588,8 +1588,9 @@ Scalability and Elasticity:
 9/12 - 75% PASS</rich_text>
       </node>
     </node>
-    <node name="Chapter 2" unique_id="23" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709324770" ts_lastsave="1709411942">
-      <rich_text>Understanding Your AWS Account:
+    <node name="Chapter 2" unique_id="23" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709324770" ts_lastsave="1709465474">
+      <rich_text scale="h1">Chapter 2 - Understanding Your AWS Account:</rich_text>
+      <rich_text>
 
 The Free Tier:
 	
@@ -1648,8 +1649,9 @@ Billing and Cost Management:
 11.5/16 - FAIL</rich_text>
       </node>
     </node>
-    <node name="Chapter 3" unique_id="25" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709411942" ts_lastsave="1709414896">
-      <rich_text>Getting Support on AWS:
+    <node name="Chapter 3" unique_id="25" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709411942" ts_lastsave="1709465476">
+      <rich_text scale="h1">Chapter 3 - Getting Support on AWS:</rich_text>
+      <rich_text>
 
 	Basic Support Plan:
 		You are not paying anything beyond the regular costs of consuming AWS resources.
@@ -1722,6 +1724,46 @@ Billing and Cost Management:
 
 16/19 - PASS</rich_text>
       </node>
+    </node>
+    <node name="Chapter 4" unique_id="27" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709465444" ts_lastsave="1709466123">
+      <rich_text scale="h1">Chapter 4 - Understanding the AWS Environment:</rich_text>
+      <rich_text>
+
+	AWS Global Infrastructure:
+		
+		Regionally Based Services:
+			Any individual instance is only hosted on one region at any given time.
+		
+		Globally Based Services:
+			AWS Identity and Access Management (IAM) - is the service for managing access to your account via users, groups, roles and policies.
+			
+			Amazon CloudFront - is the content delivery network you can use to lower access latency for your application users by storing cached versions of frequently requested data at AWS edge locations.
+		
+		
+		Service Endpoints:
+		
+		
+	Availability Zones:
+		
+		Availability Zone Designations:
+		
+		Availability Zone Networking:
+		
+		High Availability:
+		
+	
+	Edge Locations:
+	
+	Extending the Cloud:
+		
+		AWS Outposts:
+		
+		AWS Local Zones:
+		
+		AWS Wavelength:
+		
+	The AWS Shared Responsibility Model:
+	</rich_text>
     </node>
   </node>
   <node name="AWS CCP Practice Tests 2019" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
