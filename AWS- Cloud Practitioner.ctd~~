@@ -1725,7 +1725,7 @@ Billing and Cost Management:
 16/19 - PASS</rich_text>
       </node>
     </node>
-    <node name="Chapter 4" unique_id="27" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709465444" ts_lastsave="1709466058">
+    <node name="Chapter 4" unique_id="27" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709465444" ts_lastsave="1709590446">
       <rich_text scale="h1">Chapter 4 - Understanding the AWS Environment:</rich_text>
       <rich_text>
 
@@ -1736,31 +1736,91 @@ Billing and Cost Management:
 		
 		Globally Based Services:
 			AWS Identity and Access Management (IAM) - is the service for managing access to your account via users, groups, roles and policies.
+			
+			Amazon CloudFront - is the content delivery network you can use to lower access latency for your application users by storing cached versions of frequently requested data at AWS edge locations.
 		
-		
-		Service Endpoints:
-		
+			Amazon S3 - is a global service
 		
 	Availability Zones:
 		
+		An AWS region encompasses at least two distinct availability Zones (AZ) connected to each other with low-latency network links.		
+		
 		Availability Zone Designations:
+			When launching an EC2 instance, you'll need to specify a network subnet associated with an AZ.
 		
 		Availability Zone Networking:
-		
-		High Availability:
-		
-	
+			AWS permits up to 200 subnets per AZ.
+
 	Edge Locations:
-	
+		Edge location - is a site where AWS deploys physical server infrastructure to provide low-latency user access to Amazon-based data.
+		
+		Amazon Route 53 - Amazon's Domain Name System (DNS) administration tool for managing domain name registration and traffic routing.
+		
+		AWS Shield - A managed service for countering the threat of distributed denial-of-service (DDoS) attacks against your AWS-based infrastructure.
+		
+		AWS Web Application Firewall (WAF) - A managed service for protecting web applications from web-based threats.
+		
+		Lambda@Edge - A tool designed to use the serverless power of Lambda to customize CloudFront Behaviour.		
+		
+		Regional Edge Cache - CloudFront served objects are maintained in edge location caches only as long as there's steady flow of requests.
+		
 	Extending the Cloud:
 		
-		AWS Outposts:
+		AWS Outposts - fully managed service that brings native AWS infrastructure and services to customers on-premises data centers or colocation facilities.
+			Allows customers to run AWS services, APIs, and tools locally, providing consistent hybrid cloud experience.
 		
-		AWS Local Zones:
+		AWS Local Zones - geographically distinct from AWS regions. Designed to serve specific cities or metropolitan areas with ultra-low latency access to services running in Local Zone data centers.
+			Covered services include - Elastic Compute Cloud, Elastic Block Store, Amazon File Storage.
 		
-		AWS Wavelength:
+		AWS Wavelength - also addresses the need for ultra-low latency and high-bandwidth connections to mobile devices and users. Using 5G Cellular network.
+			Allows edge-based machine learning applications and augmented reality or vr deployments.
 		
 	The AWS Shared Responsibility Model:
+		
+		Managed Resources:
+			RDS is partially managed since you dont need to patch it AWS does.
+			Elastic Beanstalk - hides all the runtime environment complexities and only leaves you with the applcation code.
+			
+		Unmanaged Resources:
+			EC2 - you are expected to care for the operating system and everything that's still running on it exactly the way you would for a physical server in your on-premises data center.</rich_text>
+      <node name="Questions" unique_id="28" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709589712" ts_lastsave="1709590414">
+        <rich_text>1. B
+2. D
+3. C X D EC2 instances will automatically launch into the region you currently have selected. You can manually select  the subnet that's associated with a particular availability zone for your new EC2 instance, but there is no default choice.
+4. A, C x B, D - Route 53 and Cloud front are truly global, ec2 and RDS can only exist in one region.
+5. C
+6. A, C x B, C - Lowest latency and compliance are the biggest benefits from AWS edge.
+7. C x A - Single computer for Host device.
+8. A x - Parallel, load-balanced instances in mutliple availability zones, not regions.
+9. D x
+10. C
+11. B
+12. D
+13. C
+14. A, C
+15. D
+16. B
+17. A, B
+18. C
+19. B x D - AWS Billing Dashboard is focused on your account billing issues.
+20. B
+
+13.5/20 - Fail</rich_text>
+      </node>
+    </node>
+    <node name="Chapter 5" unique_id="29" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709590446" ts_lastsave="1709590456">
+      <rich_text scale="h1">Securing Your AWS Resources:</rich_text>
+      <rich_text>
+
+	AWS Identity and Access Management:
+	
+		IAM Users:
+		
+		IAM Groups:
+		
+		I	
+	
+	Encryption:
 	</rich_text>
     </node>
   </node>
