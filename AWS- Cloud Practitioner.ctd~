@@ -1808,21 +1808,85 @@ Billing and Cost Management:
 13.5/20 - Fail</rich_text>
       </node>
     </node>
-    <node name="Chapter 5" unique_id="29" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709590446" ts_lastsave="1709590506">
+    <node name="Chapter 5" unique_id="29" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709590446" ts_lastsave="1709617225">
       <rich_text scale="h1">Securing Your AWS Resources:</rich_text>
       <rich_text>
+
+	Authentication - getting past the wall guarding your resources.
+	Authorization - What they are allowed to do once they are in.
+	
+	Root user best practices:
+		Create a complex password.
+		Implement Multifactor authentication.
+		Use IAM users for most administration.
+		
+	Authentication:
+		Opening a remote login session to a Linux instance on Elastic Compute Cloud (EC2) requires a valid key pair.
+		
+		Access Keys:
+			Programmatic and command-line access to many AWS resources is authenticated by access keys.
+			You can generate a new set of keys while logged into the AWS Management Console from the Security Credentials page.
+			
+		Secure Shell Key Pairs:
+			SSH protocol manages the encryption and decryption steps in the process as long as compatible keys are present at both ends of the connection.
+			
+			Generating SSH Key in EC2:
+				ssh -i keyname.pem ec2-user@&lt;public_ip_address_of_instance&gt;
+				
 
 	AWS Identity and Access Management:
 	
 		IAM Users:
-		
+			Create AdministratorAccess Policy User to replace root user for day-to-day administration.			
+			
 		IAM Groups:
+			Users inherit all the permissions of the group assigned.
 		
-		IAM Roles:
-	
+		IAM Roles:	
+			IAM Roles - define the limits for what can be done withint your AWS account.
+				Used by applications and services.
+				
+			When creating a role, you begin by defining a trusted entity that will be trusted to use the role.
+				Entities can be EC2 or a third party federated identity provider like Google or Amazon Cognito.
+				
+		Providing Federated Access:
+			You can integrate third-party standards like the Security Assertion Markup Language 2.0 (SAML)
+			
+		Credential Reports:
+			Reports contain important information about the state of your account security, listing all current IAM users and giving you key intelligence, such as when each of them last logged in.
 	
 	Encryption:
-	</rich_text>
+		Encryption keys are mostly managed by AWS by the AWS Key Management Service (KMS).
+		
+		Customer Master Key (CMK).
+		You can manage your Keys through KMS Dashboard.
+		Any data can be encrypted.
+	
+	Regulatory Compliance AWS Artifact - set of links to documents describing various regulatory standards and how AWS meets them.
+	
+	AWS Compliance - provides a set of tools, controls, and documentation to help customers assess, implement and maintain their compliance posture in the AWS cloud.
+		Provides automated assessments and continuous monitoring capabilities to help identify security vulnerabilities and deviations from best practices.
+	
+	Amazon Inspector - is a security assessment service that helps users identify security vulnerabilities and deviations from security best practices in their AWS resources
+	
+	Amazon GuardDuty
+	
+	AWS Secrets Manager
+	
+	Amazon Detective
+	
+	AWS Audit Manager
+	
+	AWS Cloud Hardware Security Module
+	
+	AWS Resource Access Manager (AWS RAM)
+	
+	AWS Security Hub </rich_text>
+      <node name="Questions" unique_id="32" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613646" ts_lastsave="1709613646"/>
+    </node>
+    <node name="Chapter 6" unique_id="30" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613613" ts_lastsave="1709613637">
+      <rich_text scale="h1">Working with Your AWS Resources:</rich_text>
+      <node name="Questions" unique_id="31" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613620" ts_lastsave="1709613620"/>
     </node>
   </node>
   <node name="AWS CCP Practice Tests 2019" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
