@@ -1909,8 +1909,46 @@ Billing and Cost Management:
 17/20 - PASS</rich_text>
       </node>
     </node>
-    <node name="Chapter 6" unique_id="30" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613613" ts_lastsave="1709613637">
+    <node name="Chapter 6" unique_id="30" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613613" ts_lastsave="1709701986">
       <rich_text scale="h1">Working with Your AWS Resources:</rich_text>
+      <rich_text>
+
+	The AWS Management Console:
+		AWS Management Console - is a web interface you can use to manage all of your AWS cloud resources using a web browser.
+		
+		To log in as an IAM user you need to enter your account ID or account alias and IAM username and Password.		
+		
+		Account Name Menu - in the navigation bar displays the IAM user and account alias or ID.
+			Opening the menu gives you the following options:
+				My Account
+				My Organization
+				My Security Credentials
+				Switch Roles
+				Sign Out		
+		
+		Resource Groups:
+			Resource Groups let you view, manage, and automate tasks on multiple AWS resources at a time.
+			
+			You can create a resource group from a query based on resource tags or from a CloudFormation stack.
+			
+			Resource Tags - optional metadata that you can assign to AWS resources. A tag must contain a label called a key and may optionally contain a value.
+			
+			AWS CloudFormation Stacks - lets you programmatically deploy and manage multiple AWS resources as a single unit called a stack.
+				You can click all resources in the stack or filter by resource type, such as EC2 instance, EC2 security group, or S3 bucket.
+		
+	CloudWatch:
+	
+	CloudTrail:
+	
+	Cost Explorer:
+	
+	AWS Config:
+	
+	AWS Control Tower:
+	
+	AWS License Manager:
+	
+	</rich_text>
       <node name="Questions" unique_id="31" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613620" ts_lastsave="1709613620"/>
     </node>
   </node>

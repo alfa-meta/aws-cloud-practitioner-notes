@@ -1884,7 +1884,7 @@ Billing and Cost Management:
 	AWS Security Hub - provides a comprehensive view of your security profile across all of your AWS accounts.
 	
 	</rich_text>
-      <node name="Questions" unique_id="32" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613646" ts_lastsave="1709620493">
+      <node name="Questions" unique_id="32" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613646" ts_lastsave="1709620522">
         <rich_text>1. A
 2. A, B, D
 3. C, D
@@ -1901,16 +1901,53 @@ Billing and Cost Management:
 14. B
 15. D X C - iN TRANSIT ENCRYPTION REQUIRES that the data be encrypted on the remote client before uploading.
 16. A
-17. B X D
+17. B X D - client-side master key is used to encrypt objects before they reach AWS.
 18. C
-19. D X B
+19. D X B - SOC reports are reports of audits on AWS infrastructure that you an use as part of your own reporting requirements.
 20. A, B
 
 17/20 - PASS</rich_text>
       </node>
     </node>
-    <node name="Chapter 6" unique_id="30" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613613" ts_lastsave="1709613637">
+    <node name="Chapter 6" unique_id="30" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613613" ts_lastsave="1709701830">
       <rich_text scale="h1">Working with Your AWS Resources:</rich_text>
+      <rich_text>
+
+	The AWS Management Console:
+		AWS Management Console - is a web interface you can use to manage all of your AWS cloud resources using a web browser.
+		
+		To log in as an IAM user you need to enter your account ID or account alias and IAM username and Password.		
+		
+		Account Name Menu - in the navigation bar displays the IAM user and account alias or ID.
+			Opening the menu gives you the following options:
+				My Account
+				My Organization
+				My Security Credentials
+				Switch Roles
+				Sign Out		
+		
+		Resource Groups:
+			Resource Groups let you view, manage, and automate tasks on multiple AWS resources at a time.
+			
+			You can create a resource group from a query based on resource tags or from a CloudFormation stack.
+			
+			Resource Tags -optional 
+			
+			AWS CloudFormation Stacks -
+		
+	CloudWatch:
+	
+	CloudTrail:
+	
+	Cost Explorer:
+	
+	AWS Config:
+	
+	AWS Control Tower:
+	
+	AWS License Manager:
+	
+	</rich_text>
       <node name="Questions" unique_id="31" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613620" ts_lastsave="1709613620"/>
     </node>
   </node>
