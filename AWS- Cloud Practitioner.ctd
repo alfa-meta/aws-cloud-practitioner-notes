@@ -1909,7 +1909,7 @@ Billing and Cost Management:
 17/20 - PASS</rich_text>
       </node>
     </node>
-    <node name="Chapter 6" unique_id="30" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613613" ts_lastsave="1709793505">
+    <node name="Chapter 6" unique_id="30" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613613" ts_lastsave="1710004450">
       <rich_text scale="h1">Working with Your AWS Resources:</rich_text>
       <rich_text>
 
@@ -1967,20 +1967,86 @@ Billing and Cost Management:
 		
 		CloudWatch Alarms - watches over the value of a single metric. If the metric crosses a threshold that you specify and stays tehre, the alarm will take action.
 		
-		CloudWatch Events - 
+		CloudWatch Events - feature lets you continuously monitor for specific events that represent a change in your AWS resources--particularly write-only API operations.
+			Take action in real time. 
 	
 	CloudTrail:
+		Cloud Trail keeps detailed logs of every action that occurs against your AWS resources.
+		
+		Each event that CloudTrail logs includes the following parameters:
+			The service.
+			The name of the API action performed. Such as PutObject.
+			The region the resource is located in.
+			Response elements.
+			The principal that made the request. Such as IAM user, ARN, and the name.
+			Date and time of the request given in UTC
+			The IP address of the requester.
+			
+		CloudTrail logs consist of two different actions: API and non-API actions.
+			API actions include things such as launching an instance, creating an S3 bucket, creating a new IAM user.
+			
+			Non-API actions include everything else, such as logging into a management console.
 	
+		Management Events (Control plane operations) -  Write-only events or Read only events.
+		
+		Data Events - consist of S3 object-level activity and Lambda function executions.
+			Draws a distinction between read-only and write-only events.
+		
+		CloudTrail stores 90 days of management events in the Event History.
+	
+		Trail - a configuration that directs CloudTrail to record specific events in log files and deliver them to an s3 bucket.
+		
+		
 	Cost Explorer:
+		Cost Explorer - is a feature of AWS Billing and Cost Managemetn that offers configurable reports and graphs.
 	
-	AWS Config:
+	AWS Config - tracks the configuration state of you AWS resources at a given point in time.
+		
+		AWS Config can help you with:
+			Security
+			Easy Audit Reports
+			Troubleshooting
+			Change Management
 	
-	AWS Control Tower:
-	
-	AWS License Manager:
+	AWS Control Tower - streamlines the onboarding of new accounts, automatically applying your organization's governance policies and incorporating them into your cloud infrastructure.
+		
+	AWS License Manager - is a service that helps you manage your software licenses.
 	
 	</rich_text>
-      <node name="Questions" unique_id="31" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613620" ts_lastsave="1709613620"/>
+      <node name="Questions" unique_id="31" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709613620" ts_lastsave="1710004419">
+        <rich_text>1. C X D
+2. B
+3. A
+4. C
+5. A
+6. A, D
+7. B
+8. C
+9. B, D, E
+10. A, B
+11. A, B
+12. A, B
+13. B
+14. D
+15. A, D X AC
+16. A, D X CD
+17. C, D X BD
+18. A
+19. C, D X AD
+20. D X B
+21. D
+22. D X A
+23. B
+24. C X D
+
+18/24 - Pass</rich_text>
+      </node>
+    </node>
+    <node name="Chapter 7" unique_id="33" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710004450" ts_lastsave="1710004462">
+      <rich_text scale="h1">Chapter 7 - The Core Compute Services:</rich_text>
+      <rich_text>
+
+</rich_text>
     </node>
   </node>
   <node name="AWS CCP Practice Tests 2019" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
