@@ -2042,11 +2042,70 @@ Billing and Cost Management:
 18/24 - Pass</rich_text>
       </node>
     </node>
-    <node name="Chapter 7" unique_id="33" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710004450" ts_lastsave="1710004462">
+    <node name="Chapter 7" unique_id="33" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710004450" ts_lastsave="1710306500">
       <rich_text scale="h1">Chapter 7 - The Core Compute Services:</rich_text>
       <rich_text>
 
+	In EC2 a virtual server is known as an instance.
+	
 </rich_text>
+      <rich_text scale="h2">	Amazon Machine Images:</rich_text>
+      <rich_text>
+		Image - is a software bundle that was buuilt from a template definition and made available within a single AWS Region.
+		
+		
+		It is possible to convert any EC2 instance into an AMI by creating a snapshot from the EBS volume.
+		
+		Dedicated instance is a regular EC2 that, instead of sharing a physical host with other AWS customers, runs on an isolated host for the customer.
+		
+	
+	Server Storage:
+		
+</rich_text>
+      <rich_text scale="h2">	Amazon Elastic Block Store:</rich_text>
+      <rich_text>
+			EBS speaks to your instance over a super low-latency network connection spanning the data center.
+			
+			EBS Store survives shutdowns and system crashes.
+			EBS volumes can be encrypted.
+			EBS volumes can be moved around, mounter on other instances, and converted to AMI's.
+		
+</rich_text>
+      <rich_text scale="h2">	Amazon EC2 Instance Store Volumes:</rich_text>
+      <rich_text>
+			Instance types compatible with Instance Store Volumes can enjoy having their data on physical drives attached directly to the Physical instance server.
+			Fast data reads and writes.
+			Negatives - Ephemeral data, no encryption and lack of flexibility.
+			
+</rich_text>
+      <rich_text scale="h2">	EC2 Pricing Models:</rich_text>
+      <rich_text>
+		
+		On-Demand Instances - the most expensive pricing tier is on-demand.
+			You pay for every hour the instance is running regardless of whether your're actually using it.
+			
+			Great for workloads that need to run for a limited time without interruption. 
+		
+		Reserved Instances - used for applications can need to be ran uninterrupted for more than a month at a time.
+			Usually reserved instances work with 1-3 year reservations.
+			
+		Spot Instances - for workloads that don't need to run constantly and can survive unexpected shutdowns.
+			
+	</rich_text>
+      <rich_text scale="h2">Managed Services:</rich_text>
+      <rich_text>
+	
+		Amazon Lightsail:
+		
+		Elastic Beanstalk:
+	
+</rich_text>
+      <rich_text scale="h2">	Serverless Workloads:</rich_text>
+      <rich_text>
+		
+		Containers:
+		
+		Serverless Functions:</rich_text>
     </node>
   </node>
   <node name="AWS CCP Practice Tests 2019" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
