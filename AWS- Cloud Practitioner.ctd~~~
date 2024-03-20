@@ -2042,7 +2042,7 @@ Billing and Cost Management:
 18/24 - Pass</rich_text>
       </node>
     </node>
-    <node name="Chapter 7" unique_id="33" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710004450" ts_lastsave="1710306381">
+    <node name="Chapter 7" unique_id="33" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710004450" ts_lastsave="1710910558">
       <rich_text scale="h1">Chapter 7 - The Core Compute Services:</rich_text>
       <rich_text>
 
@@ -2089,22 +2089,43 @@ Billing and Cost Management:
 		Reserved Instances - used for applications can need to be ran uninterrupted for more than a month at a time.
 			Usually reserved instances work with 1-3 year reservations.
 			
+		Spot Instances - for workloads that don't need to run constantly and can survive unexpected shutdowns.
 			
 	</rich_text>
       <rich_text scale="h2">Managed Services:</rich_text>
       <rich_text>
 	
-		Amazon Lightsail:
+		Amazon Lightsail - offers blueprints, when launched, will automatically provision all the compute, storage, database, and network resources needed to make your deployments work.
 		
-		Elastic Beanstalk:
+		Elastic Beanstalk - definen the application platform and then upload your code to be provisioned automatically by AWS.
+		
 	
 </rich_text>
       <rich_text scale="h2">	Serverless Workloads:</rich_text>
       <rich_text>
 		
-		Containers:
-		
-		Serverless Functions:</rich_text>
+		Serverless Functions - a compute function that has a timeout of 15 minutes and only uses the resources it needs.</rich_text>
+      <node name="Questions" unique_id="34" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710910558" ts_lastsave="1710911028">
+        <rich_text>1. C
+2. A
+3. B, C
+4. A, C
+5. D
+6. B
+7. C
+8. C, D
+9. B
+10. D
+11. B
+12. A, C
+13. C, D
+14. A
+15. C, D
+16. B, C
+17. A, C
+18. A. B
+19. </rich_text>
+      </node>
     </node>
   </node>
   <node name="AWS CCP Practice Tests 2019" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
