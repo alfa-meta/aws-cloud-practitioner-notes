@@ -2130,7 +2130,7 @@ Billing and Cost Management:
 16.5/20 - PASS</rich_text>
       </node>
     </node>
-    <node unique_id="35" master_id="0" name="Chapter 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711201514" ts_lastsave="1711203177">
+    <node unique_id="35" master_id="0" name="Chapter 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711201514" ts_lastsave="1711203174">
       <rich_text scale="h1">Chapter 8 - The Core Storage Services:</rich_text>
       <rich_text>
 
@@ -2197,9 +2197,7 @@ Billing and Cost Management:
 		Snowball data is always encrypted at rest.			
 
 		AWS Snowball Edge - faster network speeds than Snowball. Designed to only transfer data from a local environment to S3.
-			Local storage of S3 buckets.
-			Compute power for Ec2 instances and Lambda functions locally.
-			
+			Local Ss
 
 		AWS Snowmobile -
 
