@@ -2130,7 +2130,7 @@ Billing and Cost Management:
 16.5/20 - PASS</rich_text>
       </node>
     </node>
-    <node unique_id="35" master_id="0" name="Chapter 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711201514" ts_lastsave="1711203177">
+    <node unique_id="35" master_id="0" name="Chapter 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711201514" ts_lastsave="1711336842">
       <rich_text scale="h1">Chapter 8 - The Core Storage Services:</rich_text>
       <rich_text>
 
@@ -2172,14 +2172,43 @@ Billing and Cost Management:
 		User Policy - allows you to use IAM policies to grant IAM principals access to S3 objects.
 		
 		Bucket and Object Access Control Lists - you can use ACLs to grant other AWS Accounts and anonymous users access to your S3 resources.
+		
+		Encryption:
+			Server-side encryption: When you create an object, S3 encrytps the object and saves only the encrypted content.
+			Client-side encryption: You encrypt the data prior to uploading it to S3.
 
+		Versioning - if you upload an object with the same name the current object and the original object will be saved.
+		
+		Object Life-Cycle Configurations:
+			Transition Actions - move objects to a different storage class once they've reached a certain age.
+			
+			Expiration Actions - these can automatically delete objects after they reach a certain age.
+			
+		
 </rich_text>
       <rich_text scale="h1">	S3 Glacier:</rich_text>
       <rich_text>
+		
+		S3 Glacier - offers long-term archiving of infrequently accessed data at an incredibly low cost.
+			You store one or more files in an archive, which is a block of information.
+			Archive size is 40 TB.
+			Vault is a region-specific container.
 
 </rich_text>
       <rich_text scale="h1">	AWS Storage Gateway:</rich_text>
       <rich_text>
+	
+		AWS Storage Gateway - makes it easy to connect your existing on-premises servers to storage in the AWS Cloud.
+	
+		File Gateways - allows you to use Network File System (NFS) and Server Message Block (SMB) protocols to store data in Amazon S3.
+		
+		Volume Gateways - offer S3-backed storage volumes that your on-premises servers can use via the Internet Small Computer System Interface (iSCSI) protocol. VG supports 2 configurations:
+			Stored Volumes - stores all data locally and asynchronously backs it up to s3 as elastic block store snapshots.
+			
+			Cached Volumes - stores all your dat on S3, and only a frequently used subset of that data is cached locally. Cached volume can be from 1GB to 32 TB in size.
+		
+		Tape Gateways - mimics traditional tape backup infrastructure.
+			Stores virtual tapes in a virtual tape library (VTL) backed by S3.
 
 </rich_text>
       <rich_text scale="h1">	AWS Snow Family:</rich_text>
@@ -2195,19 +2224,58 @@ Billing and Cost Management:
 		Largest 80 TB Snowball device costs $250 dollars to use and can store up to 72TB.
 		
 		Snowball data is always encrypted at rest.			
-
+		
+		Snowball is contained in a rugged, tamper-resistant enclosure.
+		Includes a TPM chip.		
+		
 		AWS Snowball Edge - faster network speeds than Snowball. Designed to only transfer data from a local environment to S3.
 			Local storage of S3 buckets.
 			Compute power for Ec2 instances and Lambda functions locally.
 			
-
-		AWS Snowmobile -
+	
+		AWS Snowmobile - is a 45-foot-long waterproof and tamper resitant shipping container meant for petabyte or exabyte data migrations.
 
 </rich_text>
       <rich_text scale="h1">	Other Storage-Related Services:</rich_text>
       <rich_text>
 
-		Amazon FSx - </rich_text>
+		AWS Transfer Family - allows you to transfer data into and out of S3 and EFS using three time-tested familiar protocols:
+			File Transfer Protocol (FTP)
+			Secure Shell (SSH) File Transfer Protocol (SFTP)
+			File Transfer Protocol over SSL (FTPS)
+
+		Amazon FSx - allows you to store and retrieve files in the AWS cloud using common, industry standard file sharing protocols.
+		
+		AWS Elastic Disaster Recovery - Enables point-in-time recovery of your cloud-based applications.
+			You install the AWS replication agent on the servers you want to back up and the DRS backs up everything automatically.
+			
+		Failing Over - the process of gettings things back up and running when your source servers go down.
+		
+		Failing Back - when its time to put your operations back to original servers that failed.</rich_text>
+      <node unique_id="36" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711336842" ts_lastsave="1711337517">
+        <rich_text>1. B
+2. B, C X A, C
+3. B, D X A, D
+4. B, D, E X A, B D
+5. B X A, B
+6. C, D 
+7. C X B
+8. B X D
+9. A
+10. A, D X B, D
+11. B
+12. A, C, E, F X A, B , D , E
+13. A, B, C X A, C, E
+14. C
+15. B, D X A, B
+16. C
+17. A X B
+18. C, D X B, D
+19. B
+20. A X B
+
+11.33 / 20 FAIL</rich_text>
+      </node>
     </node>
   </node>
   <node unique_id="13" master_id="0" name="AWS CCP Practice Tests 2019" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
