@@ -2130,7 +2130,7 @@ Billing and Cost Management:
 16.5/20 - PASS</rich_text>
       </node>
     </node>
-    <node unique_id="35" master_id="0" name="Chapter 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711201514" ts_lastsave="1711336842">
+    <node unique_id="35" master_id="0" name="Chapter 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711201514" ts_lastsave="1711339935">
       <rich_text scale="h1">Chapter 8 - The Core Storage Services:</rich_text>
       <rich_text>
 
@@ -2252,7 +2252,7 @@ Billing and Cost Management:
 		Failing Over - the process of gettings things back up and running when your source servers go down.
 		
 		Failing Back - when its time to put your operations back to original servers that failed.</rich_text>
-      <node unique_id="36" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711336842" ts_lastsave="1711337484">
+      <node unique_id="36" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711336842" ts_lastsave="1711337517">
         <rich_text>1. B
 2. B, C X A, C
 3. B, D X A, D
@@ -2274,8 +2274,43 @@ Billing and Cost Management:
 19. B
 20. A X B
 
-.83</rich_text>
+11.33 / 20 FAIL</rich_text>
       </node>
+    </node>
+    <node unique_id="37" master_id="0" name="Chapter 9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711339935" ts_lastsave="1711341783">
+      <rich_text scale="h1">Chapter 9 The Core Database Services:</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text scale="h2">Database Models:</rich_text>
+      <rich_text>
+
+	Relational Databases - attribute and record storage system where data is stored in tables of rows and collumns.
+		Each row is unique.
+		
+	SQL - you can create databases and tables to read and write data to. You can also perform tuning and maintenance tasks.
+	
+	Nonrelational (No-SQL) Databases:
+		NoSQL - were developed to provide a fast alternative for applications that need to perform tens of thousands of reads or writes per second.
+		
+		Amazon ElastiCache -  
+		
+		Amazon MemoryDB - 
+
+</rich_text>
+      <rich_text scale="h2">Amazon Relational Database Service:</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text scale="h2">DynamoDB:</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text scale="h2">Amazon Redshift:</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text scale="h2">Amazon Analytics:</rich_text>
     </node>
   </node>
   <node unique_id="13" master_id="0" name="AWS CCP Practice Tests 2019" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
