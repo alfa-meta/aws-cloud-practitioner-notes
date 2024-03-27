@@ -2277,7 +2277,7 @@ Billing and Cost Management:
 11.33 / 20 FAIL</rich_text>
       </node>
     </node>
-    <node unique_id="37" master_id="0" name="Chapter 9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711339935" ts_lastsave="1711341783">
+    <node unique_id="37" master_id="0" name="Chapter 9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711339935" ts_lastsave="1711576229">
       <rich_text scale="h1">Chapter 9 The Core Database Services:</rich_text>
       <rich_text>
 
@@ -2293,17 +2293,106 @@ Billing and Cost Management:
 	Nonrelational (No-SQL) Databases:
 		NoSQL - were developed to provide a fast alternative for applications that need to perform tens of thousands of reads or writes per second.
 		
-		Amazon ElastiCache -  
+		Amazon ElastiCache - frequently accessed database storage solution.
+			Can be used with Memcached or Redis. 
 		
-		Amazon MemoryDB - 
+		Amazon MemoryDB - is a full-fledged redis database that provides persistent, nonrelational database storage and caching.
 
 </rich_text>
       <rich_text scale="h2">Amazon Relational Database Service:</rich_text>
       <rich_text>
+	RDS - is Amazon's managed relational database service.
+		RDS allows you to provision - Microsoft SQL Server, MySQL, and PostgreSQL.
+		RDS allows you to connect to a VPC of your choice.
+		RDS uses Elastic Block Service (EBS) volumes for storage.
+		
+	MultiAvailability zone (multi-AZ) - has database instances in multiple availability zones.
+	
+	Database Engines:
+		RDBMS choices to be installed on your instance.
+		Examples include -- MySQL, MariaDB, Oracle, PostgreSQL, Microsoft SQL Server, Amazon Aurora.
+		
+	Licensing:
+		License Included - pricing is included in the pricing for each RDS instance.
+		
+		Bring Your Own License - you must provide your own license to operate the database engine.
+		
+	Instance Class:
+		When you deploy RDS you must choose a database instance class that defines the number of virtual CPUs.
+		
+	Standard Instance Class:
+		Between 2 and 96 vCPU
+		8-384 GB Memory
+	
+	Memory Optimized Instance Class:
+		For most demanding database requirements.
+		Most disk throughput and network bandwidth.
+		4 to 128 vCPUS
+		122 - 3,904 GB Memory.
+	
+	Burstable Performance Instance Class:
+		Designed for test and dev environments.
+		Lowest network bandwidth and disk throughput.
+		2 and 8 vCPUs
+		1-32 GB memory
+		
+	Scaling Vertically - making an instance more powerful.
+	
+	Input/Output operations per second (IOPS) define how fast you can read and write to a volume.
+	New RDS instances use EBS volumes
+	
+	RDS provides three types of Storage:
+		
+		General-Purpose SSD - 
+			Volumes between 20GB and 32 TB
+			IOPS depend on how much storage you allocate.
+		
+		Provisioned IOPS SSD - allows you to specify the exact number of IOPS that you want to allocate per volume.
+			Up to 32 TB.
+			Maximum number of IOPS must be decided before provisioning.
+			
+		
+		Magnetic - legacy storage for backwards compatibility.
+			Does not use EBS.
+			Limited to 4TB and 1,000 IOPS.
+			Can increase, cannot decrease in storage size.
+			Migration causes an outage.
+			Migrating from magnetic to EBS can take up to several days.
+			
+	Read Replica - an RDS instance that only reads from the database.
+	In a relational database, only the master database instance can write to the database.
+	
+	High Availability with Multi-AZ:
+		Multi-AZ creates an additional RDS isntance called a standby database instance.
+		It runs in a different availability zone than your primary database.
+		RDS automatically fails over to the secondary db.
+		Failover can result in an outage of up to two minutes,
+		
+		With AZ you can expect a monthly availability of 99.95%
+		AZ can be used with Aurora which is used with RDS.
+		Aurora Cluster can be used with RDS it allows for synchronously replicated shared storage volume across three different availability zones.
+		
+	Backup and Recovery:
+		Snapshots of manual or EBS of your instances are stored across multiple availability zones.
+		Snapshots can be used to create copies of your RDS instances.
+		
+		Snapshots enable point-in-time recovery.
+		
+	Determining Your Recovery Point Objecting:
+		Recovery Point Objective (RPO) - is the data loss that you can sustain in the event of a failure.
+		1 hour of tolerated data loss is RPO of 1 hour.
+		
+	Migrating Data to Your Database:
+		
+		AWS Database Migration Service (AWS DMS) - supports migrating Microsoft SQL Server and Oracle databases to Aurora MySQL, MySQL, Aurora PostgreSQL, and PostgreSQL databases.
+		
+		AWS Schema Conversion Tool (SCT) - is a locally downloadable program on Windows or Linux.
+			SCT can convert IBM DB2 or Oracle databases to Aurora MySQL, MySQL, Aurora PostgreSQL, or PostgreSQL,
 
 </rich_text>
       <rich_text scale="h2">DynamoDB:</rich_text>
       <rich_text>
+	DynamoDb - is Amazon's managed nonrelational database service.
 
 </rich_text>
       <rich_text scale="h2">Amazon Redshift:</rich_text>
