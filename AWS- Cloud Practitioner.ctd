@@ -2277,7 +2277,7 @@ Billing and Cost Management:
 11.33 / 20 FAIL</rich_text>
       </node>
     </node>
-    <node unique_id="37" master_id="0" name="Chapter 9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711339935" ts_lastsave="1711576263">
+    <node unique_id="37" master_id="0" name="Chapter 9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711339935" ts_lastsave="1711665301">
       <rich_text scale="h1">Chapter 9 The Core Database Services:</rich_text>
       <rich_text>
 
@@ -2393,13 +2393,100 @@ Billing and Cost Management:
       <rich_text scale="h2">DynamoDB:</rich_text>
       <rich_text>
 	DynamoDb - is Amazon's managed nonrelational database service, for highly transactional applications that need to read from or write to a database tens of thousands of times a second.
+	
+	Basic unit of DynamoDb is an item - row or record in a relational database.
+	Each DynamoDB table is stored across one or more partitions.
+	
+	Each item must have a unique value for the primary key.
+	Each item can store up to 400KB of data.
+	
+	Each attribute must have a defined data type, which can be one of the following:
+		Scalar - has only one value and can be a string, a number, binary data, or a Boolean value.
+		
+		Set - data type can have multiple scalar values, but each value must be unique within the set.
+		
+		Document - (List or Map) can store valeus of any type.
+			List - ordered.
+			Map - unordered
+			
+			Documents store IAM policies using JSON.
+			
+	WCU - write capacity units.
+	RCU - read capacity units.
+			
 
 </rich_text>
       <rich_text scale="h2">Amazon Redshift:</rich_text>
       <rich_text>
+	Amazon Redshift - is a specialized type of managed relational database called a data warehouse.
+		Data warehouses store large amounts of structured data from other relational databases and perform complex queries and analysis against that data.		
+		
+		Dense compute nodes can store up to 326 TB of data on SSDs.
+		Dense storage nodes can store up to 2 PB of data on magnetic disks.
+		
+		Redshift spectrum allows you to analyze data stored in S3.
 
 </rich_text>
       <rich_text scale="h2">Amazon Analytics:</rich_text>
+      <rich_text>
+
+	Amazon Kinesis - is a collection of services that let you collect, process, store, and deliver streaming data.
+		Can perform real-time ingestion of gigabytes per second from thousands of soruces.
+		
+		Kinesis Video Streams - designed to ingest and index almost unlimited amounts of streaming video data.
+			Producer-consumer model.
+			Data source is a producer.
+			Automatic timestamps.
+		
+		Kinesis Data Streams - is a data pipeline that can aggregate, buffer, reliably store data from producers until a consumer is ready to process it.
+			Similar to Kinesis Video Steams.
+			Multiple consumers can read from a stream concurrently, a process called fan-out.
+			
+		
+		Kinesis Data Firehose - can ingest streaming data and transform it before sending it to a destination.
+			Firehose can send a copy of your untransformed data to an S3 bucket for safekeeping.
+		
+		Kinesis Data Analytics - allows you to create custom applications to process and analyze streaming data.
+			Uses apache flink on the backend.		
+		
+		
+	Amazon Managed Streaming for Apache Kafka (Amazon MSK) - free and open source alternative to Kinesis used as a streaming data platform. 
+	
+	Amazon Elastic MapReduce - is a service that allows you to run a variety of big data framework clusters in the cloud.
+		Apache Hadoop
+		Apache Spark
+		Apache Flink
+		Apache Presto
+		TensorFlow
+			
+	Amazon OpenSearch Service - is an open source fork of the popular ElasticSearch search engine. Full-text search about any text, including web pages, data lakes and log files.
+	
+	AWS Data Exchange - massive repository of third-party datasets covering things like weather, healthcare, financial, retail and government data.
+		Datasets are delivered in S3 buckets.</rich_text>
+      <node unique_id="38" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711665301" ts_lastsave="1711665930">
+        <rich_text>1. B
+2. B
+3. D
+4. C
+5. A X B
+6. B, D
+7. B, E x A, B Aurora works with MySQL and PostgreSQL
+8. A, B x B, C
+9. B
+10. B X A
+11. C, D X B, D
+12. B X A
+13. D
+14. B, C X C, E
+15. B X C
+16. D
+17. C X B
+18. A
+19. B
+20. A
+
+13 / 20 fail</rich_text>
+      </node>
     </node>
   </node>
   <node unique_id="13" master_id="0" name="AWS CCP Practice Tests 2019" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
