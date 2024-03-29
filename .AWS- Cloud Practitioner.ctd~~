@@ -2488,7 +2488,7 @@ Billing and Cost Management:
 13 / 20 fail</rich_text>
       </node>
     </node>
-    <node unique_id="39" master_id="0" name="Chapter 10" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711665968" ts_lastsave="1711754678">
+    <node unique_id="39" master_id="0" name="Chapter 10" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711665968" ts_lastsave="1711755215">
       <rich_text scale="h1">The Core Networking Services:</rich_text>
       <rich_text>
 
@@ -2588,7 +2588,7 @@ Billing and Cost Management:
 				
 				Real-Time Messaging Protocol (RMTP) - delivers streaming video or audio content to end users.
 					Stored in S3.</rich_text>
-      <node unique_id="40" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711754678" ts_lastsave="1711755074">
+      <node unique_id="40" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711754678" ts_lastsave="1711755158">
         <rich_text>1. A, D X B, D
 2. A
 3. A, B X B, C
@@ -2608,8 +2608,55 @@ Billing and Cost Management:
 17. C XB 
 18. A
 19. B
-20. A, D</rich_text>
+20. A, D X A, B
+
+
+13.5 / 20 - Fail</rich_text>
       </node>
+    </node>
+    <node unique_id="41" master_id="0" name="Chapter 11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711755215" ts_lastsave="1711756046">
+      <rich_text scale="h1">Automating Your AWS Workloads:</rich_text>
+      <rich_text>
+
+	Automation:
+	
+		Imperative Approach - specific step-by-step operations required to carry out a task. 
+			Examples scripting.
+	
+		Declarative Approach - you write code that declares the desired result of the task, rather than how to carry it out.	
+		
+		Infrastructure as Code:
+			CloudFormation - lets you automate the building and configuration of your AWS resources.
+			
+			AWS Developer Tools of CodeCommit, CodeBuild, CodeDeploy, and Code Pipeline - automates the testing, building, and deployment of applciations to EC2 and on-premises instances.
+			
+			EC2 Auto Scaling - automatically launches, configures, and terminates EC2 instances as needed to meet fluctuating demand.
+			
+			Systems Manager - automates common operational tasks, such as patching instances and backing up Elastic Block Store (EBS) volumes.
+			
+			OpsWorks - a collection of three different offerings that help automate instance configuration and application deployements using the popular Chef and Puppet configuration managemetn platforms.
+	
+	CloudFormation:
+		CloudFormation - automatically creates and configures your AWS infrastructure from code that defines the resources you want it to create and how you want those resources configured.
+	
+		Templates - text files that define your resources in CloudFormation.
+			Can be written in JSON or YAML.
+			
+		Stacks - is a container that organizes the resources described in the template.
+			To provision resources from a template you must specify a stack name.
+			Purpose is to collectively manage related resources.
+			Deleted stack == Deleted resources.
+			
+			
+	
+	
+	AWS Developer Tools:
+	
+	EC2 Auto Scaling:
+	
+	Configuration Management:
+	
+	</rich_text>
     </node>
   </node>
   <node unique_id="13" master_id="0" name="AWS CCP Practice Tests 2019" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
