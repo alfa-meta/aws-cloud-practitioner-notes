@@ -2277,7 +2277,7 @@ Billing and Cost Management:
 11.33 / 20 FAIL</rich_text>
       </node>
     </node>
-    <node unique_id="37" master_id="0" name="Chapter 9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711339935" ts_lastsave="1711665301">
+    <node unique_id="37" master_id="0" name="Chapter 9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711339935" ts_lastsave="1711665968">
       <rich_text scale="h1">Chapter 9 The Core Database Services:</rich_text>
       <rich_text>
 
@@ -2463,7 +2463,7 @@ Billing and Cost Management:
 	
 	AWS Data Exchange - massive repository of third-party datasets covering things like weather, healthcare, financial, retail and government data.
 		Datasets are delivered in S3 buckets.</rich_text>
-      <node unique_id="38" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711665301" ts_lastsave="1711665925">
+      <node unique_id="38" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711665301" ts_lastsave="1711665930">
         <rich_text>1. B
 2. B
 3. D
@@ -2485,7 +2485,133 @@ Billing and Cost Management:
 19. B
 20. A
 
-13 / 20 fAIL</rich_text>
+13 / 20 fail</rich_text>
+      </node>
+    </node>
+    <node unique_id="39" master_id="0" name="Chapter 10" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711665968" ts_lastsave="1711754678">
+      <rich_text scale="h1">The Core Networking Services:</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text scale="h2">	Virtual Private Cloud:</rich_text>
+      <rich_text>
+		Amazon Virtual Private Cloud (VPC) - virtual network in the AWs cloud that's logically isolated from other networks.
+			Provides the network backbone for many AWS services.
+			Amazon creates a default VPC in each region.	
+			
+		VPC CIDR Blocks:
+			Classless Inter-Domain Routing (CIDR) - defines the range of IPv4 addresses that the resources within the VPC can use.
+			You must choose a CIDR size between /16 and /28.
+			
+			
+		VPC is a subset of an Availability zone which is a subset of a Subnet which contains an EC2 Instance.
+		VPC -&gt; Availibility Zone -&gt; Subnet -&gt; EC2 Instance.
+		
+		Subnets - provides logical separation and isolation of resources within the same VPC.
+		
+		Internet Gateway - is a VPC resoruce that allows EC2 instances to obtain a public IP address and access the Internet.
+			For instances in a subnet to have Internet access, that subnet must contain a defautl route to the Internet gateway that's attached to the VPC.
+			
+		Security Groups - is a firewall that determines what network traffic can pass into and out of an instance.
+			Each instance must have at least one security group attached.
+		
+		Network Access Control Lists - is a firewall that operates at the subnet level.
+			NACL consists of inbound and outbound rules that, by default, allow all traffic.
+			
+		VPC Peering - is a private connection, point-point connection between only two VPCs.
+			No internet access.
+			Can be used in the same region or in different regions.
+		
+	
+</rich_text>
+      <rich_text scale="h2">	Virtual Private Networks:</rich_text>
+      <rich_text>
+		Virtual Private Network (VPN) - allows you to connect a VPC to an external network such as a data center or office via a secure connection that traverses the public Internet.
+			Single VPC can have up to 10 VPN connections.
+	
+		Direct Connect - provides network connectivity to your VPC and public services such as Amazon S3 and Glacier.
+			Hosted Connection comes in 50, 100, 200, 300, 400 and 500 Mbps.
+		
+		AWS Global Accelerator - gives you two anycast static IPv4 addresses taht you can use to route traffic to resources in any region.
+			Global Accelerator listener receives the connection, and then proxies it to an endpoint of your choice, which can be an elastic IP address, elastic load balancer, or EC2 instance.
+		
+		AWS Network Firewall - is a scalable firewall that can protect multiple VPCs and subnets, even across different AWS accounts.
+		
+		AWS Firewall Manager - one-stop shop for configuring and applying a consistent set of security rules across your AWS organizations.
+		
+		AWS Web Application Firewall (WAF) - monitors HTTP and HTTPS requests to an application load balancer or CloudFront distribution.
+			Protects from DDoS and unauthorized access.
+			Can block traffic based on source IP address patterns or geographic location.
+		
+</rich_text>
+      <rich_text scale="h2">	Route 53:</rich_text>
+      <rich_text>
+		Amazon's global Domain Name System (DNS) service.
+		Route 53's primary purpose iss to translate human-readable domain names into IP addresses.
+	
+		DNS Routing Policies:
+			Simple - default for new resource records. Lets you map a domain name to a single static value such as an IP address.
+			
+			Weighted - distributes traffic across multiple resurces according to a ratio.
+			
+			Latency - sends users to resources in the AWS region that's closes to them.
+			
+			Failover - lets your route traffic to a primary resource unless it's unavailable. In that case, traffic will be redirected to a secondary resource.
+			
+			Geolocation - lets you route users based on their specific continent, country, or state.
+			
+			Mutlivalue Answer - allows you to evenly distribute traffic across multiple resources. Returns all records, sorted in a random order.	
+			
+		Health Checks:
+			All routing policies with the exception of Simple can use health checks to determine whether they should route users to a given resource.
+			
+			Endpoint - checks work by connecting to the endpoint you want to monitor via HTTP, HTTPS, or TCP.
+			
+			CloudWatch Alarm 
+			
+			Calculated - monitors other health checks. Both Endpoint and CloudWatch Alarm.
+	
+</rich_text>
+      <rich_text scale="h2">	CloudFront:</rich_text>
+      <rich_text>
+		Amazon CloudFront - is a content delivery network (CDN) that helps deliver static and dynamic web content to users faster than just serving it out of an AWS region.
+			Caches content in edge locations.
+			You cannot choose edge locations rather you musst choose from the following three options:
+				US, Canada, and Europe.
+				US, Canada, Europe, Asia, and Africa.
+				All edge locations.
+				
+			To make your content available via CloudFront, you must create a distribution. 
+			Distribution defines the type of content you want CloudFront to cache.
+			Types of Distributions:
+				Web - most common type. USed in static and dynamic contenet such as web pages, graphic files, and live or on-demand streaming video.
+				
+				Real-Time Messaging Protocol (RMTP) - delivers streaming video or audio content to end users.
+					Stored in S3.</rich_text>
+      <node unique_id="40" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711754678" ts_lastsave="1711755129">
+        <rich_text>1. A, D X B, D
+2. A
+3. A, B X B, C
+4. C
+5. C, A X B, D
+6. D X B
+7. A, C X A, B
+8. A, D X A, D
+9. B
+10. C
+11. C
+12. A
+13. B
+14. A
+15. B
+16. C X B
+17. C XB 
+18. A
+19. B
+20. A, D X A, B
+
+
+13/ 20 - Fail</rich_text>
       </node>
     </node>
   </node>
