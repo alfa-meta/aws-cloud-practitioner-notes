@@ -2614,7 +2614,7 @@ Billing and Cost Management:
 13.5 / 20 - Fail</rich_text>
       </node>
     </node>
-    <node unique_id="41" master_id="0" name="Chapter 11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711755215" ts_lastsave="1711798696">
+    <node unique_id="41" master_id="0" name="Chapter 11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711755215" ts_lastsave="1711807772">
       <rich_text scale="h1">Automating Your AWS Workloads:</rich_text>
       <rich_text>
 
@@ -2742,8 +2742,39 @@ Billing and Cost Management:
       <rich_text>:
 			Ops Works is a set of three different services that let you take a declaratie approach to configuration management.
 				Uses Puppet and Chef.
-				</rich_text>
-      <node unique_id="42" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711764920" ts_lastsave="1711764920"/>
+				They can configure operating systems, deploy applications, create databases, and perform just about any configuration task you can dream of.
+				
+			AWS OpsWorks Stacks - lets you build your application infrastructure in stacks.
+				Stakc is a collection of al lthe resources your application needs: EC2 instances, databses, application load balancers.
+				
+			OpsWorks Layers - is a template for a set of instances.
+			
+			Service Layers - a stack can also include service layers to extend the functionality of your stack to include other AWS services.
+				Relational Databasae Service (RDS)
+				Elastic Load Balancing (ELB) 
+				Elastic Container Service (ECS) Cluster.</rich_text>
+      <node unique_id="42" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711764920" ts_lastsave="1711808413">
+        <rich_text>1. C
+2. B, D
+3. D X A
+4. A, B
+5. A, C
+6. B
+7. D
+8. B, D
+9. A, B
+10. C, E X A, B
+11. 1
+12. D
+13. A, C
+14. B
+15. A
+16. C
+17. D
+18. D
+19. B, D
+20. C</rich_text>
+      </node>
     </node>
     <node unique_id="43" master_id="0" name="Chapter 12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711764927" ts_lastsave="1711764927"/>
   </node>
