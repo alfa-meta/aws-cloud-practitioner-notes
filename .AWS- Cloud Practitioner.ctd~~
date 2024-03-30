@@ -2614,7 +2614,7 @@ Billing and Cost Management:
 13.5 / 20 - Fail</rich_text>
       </node>
     </node>
-    <node unique_id="41" master_id="0" name="Chapter 11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711755215" ts_lastsave="1711756046">
+    <node unique_id="41" master_id="0" name="Chapter 11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711755215" ts_lastsave="1711764750">
       <rich_text scale="h1">Automating Your AWS Workloads:</rich_text>
       <rich_text>
 
@@ -2647,10 +2647,47 @@ Billing and Cost Management:
 			Purpose is to collectively manage related resources.
 			Deleted stack == Deleted resources.
 			
-			
-	
-	
 	AWS Developer Tools:
+			AWS Developer Tools - are a collection of tools designed to help application developers develop, build, test, and deploy their application ont  EC2 and on-premises instances.
+			
+			CodeCommit - lets you create a private Git repo that easily integrates with other AWS services.
+			
+			CodeBuild - fully managed build service. 
+				A build is a set of actiosn performed on source code to get it ready for deployment.
+				
+				Build Environments - code build performs builds in an isolated environment that runs on a compute instance.
+				
+			
+			CodeDeploy - automatically deploys applications to EC2 instances, the Elastic Container Service (ECS), Lamdba, and even on-premises servers.
+				Can deploy apps, scritps, configs and any file to an EC2 or onpremise instance.
+				In-Place Deployment - deploys the application to existing instances.
+				
+				Blue/Green Deployment - deploys  your application to a new set of instances that you either create manually or have CodeDeploy create by replicating an existing Auto Scaling group.
+				
+				Deploying to ECS - deplying docker images that run your app in containers.
+					Can shift your app from old containers to new ones.
+				
+			CodePipeline -  helps orchestrate and automate every task required to move software from development to production.
+				Six actions in a pipeline:
+					Source
+					Build
+					Test
+					Approval
+					Deploy
+					Invoke
+					
+				With the exception of the Approval action, each action is performed by a provider that, depending on the action, can be an AWS or third-party service:
+					
+					Source Providers - S3, CodeCommit, GitHub, Elastic Container Registry (ECR).
+					
+					Build and Test Providers - CodeBuild and third-party tools such as CloudBees, Jenkins, and TeamCity can provide building and testing services.
+					
+					Deploy Providers - CodePipeline supports a number of deploy providers.
+			
+			CodeStar -
+			
+			CodeArtifact -
+	
 	
 	EC2 Auto Scaling:
 	
