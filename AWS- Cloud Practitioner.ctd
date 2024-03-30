@@ -2614,7 +2614,7 @@ Billing and Cost Management:
 13.5 / 20 - Fail</rich_text>
       </node>
     </node>
-    <node unique_id="41" master_id="0" name="Chapter 11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711755215" ts_lastsave="1711764927">
+    <node unique_id="41" master_id="0" name="Chapter 11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711755215" ts_lastsave="1711798822">
       <rich_text scale="h1">Automating Your AWS Workloads:</rich_text>
       <rich_text>
 
@@ -2684,17 +2684,67 @@ Billing and Cost Management:
 					
 					Deploy Providers - CodePipeline supports a number of deploy providers.
 						CloudFormation - CodePipeline can automatically deploy your AWS infrastructure using CloudFormation.
+						
+						CodeDeploy - can only source application files from GitHub or S3.
+						
+						ECS - can deploy Docker containers directly to ECS.
+						
+					Invoke - action invokes Lambda functions.
+					
+					Approval  - you can insert manual approvals anywhere in the pipeline after the source stage.
 			
-			CodeStar -
+			CodeStar - brings all of the developer tools together.
+				First define a project.
+				Contains project templates.
 			
-			CodeArtifact -
+			CodeArtifact - a library management system for software. 
+				Artifact - byproduct of software development.
+				Can monitor your artifact page.
+				Compatible with pip, yarn, nom, NuGet and Maven.
+				
+</rich_text>
+      <rich_text scale="h2">	EC2 Auto Scaling:</rich_text>
+      <rich_text>
+		EC2 Auto Scaling - automatically launches preconfigured EC2 instances.
+		
+		Launch Templates - newer and can be used to spawn EC2 instances manually, even without Auto Scaling.
+		
+		Launch Configurations -  can only be used with Auto Scaling, cannot be modified post launch.
+		
+		Auto Scaling Groups - all instances in a group can be automatically registered with an application load balancer target group.
+		
+		Self-healing - if an instance fails Auto Scaling re-creates a replacement.
+		
+		Scaling Actions control when Auto Scaling launches or terminates instances.
+		
+		Scaling in - terminating instances when they are not needed.
+		Scaling out - launching instances to meet demand.
 	
+</rich_text>
+      <rich_text scale="h2">	Configuration Management:</rich_text>
+      <rich_text>
+		Configuration Management - is an approach to ensuring accurate and consistent configuration of your systems.	
 	
-	EC2 Auto Scaling:
-	
-	Configuration Management:
-	
-	</rich_text>
+		Systems Manager - uses imperative apprach to get your instances and AWS environment into the state that you want.
+		
+		Command Documents - are scripts that run once or periodically that get the system into the state you want.
+				
+		Configuration Compliance - shows you whether instanes are in compliance with your desired configuration state.
+		
+		Automation Documents - defined set of adrministrative AWS operations that can be done via the AWS CLI or Mangement Console.
+		
+		Distributor - you can deploy installable software packages to your instances.
+		
+		AppConfig - a feature of AWS Systems Manager that can configure, validate, and monitor you application's configuration data.
+		
+</rich_text>
+      <rich_text scale="h3">		Ops Works</rich_text>
+      <rich_text>:
+			Ops Works is a set of three different services that let you take a declaratie approach to configuration management.
+				Uses Puppet and Chef.
+				They can configure operating systems, deploy applications, create databases, and perform just about any configuration task you can dream of.
+				
+			</rich_text>
       <node unique_id="42" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711764920" ts_lastsave="1711764920"/>
     </node>
     <node unique_id="43" master_id="0" name="Chapter 12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711764927" ts_lastsave="1711764927"/>
