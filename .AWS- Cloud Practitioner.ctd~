@@ -2753,7 +2753,7 @@ Billing and Cost Management:
 				Relational Databasae Service (RDS)
 				Elastic Load Balancing (ELB) 
 				Elastic Container Service (ECS) Cluster.</rich_text>
-      <node unique_id="42" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711764920" ts_lastsave="1711808430">
+      <node unique_id="42" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711764920" ts_lastsave="1711808446">
         <rich_text>1. C
 2. B, D
 3. D X A
@@ -2766,17 +2766,90 @@ Billing and Cost Management:
 10. C, E X A, B, C
 11. 1 X B
 12. D
-13. A, C
+13. A, C X A, D
 14. B
 15. A
-16. C
+16. C X B
 17. D
-18. D
+18. D X B
 19. B, D
-20. C</rich_text>
+20. C
+
+15/20 - PASS</rich_text>
       </node>
     </node>
-    <node unique_id="43" master_id="0" name="Chapter 12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711764927" ts_lastsave="1711764927"/>
+    <node unique_id="43" master_id="0" name="Chapter 12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711764927" ts_lastsave="1711828772">
+      <rich_text scale="h1">Chapter 12 Common Use-Case Scenarios:</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text scale="h1">	The Well-Architected Framework:</rich_text>
+      <rich_text>
+		Six pillars of a Well-Architected Framework:
+			Reliability
+			Performance efficiency
+			Security
+			Cost Optimization
+			Operational excellence
+			Sustainability
+			
+		Reliability - means avoidint the complete failure of your application.
+		
+	
+</rich_text>
+      <rich_text scale="h1">	A highly Available Web Application Using Auto Scaling and Elastic Load Balancing:</rich_text>
+      <rich_text>
+	
+</rich_text>
+      <rich_text scale="h1">	Static Website Hosting Using S3:</rich_text>
+      <rich_text>
+	
+</rich_text>
+      <rich_text scale="h1">	Machine Learning:</rich_text>
+      <rich_text>
+	
+		Amazon Comprehend - uses natural-language processing (NLP) to analyze text.
+		
+		Amazon Kendra - is a search service that can index and search data from a variety of places, including S3 buckets, SQL and NoSQL databases and third party services such as OneDrive, Salesforcem and ServiceNow.
+			Can index common document formats, PDFs, HTML files and even video or audio.
+		
+		Amazon Lex - is a fully managed service designed to help you create your own text or voice-based conversation interface.
+		
+		Amazon Rekognition - can identify people, places, objects, and even text in images and video.
+		
+		Amazon SageMaker - is a AI/ML development environment using Python and R.
+		
+		Amazon Textract - uses ml to intelligently extract text, handwriting, and even tables from scanned documents.
+		
+		Amazon Transcribe - uses AI to convert text to speech. 
+		
+		Amazon Translate - designed to translate text between English and other Languages.</rich_text>
+      <node unique_id="44" master_id="0" name="Questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711828772" ts_lastsave="1711829658">
+        <rich_text>1. C
+2. A, B X A, D
+3. C, D
+4. B, C X A, C
+5. B
+6. B
+7. C X A  
+8. C X A
+9. C X D
+10. B
+11. B
+12. A, C
+13. E X A
+14. B
+15. D X A
+16. C
+17. C
+18. D
+19. D X B 
+20. D X A
+
+
+10/20 - FAIL</rich_text>
+      </node>
+    </node>
   </node>
   <node unique_id="13" master_id="0" name="AWS CCP Practice Tests 2019" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
 </cherrytree>
