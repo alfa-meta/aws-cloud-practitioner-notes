@@ -2896,7 +2896,7 @@ Billing and Cost Management:
 	Databases - imagine a virtual database for storing reporting data or a database for general purpose web-application.
 	</rich_text>
     </node>
-    <node unique_id="49" master_id="0" name="Types of Cloud Computing" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711838908" ts_lastsave="1711841644">
+    <node unique_id="49" master_id="0" name="Types of Cloud Computing" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711838908" ts_lastsave="1711845666">
       <rich_text scale="h1">Types of Cloud Computing:</rich_text>
       <rich_text>
 
@@ -2908,7 +2908,9 @@ Billing and Cost Management:
 		
 	IaaS - the basic building blocks for cloud IT. Provdes access to networking features, computers and data storage space.
 	
-Availability Zones:
+</rich_text>
+      <rich_text scale="h1">Availability Zones:</rich_text>
+      <rich_text>
 	AZ - is a physical location made up of one or more datacenter.
 	Region contains 3 availability zones.
 	
@@ -2916,7 +2918,20 @@ Availability Zones:
 	
 	Datacenters within a region will isolate from each other but they will be close enough to provide low-latency
 	
-	Its common practice to run workloads in at least 3 AZs to ensure services remain available in case one or two datacenters fail.</rich_text>
+	Its common practice to run workloads in at least 3 AZs to ensure services remain available in case one or two datacenters fail.
+	
+	AZs are represented by a Region Code, followed by a letter identifier eg us-east-1a
+	
+	A Subnet is associated with an Availability Zone.
+	
+	You never choose the AZ when launching resources.
+	You choose the Subnet which is associated to the AZ.
+	
+	
+	Region has multiple Availability Zones.
+	AZ is one or more datacenters.
+	All AZs in a region are interconnected with high-bandwidth, low-latency networking.
+	All traffic between AZs is encrypted.</rich_text>
     </node>
   </node>
   <node unique_id="13" master_id="0" name="AWS CCP Practice Tests 2019" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
