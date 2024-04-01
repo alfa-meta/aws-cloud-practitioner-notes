@@ -1588,7 +1588,7 @@ Scalability and Elasticity:
 9/12 - 75% PASS</rich_text>
       </node>
     </node>
-    <node unique_id="23" master_id="0" name="Chapter 2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709324770" ts_lastsave="1709465474">
+    <node unique_id="23" master_id="0" name="Chapter 2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709324770" ts_lastsave="1711906152">
       <rich_text scale="h1">Chapter 2 - Understanding Your AWS Account:</rich_text>
       <rich_text>
 
@@ -1617,7 +1617,7 @@ Billing and Cost Management:
 	The AWS Billing Dashboard - contains a helpful visual spend summary that displays your costs from the previous and current months so far.
 	
 	AWS Budgets - is a tool for tracking a specified set of events so that when a preset threshold is approached or passed, an alert is triggered.
-		Usage - set the terms of your budget, define ehow and when you want alerts sent.
+		Usage - set the terms of your budget, define how and when you want alerts sent.
 		
 	Cost Explorer - lets you build graphs to visualise your account's historical and current costs.
 	
@@ -1649,7 +1649,7 @@ Billing and Cost Management:
 11.5/16 - FAIL</rich_text>
       </node>
     </node>
-    <node unique_id="25" master_id="0" name="Chapter 3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709411942" ts_lastsave="1709465476">
+    <node unique_id="25" master_id="0" name="Chapter 3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709411942" ts_lastsave="1711907193">
       <rich_text scale="h1">Chapter 3 - Getting Support on AWS:</rich_text>
       <rich_text>
 
@@ -1658,7 +1658,7 @@ Billing and Cost Management:
 		Given access to only publicly available documentation, white papers, tutorials and support forums.
 		Able to contact customer service at any time of the day or night for account-related issues.
 		Limited access to the Trusted Advisor tool.
-		Alerts concerning interruptions to any AWS services you're currently using throug the Heatlh Dashboard.		
+		Alerts concerning interruptions to any AWS services you're currently using throught the Heatlh Dashboard.		
 			
 	Developer Support Plan:
 		Recommended for organizations running nonproduction workloads.
@@ -1694,7 +1694,7 @@ Billing and Cost Management:
 		Trusted Advisor organizes its compliance alerts across five categories:
 			Cost Optimization - Identifies any resources that are running an costing you money but are either underutilized or inactive
 			
-			Performance - Identifies confiugration settings that might be blockign performance improvements.
+			Performance - Identifies confiugration settings that might be blocking performance improvements.
 			
 			Security - Identifies any failures to use security best-practice configurations.
 			
@@ -1808,7 +1808,7 @@ Billing and Cost Management:
 13.5/20 - Fail</rich_text>
       </node>
     </node>
-    <node unique_id="29" master_id="0" name="Chapter 5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709590446" ts_lastsave="1709619772">
+    <node unique_id="29" master_id="0" name="Chapter 5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1709590446" ts_lastsave="1711909495">
       <rich_text scale="h1">Securing Your AWS Resources:</rich_text>
       <rich_text>
 
@@ -1843,7 +1843,7 @@ Billing and Cost Management:
 			Users inherit all the permissions of the group assigned.
 		
 		IAM Roles:	
-			IAM Roles - define the limits for what can be done withint your AWS account.
+			IAM Roles - define the limits for what can be done within your AWS account.
 				Used by applications and services.
 				
 			When creating a role, you begin by defining a trusted entity that will be trusted to use the role.
@@ -2042,7 +2042,7 @@ Billing and Cost Management:
 18/24 - Pass</rich_text>
       </node>
     </node>
-    <node unique_id="33" master_id="0" name="Chapter 7" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710004450" ts_lastsave="1711201514">
+    <node unique_id="33" master_id="0" name="Chapter 7" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710004450" ts_lastsave="1711924083">
       <rich_text scale="h1">Chapter 7 - The Core Compute Services:</rich_text>
       <rich_text>
 
@@ -2051,7 +2051,7 @@ Billing and Cost Management:
 </rich_text>
       <rich_text scale="h2">	Amazon Machine Images:</rich_text>
       <rich_text>
-		Image - is a software bundle that was buuilt from a template definition and made available within a single AWS Region.
+		Image - is a software bundle that was built from a template definition and made available within a single AWS Region.
 		
 		
 		It is possible to convert any EC2 instance into an AMI by creating a snapshot from the EBS volume.
@@ -2097,8 +2097,7 @@ Billing and Cost Management:
 	
 		Amazon Lightsail - offers blueprints, when launched, will automatically provision all the compute, storage, database, and network resources needed to make your deployments work.
 		
-		Elastic Beanstalk - definen the application platform and then upload your code to be provisioned automatically by AWS.
-		
+		Elastic Beanstalk - define the application platform and then upload your code to be provisioned automatically by AWS.
 	
 </rich_text>
       <rich_text scale="h2">	Serverless Workloads:</rich_text>
@@ -2130,7 +2129,7 @@ Billing and Cost Management:
 16.5/20 - PASS</rich_text>
       </node>
     </node>
-    <node unique_id="35" master_id="0" name="Chapter 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711201514" ts_lastsave="1711339935">
+    <node unique_id="35" master_id="0" name="Chapter 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711201514" ts_lastsave="1711924420">
       <rich_text scale="h1">Chapter 8 - The Core Storage Services:</rich_text>
       <rich_text>
 
@@ -2174,7 +2173,7 @@ Billing and Cost Management:
 		Bucket and Object Access Control Lists - you can use ACLs to grant other AWS Accounts and anonymous users access to your S3 resources.
 		
 		Encryption:
-			Server-side encryption: When you create an object, S3 encrytps the object and saves only the encrypted content.
+			Server-side encryption: When you create an object, S3 encrypts the object and saves only the encrypted content.
 			Client-side encryption: You encrypt the data prior to uploading it to S3.
 
 		Versioning - if you upload an object with the same name the current object and the original object will be saved.
@@ -2205,7 +2204,7 @@ Billing and Cost Management:
 		Volume Gateways - offer S3-backed storage volumes that your on-premises servers can use via the Internet Small Computer System Interface (iSCSI) protocol. VG supports 2 configurations:
 			Stored Volumes - stores all data locally and asynchronously backs it up to s3 as elastic block store snapshots.
 			
-			Cached Volumes - stores all your dat on S3, and only a frequently used subset of that data is cached locally. Cached volume can be from 1GB to 32 TB in size.
+			Cached Volumes - stores all your data on S3, and only a frequently used subset of that data is cached locally. Cached volume can be from 1GB to 32 TB in size.
 		
 		Tape Gateways - mimics traditional tape backup infrastructure.
 			Stores virtual tapes in a virtual tape library (VTL) backed by S3.
@@ -2230,9 +2229,8 @@ Billing and Cost Management:
 		
 		AWS Snowball Edge - faster network speeds than Snowball. Designed to only transfer data from a local environment to S3.
 			Local storage of S3 buckets.
-			Compute power for Ec2 instances and Lambda functions locally.
+			Compute power for EC2 instances and Lambda functions locally.
 			
-	
 		AWS Snowmobile - is a 45-foot-long waterproof and tamper resitant shipping container meant for petabyte or exabyte data migrations.
 
 </rich_text>
@@ -2896,7 +2894,7 @@ Billing and Cost Management:
 	Databases - imagine a virtual database for storing reporting data or a database for general purpose web-application.
 	</rich_text>
     </node>
-    <node unique_id="49" master_id="0" name="Types of Cloud Computing" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711838908" ts_lastsave="1711845666">
+    <node unique_id="49" master_id="0" name="Types of Cloud Computing" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711838908" ts_lastsave="1711909369">
       <rich_text scale="h1">Types of Cloud Computing:</rich_text>
       <rich_text>
 
@@ -2931,7 +2929,46 @@ Billing and Cost Management:
 	Region has multiple Availability Zones.
 	AZ is one or more datacenters.
 	All AZs in a region are interconnected with high-bandwidth, low-latency networking.
-	All traffic between AZs is encrypted.</rich_text>
+	All traffic between AZs is encrypted.
+	AZs are within 100km (60 miles) of each other.
+	
+	
+AWS Global Network:
+	AWS Global Network represent the interconnections between AWS Global Infrastructure.
+	
+	AWS Global Accelerator
+	AWS S3 Transfer Accelerator
+	
+	Uses Edge Locations as an on-ramp to quickly reach AWS resources in other regions by traversing the fast AWS Global Network.
+	
+	VPC Endpoints - ensure that resources stay within the AWS network and do not traverse over the public Internet.
+	
+	Point of Presence (PoP):
+		Points of Presence - is an intermediate location between an AWS Region and the end user.
+		
+		Edge Locations - data centers that hold cached (copy) on the most popular files so that the delivery of distance to the end users is reduced.
+		
+		Regional Edge Locations - are datacenters that hold much larger caches of less-popular files to reduce a full round trip and also to reduce the cost of transfer fees.
+		
+	Amazon CloudFront - is a content Delivery Network (CDN) that you can point your website to and will route it with the fastest possible edge location.
+	
+	Amazon S3 Transfer Accelerator - allows you to generate a special URL that can be used by end userrs to upload files to a nearby Edge Location.
+	
+	AWS Global Accelerator - can find the optimal path from the end user to your web-servers.
+	
+	AWS Direct Connect - is a private/dedicated connection betwene your datacenter, office, co-location and AWS.
+	
+	AWS Wavelenght Zone - allows for edge-computing on 5G Networks.
+		Applications will have ultra-low latency being as close as possible to the users.
+		
+	AWS Outposts - is physical rack of servers that you can put in your data center.
+	
+	AWS Config - is a Policy as Code service. 
+		You can create rules to confinuously check AWS resources configuration.
+		If they deviate from your expectatios you are alerted or AWS Config can in some cases auto-remediate.
+		
+	IAM Policies - can be written explicitly deny access to specific AWS Regions.
+	Service Control Policy (SCP) - are permissions applied organization wide.</rich_text>
     </node>
   </node>
   <node unique_id="13" master_id="0" name="AWS CCP Practice Tests 2019" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="135" is_bold="0" foreground="" ts_creation="1708665550" ts_lastsave="1708753684"/>
