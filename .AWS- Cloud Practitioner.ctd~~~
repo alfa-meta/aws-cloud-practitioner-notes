@@ -2129,7 +2129,7 @@ Billing and Cost Management:
 16.5/20 - PASS</rich_text>
       </node>
     </node>
-    <node unique_id="35" master_id="0" name="Chapter 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711201514" ts_lastsave="1711924409">
+    <node unique_id="35" master_id="0" name="Chapter 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711201514" ts_lastsave="1711932566">
       <rich_text scale="h1">Chapter 8 - The Core Storage Services:</rich_text>
       <rich_text>
 
@@ -2141,7 +2141,6 @@ Billing and Cost Management:
 	AWS Storage Gateway - a virtual appliance that seamlessly moves data back and forth between your on-premises servers and AWS S3.
 	
 	AWS Snow Family - Hardware storage appliances designed to physically move massive amounts of data to or from S3.
-
 
 </rich_text>
       <rich_text scale="h2">	Simple Storage Service:</rich_text>
@@ -2231,7 +2230,6 @@ Billing and Cost Management:
 			Local storage of S3 buckets.
 			Compute power for EC2 instances and Lambda functions locally.
 			
-	
 		AWS Snowmobile - is a 45-foot-long waterproof and tamper resitant shipping container meant for petabyte or exabyte data migrations.
 
 </rich_text>
@@ -2276,7 +2274,7 @@ Billing and Cost Management:
 11.33 / 20 FAIL</rich_text>
       </node>
     </node>
-    <node unique_id="37" master_id="0" name="Chapter 9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711339935" ts_lastsave="1711665968">
+    <node unique_id="37" master_id="0" name="Chapter 9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711339935" ts_lastsave="1711934899">
       <rich_text scale="h1">Chapter 9 The Core Database Services:</rich_text>
       <rich_text>
 
@@ -2362,7 +2360,7 @@ Billing and Cost Management:
 	In a relational database, only the master database instance can write to the database.
 	
 	High Availability with Multi-AZ:
-		Multi-AZ creates an additional RDS isntance called a standby database instance.
+		Multi-AZ creates an additional RDS instance called a standby database instance.
 		It runs in a different availability zone than your primary database.
 		RDS automatically fails over to the secondary db.
 		Failover can result in an outage of up to two minutes,
@@ -2404,7 +2402,7 @@ Billing and Cost Management:
 		
 		Set - data type can have multiple scalar values, but each value must be unique within the set.
 		
-		Document - (List or Map) can store valeus of any type.
+		Document - (List or Map) can store values of any type.
 			List - ordered.
 			Map - unordered
 			
@@ -2430,7 +2428,7 @@ Billing and Cost Management:
       <rich_text>
 
 	Amazon Kinesis - is a collection of services that let you collect, process, store, and deliver streaming data.
-		Can perform real-time ingestion of gigabytes per second from thousands of soruces.
+		Can perform real-time ingestion of gigabytes per second from thousands of sources.
 		
 		Kinesis Video Streams - designed to ingest and index almost unlimited amounts of streaming video data.
 			Producer-consumer model.
@@ -2487,14 +2485,14 @@ Billing and Cost Management:
 13 / 20 fail</rich_text>
       </node>
     </node>
-    <node unique_id="39" master_id="0" name="Chapter 10" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711665968" ts_lastsave="1711755215">
+    <node unique_id="39" master_id="0" name="Chapter 10" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711665968" ts_lastsave="1711935261">
       <rich_text scale="h1">The Core Networking Services:</rich_text>
       <rich_text>
 
 </rich_text>
       <rich_text scale="h2">	Virtual Private Cloud:</rich_text>
       <rich_text>
-		Amazon Virtual Private Cloud (VPC) - virtual network in the AWs cloud that's logically isolated from other networks.
+		Amazon Virtual Private Cloud (VPC) - virtual network in the AWS cloud, that's logically isolated from other networks.
 			Provides the network backbone for many AWS services.
 			Amazon creates a default VPC in each region.	
 			
@@ -2508,8 +2506,8 @@ Billing and Cost Management:
 		
 		Subnets - provides logical separation and isolation of resources within the same VPC.
 		
-		Internet Gateway - is a VPC resoruce that allows EC2 instances to obtain a public IP address and access the Internet.
-			For instances in a subnet to have Internet access, that subnet must contain a defautl route to the Internet gateway that's attached to the VPC.
+		Internet Gateway - is a VPC resource that allows EC2 instances to obtain a public IP address and access the Internet.
+			For instances in a subnet to have Internet access, that subnet must contain a default route to the Internet gateway that's attached to the VPC.
 			
 		Security Groups - is a firewall that determines what network traffic can pass into and out of an instance.
 			Each instance must have at least one security group attached.
@@ -2531,7 +2529,7 @@ Billing and Cost Management:
 		Direct Connect - provides network connectivity to your VPC and public services such as Amazon S3 and Glacier.
 			Hosted Connection comes in 50, 100, 200, 300, 400 and 500 Mbps.
 		
-		AWS Global Accelerator - gives you two anycast static IPv4 addresses taht you can use to route traffic to resources in any region.
+		AWS Global Accelerator - gives you two anycast static IPv4 addresses that you can use to route traffic to resources in any region.
 			Global Accelerator listener receives the connection, and then proxies it to an endpoint of your choice, which can be an elastic IP address, elastic load balancer, or EC2 instance.
 		
 		AWS Network Firewall - is a scalable firewall that can protect multiple VPCs and subnets, even across different AWS accounts.
@@ -2546,7 +2544,7 @@ Billing and Cost Management:
       <rich_text scale="h2">	Route 53:</rich_text>
       <rich_text>
 		Amazon's global Domain Name System (DNS) service.
-		Route 53's primary purpose iss to translate human-readable domain names into IP addresses.
+		Route 53's primary purpose is to translate human-readable domain names into IP addresses.
 	
 		DNS Routing Policies:
 			Simple - default for new resource records. Lets you map a domain name to a single static value such as an IP address.
@@ -2575,7 +2573,7 @@ Billing and Cost Management:
       <rich_text>
 		Amazon CloudFront - is a content delivery network (CDN) that helps deliver static and dynamic web content to users faster than just serving it out of an AWS region.
 			Caches content in edge locations.
-			You cannot choose edge locations rather you musst choose from the following three options:
+			You cannot choose edge locations rather you must choose from the following three options:
 				US, Canada, and Europe.
 				US, Canada, Europe, Asia, and Africa.
 				All edge locations.
@@ -2583,7 +2581,7 @@ Billing and Cost Management:
 			To make your content available via CloudFront, you must create a distribution. 
 			Distribution defines the type of content you want CloudFront to cache.
 			Types of Distributions:
-				Web - most common type. USed in static and dynamic contenet such as web pages, graphic files, and live or on-demand streaming video.
+				Web - most common type. Used in static and dynamic contenet such as web pages, graphic files, and live or on-demand streaming video.
 				
 				Real-Time Messaging Protocol (RMTP) - delivers streaming video or audio content to end users.
 					Stored in S3.</rich_text>
